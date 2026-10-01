@@ -1,29 +1,22 @@
 # RF data acquisition and processing
 
-Paper: *Sharp Local Stability of Quadratic Functionals under Unitary Averaging*  
-Contact: Hongyuan Wang, 2025310659@stu.hit.edu.cn  
-Prepared: 2026-10-01
+Paper: *Sharp Local Stability of Quadratic Functionals under Unitary Averaging*
 
-## 1. Scope of this code repository
+Contact: Hongyuan Wang, 2025310659@stu.hit.edu.cn
 
-This repository contains processing source code and selected aggregate results.
-It does **not** contain original IQ, derived per-sample arrays, trained fold
-parameters, measurement banks, row-selection files, or per-anchor witnesses.
-The analytic example runs without any RF inputs. The supported RF commands and
-their external input requirements are in [the main README](../README.md).
+## 1. Inputs and directory conventions
 
-Sections 2--6 below preserve the acquisition and processing description of the
-separate `quadratic_stability_reproducibility.zip` companion. Unless identified
-as historical workspace paths, the paths in those sections refer to that
-**complete extracted companion**, not to files promised by this smaller
-repository. References to bundled lineage, heads, or inputs mean bundled in
-the complete companion. No public download location for that companion is
-asserted here; access questions can be directed to the author.
+This repository contains RF processing code and aggregate reference results.
+Saved per-sample inputs, fold parameters, measurement banks, row-selection
+records, and witnesses are stored in the separate
+`quadratic_stability_reproducibility.zip` companion. For access details, contact
+the author at the address above. The [main README](../README.md) gives the
+commands for the analytic example and saved-input RF checks.
 
-Provider downloads alone do not restore every historical selection artifact.
-Section 6 lists the additional prerequisites, including items absent even from
-the complete companion. Raw reconstruction is therefore a conditional historical
-procedure, not a one-command capability of this repository.
+Unless marked as historical workspace paths, paths in Sections 2--6 are relative
+to the extracted complete companion. Original IQ recordings are obtained from
+the providers below. Raw reconstruction additionally requires the selection
+artifacts and historical workspace files listed in Section 6.
 
 ## 2. Obtain the original recordings, if raw reconstruction is needed
 
@@ -37,12 +30,9 @@ procedure, not a one-command capability of this repository.
   for LoRa,” *IEEE Transactions on Information Forensics and Security*, 2022.
 
 Follow the provider's access instructions and retain the accompanying source and
-license information. This guide supplies the provider's published DataPort link;
-the DataPort page could not be independently retrieved during this documentation
-update. A fresh download or a particular account's access was not tested.
+license information.
 
-The frozen study uses these **13 test files**, not the provider's augmented
-training data or its neural-network training pipeline:
+The study uses these **13 test files**:
 
 | Location under the provider's test-data directory | Files |
 |---|---|
@@ -59,7 +49,7 @@ The exact file identities, sizes, and existing source digests are recorded in
 `paper/rf_baseline/data/raw_rebuild_run02/S1/RAW_SOURCE_HASHES.json`.
 The corresponding `RAW_ROW_LINEAGE.csv` gives each selected file and its
 zero-based HDF5 `raw_row`, device, environment, and output `row_id`.
-For the unchanged historical script, the local test-data directory is:
+The historical script expects this test-data directory:
 
 ```text
 <historical-workspace>/ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/
@@ -113,11 +103,9 @@ The historical local layout is:
     Diff_Days_Indoor_Setup/Day*/Device*/IQ_*.dat
 ```
 
-Download the IQ recordings, rather than the provider's FFT files, for this
-pipeline. Retain the provider's metadata and use conditions. The directory and
-release-note links were accessible during this update; no new recordings were
-downloaded. Existing source digests identify the historical inputs and are
-reproduction aids, not extra IEEE submission attachments.
+Download the IQ recordings for this pipeline and retain the provider's metadata
+and use conditions. The recorded source digests identify the files used in the
+study.
 
 ## 3. S1 processing: IQ to the saved complex state
 
@@ -215,15 +203,14 @@ Pairwise tasks use differences of class operators and intercepts. Consult the
 main manuscript and supplement Section V-A for the full coordinate convention.
 The saved classifiers remain fixed when checking the six observation flags:
 `coordinate`, `dct`, `dft`, `polynomial`, `random_orthogonal`, and
-`permuted_polynomial`. The interface check in Section 1 performs a numerical
-consistency check over the 16 folds and six flags; it does not refit the heads.
+`permuted_polynomial`. The `rf-interface` command checks numerical consistency over the 16 folds and
+six flags using those saved classifiers.
 
-## 6. Additional requirements of the unchanged raw-replay entry point
+## 6. Historical raw-reconstruction inputs
 
-Downloading the recordings is sufficient to obtain the raw signals, but is
-**not by itself sufficient to run the unchanged historical raw-replay script**.
-That script also reads author-generated selection and qualification artifacts.
-Their exact paths and existing digests are recorded in
+The historical raw-reconstruction script reads the original recordings together
+with author-generated selection and qualification artifacts. Their paths and
+digests are recorded in
 `paper/rf_baseline/provenance/RAW_REBUILD_DEPENDENCIES_V2.json`:
 
 ```text
@@ -234,45 +221,38 @@ results/s4_oregon_qualification/S4_OREGON_SOURCE_INVENTORY_20260827_030353.csv
 results/s4_oregon_qualification/S4_OREGON_SOURCE_QUALIFICATION_20260827_030353.json
 ```
 
-These five artifacts are **not included in this companion** and are not files
-provided by the original dataset authors. The bundled lineage CSVs document
-the selected rows/starts, but do not replace all of the script's metadata reads.
-For access questions about the historical selection artifacts, contact the
-corresponding author at the address above.
+These five author-generated artifacts are outside the complete companion and
+must be obtained separately for this route. The companion's lineage CSVs record
+the selected rows and frame starts; the historical script also reads the five
+files above. Contact the author for access details.
 
 The raw script additionally expects the historical module layout and the
 reference directory
 `paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf`
-inside the workspace selected by `--workspace`. That complete historical
-reference directory is not supplied at that path in this companion. It contains
-the fixed measurement-bank design and regression targets. The saved old states
-and task operators are comparison targets, not substitutes for reading raw IQ
-and fitting the training folds. The code snapshot and dependency map are
-preserved under `paper/rf_baseline/provenance/`.
+inside the workspace selected by `--workspace`. This directory is an additional
+external input containing the fixed measurement-bank design and regression
+targets. The code snapshot and dependency map are under
+`paper/rf_baseline/provenance/` in the companion.
 
-Only after those prerequisites are available in a complete historical workspace,
-the existing entry point is:
+With these inputs arranged in a complete historical workspace, run the following
+from the extracted complete companion:
 
 ```text
 python -B paper/rf_baseline/src/replay_v16.py --workspace "<complete-historical-workspace>" --destination "../raw_iq_replay"
 ```
 
-Replace the workspace placeholder with its actual path and use a destination
-that does not exist. Omitting `--derived` selects raw reconstruction and refitting.
-In the complete companion, root-level `reproduce.py inherited` explicitly selects the bundled
-derived-input route and does not download or reconstruct IQ.
+Replace the workspace placeholder with its actual path and choose a new output
+directory. This command reconstructs states from IQ and fits the training folds.
+The complete companion's `reproduce.py inherited` command instead uses the saved
+derived inputs.
 
 The historical baseline recorded Python 3.12.6, NumPy 2.4.4, SciPy 1.17.1,
 and scikit-learn 1.9.0, with one BLAS thread; the complete recorded requirements
-are in `paper/rf_baseline/requirements-replay.txt`. Different numerical-library
-versions may change results. The existing
-`paper/rf_baseline/provenance/RAW_TO_RESULTS_REPLAY_RECEIPT.json` documents the
-earlier successful local raw replay; it is not a claim that raw reconstruction
-was rerun, or that this archive alone supports it, during this documentation update.
+are in `paper/rf_baseline/requirements-replay.txt`. The historical replay record
+is `paper/rf_baseline/provenance/RAW_TO_RESULTS_REPLAY_RECEIPT.json` in the
+complete companion.
 
 ## 7. Data source attribution
 
 Use the provider links above for recordings and their current access/use terms.
-These processing instructions do not assign a new license to third-party data.
-The full local companion is preserved separately; this smaller repository does
-not redistribute its RF per-sample arrays.
+Cite the S1 and S4 source publications when using their data.

@@ -8,26 +8,19 @@ Repository: [https://github.com/MundasPrincipia/Quadratic-Stability](https://git
 Contact: **2025310659@stu.hit.edu.cn**  
 ORCID: [0009-0007-5829-4266](https://orcid.org/0009-0007-5829-4266)
 
-This repository contains the deterministic analytic example, RF processing and
-analysis source code, and selected frozen aggregate results. The analytic example
-is self-contained. RF replay requires the separately supplied complete
-`quadratic_stability_reproducibility` companion; the commands below never download
-data or train a model.
+This repository provides the analytic observation-refinement example, RF
+processing and analysis code, and reference results accompanying the paper.
+The analytic example runs directly from the included configuration. RF checks
+and summary calculations use saved inputs from a separate reproducibility
+companion.
 
-## What can be reproduced here?
+## Examples and analysis
 
-| Entry point | Inputs | Output and scope |
+| Entry point | Inputs | Results |
 |---|---|---|
-| `boundary-refinement` | Included configuration; no RF data | 39 endpoint cells, 27 margin cells, 100-digit interval checks, and the four-panel figure |
+| `boundary-refinement` | Included configuration | 39 endpoint cells, 27 margin cells, 100-digit interval checks, and the four-panel figure |
 | `rf-interface` | External complete companion with saved S1/S4 inputs and fold heads | Numerical consistency check for 13 S1 folds, 3 S4 folds, and 6 observation flags |
-| `rf-summaries` | External complete companion with saved designs, pair records, heads, and witnesses | Validated design/transfer summaries, tables, and figures; no design optimization |
-
-Original IQ, derived per-sample arrays, trained fold parameters, measurement banks,
-and per-anchor witness files are **not included in this code repository**. The
-small RF CSV files under `paper/` are aggregate reference results; they alone
-cannot regenerate the full RF analysis. The complete companion is a separate
-artifact, and no public download location for it is asserted here. Contact the
-author for access questions.
+| `rf-summaries` | External complete companion with saved designs, pair records, heads, and witnesses | Design/transfer summaries, tables, and figures |
 
 ## Run the analytic example
 
@@ -39,21 +32,31 @@ python -m pip install -r requirements-example.txt
 python -B reproduce.py boundary-refinement --output ../quadratic_example_replay
 ```
 
-The output directory must not already exist and must be outside this repository.
-It will contain `CONFIG.json`, `ENDPOINTS.json`, `MARGINS.json`, `SUMMARY.json`,
-and a `figures/` directory with PDF and PNG plots. `SUMMARY.json` reports the
-check status and numerical environment. Frozen reference records are in
-[`paper/quadratic_stability/results/boundary_refinement_run01/`](paper/quadratic_stability/results/boundary_refinement_run01/).
+The command creates the sibling directory `../quadratic_example_replay` with
+the following outputs. Choose a new sibling directory for each run.
 
-These interval checks verify the low-dimensional analytic example. They do not
-replace its mathematical proof or certify the RF pipeline by interval arithmetic.
+| Output | Contents |
+|---|---|
+| CONFIG.json | Parameters and evaluation grids |
+| ENDPOINTS.json | Exact-loss evaluations, interval checks, and endpoint witnesses |
+| MARGINS.json | Critical radii and necessary/sufficient sampling bounds |
+| SUMMARY.json | Check status and numerical environment |
+| figures/ | Four-panel figure in PDF and PNG formats |
+
+The [reference records](paper/quadratic_stability/results/boundary_refinement_run01/)
+provide the corresponding results used in the paper.
 
 ## Replay saved RF inputs
 
-First extract the **complete companion** into a separate directory. In the
-examples below, replace `../quadratic_stability_reproducibility` with its actual
-extracted root, containing `paper/rf_baseline`, `paper/reference_transfer`, and
-`paper/quadratic_stability`.
+The RF commands require derived S1/S4 inputs, saved classifiers and measurement
+vectors, and design/witness records from the separate
+`quadratic_stability_reproducibility` companion. This repository includes RF
+source code and aggregate reference tables. Contact
+[2025310659@stu.hit.edu.cn](mailto:2025310659@stu.hit.edu.cn) for companion access details.
+
+Extract the companion into a separate directory. Replace
+`../quadratic_stability_reproducibility` below with its extracted root, containing
+`paper/rf_baseline`, `paper/reference_transfer`, and `paper/quadratic_stability`.
 
 ```text
 python -m pip install -r requirements-rf.txt
@@ -61,29 +64,21 @@ python -B reproduce.py rf-interface --companion ../quadratic_stability_reproduci
 python -B reproduce.py rf-summaries --companion ../quadratic_stability_reproducibility --output ../quadratic_rf_summaries
 ```
 
-Both modes read frozen records and write only to the fresh output directory.
-The wrapper requires the external input path explicitly and limits BLAS threads
-to one. The summary adapter changes input-directory bindings only; the copied
-scientific implementation is unchanged. Different numerical-library versions
-may change replay values; use the recorded requirements for comparisons.
+`rf-interface` compares feature-based, quadratic, pairwise, and coordinate
+representations of the saved classifier scores at tolerance `1e-8`. It writes
+FOLD_FLAG_CHECKS.csv and SUMMARY.json.
 
-`rf-interface` checks feature, saved, quadratic, pairwise, and coordinate scores
-at tolerance `1e-8`. It is a **numerical consistency check**, not an independent
-refit or an RF interval certificate. RF numerical bounds are evaluations of
-analytic bounds conditional on the declared binary64 normwise error budgets.
-Local applicability, endpoint tightness, and successful decision certification
-remain distinct. In particular, the reported fixed-reference transfer lower
-bounds are zero for all 2,400 design cells; zero lower bounds do not imply zero
-true radii.
+`rf-summaries` validates the saved records and rebuilds the comparison tables and
+figures for 2,400 design cells. The [reproduction details](docs/reproduction_scope.md)
+describe the required inputs, numerical conventions, and result files.
 
 ## Processing original recordings
 
 The [data acquisition and processing guide](docs/data_acquisition_and_processing.md)
-gives the S1/S4 provider links, selected subsets, normalization, feature map,
-training-fold conventions, and historical prerequisites. Original-recording
-downloads alone do not supply every selection artifact needed by the unchanged
-historical raw-replay procedure. That procedure is not one of this repository's
-self-contained entry points.
+gives the S1/S4 download links, selected subsets, normalization, feature map, and
+training-fold conventions. Rebuilding the historical study from IQ recordings
+also requires the selection metadata and workspace files listed in Section 6
+of that guide.
 
 ## Repository layout
 
@@ -96,18 +91,11 @@ self-contained entry points.
 | `paper/rf_baseline/src/` | Historical RF processing and analysis source |
 | `paper/rf_baseline/provenance/raw_code_snapshot/` | Preserved helper-code snapshot |
 | `paper/reference_transfer/` | Transfer-analysis source and aggregate results |
-| `docs/` | Input requirements, acquisition steps, and reproduction limits |
-
-Historical identifiers inside scientific source and frozen records are retained
-for traceability. The public entry points and repository name use the paper's
-current subject, rather than an internal revision label.
+| `docs/` | Data acquisition, input requirements, and numerical details |
 
 ## Citation and terms
 
-[`CITATION.cff`](CITATION.cff) records the author and associated manuscript title.
-It does not assert a DOI, publication acceptance, or a repository release date.
-No software license has been selected for this repository.
-Third-party data access and use follow the original providers' terms.
+See [CITATION.cff](CITATION.cff) for the author and manuscript information.
 
-See [reproduction scope](docs/reproduction_scope.md) for what is included,
-what remains external, and how the checks should be interpreted.
+Software license: pending.
+Third-party data access and use follow the original providers' terms.
