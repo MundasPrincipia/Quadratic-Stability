@@ -1,0 +1,4 @@
+# New deterministic example and figure only; Python 3.12.
+mpmath==1.3.0
+numpy==2.4.4
+matplotlib==3.11.0

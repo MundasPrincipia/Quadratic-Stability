@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "precision_decimal_digits": 100,
+  "endpoint_cells": 39,
+  "positive_tolerance_cells": 36,
+  "zero_tolerance_cells": 3,
+  "margin_cells": 27,
+  "all_cells_retained": true,
+  "normal_quantile_bracket_certified": true,
+  "all_integer_bound_ceilings_unambiguous": true,
+  "strict_inward_and_failure_witnesses_checked": true,
+  "RF_retraining": false,
+  "Monte_Carlo": false,
+  "scope": "Numerical verification of the exact analytic example; full-set coverage is proved in the manuscript.",
+  "interval_serialization": "Exact binary endpoint tuples; decimal strings rounded outward at 110 digits; plot_midpoint is visualization only.",
+  "environment": {
+    "python": "3.12.6",
+    "mpmath": "1.3.0"
+  },
+  "inputs_sha256": {
+    "boundary_refinement.json": "9c5e37574ca8163ab28a832b5741f25f3122a35676cb61e0350c8acbdc16f6af",
+    "run_boundary_refinement.py": "52ceb06ab1ae238e20d49b68d137477c9bb1690dd878b6327b3d6f17ebd453a6"
+  }
+}

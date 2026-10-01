@@ -1,0 +1,7 @@
+# Python 3.12.6. Versions recorded with the v18 fair-design summaries.
+# Use a separate environment for the inherited v16 strict replay.
+numpy==2.4.4
+scipy==1.18.0
+threadpoolctl==3.6.0
+pandas==3.0.3
+matplotlib==3.11.0

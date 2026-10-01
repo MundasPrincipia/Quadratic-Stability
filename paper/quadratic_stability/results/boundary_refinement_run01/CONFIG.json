@@ -1,0 +1,75 @@
+{
+  "version": "v19",
+  "precision_decimal_digits": 100,
+  "task": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "reference": [
+    1,
+    0,
+    0
+  ],
+  "designs": [
+    {
+      "id": "A",
+      "resolved": [
+        0
+      ],
+      "D": 2,
+      "loss_order": "1/2"
+    },
+    {
+      "id": "B",
+      "resolved": [
+        0,
+        1
+      ],
+      "D": 5,
+      "loss_order": "1"
+    },
+    {
+      "id": "C",
+      "resolved": [
+        0,
+        2
+      ],
+      "D": 5,
+      "loss_order": "1/2"
+    }
+  ],
+  "tolerance_grid": {
+    "base": 10,
+    "start_exponent": -6,
+    "step_denominator": 2,
+    "count": 11,
+    "extra": [
+      "0",
+      "0.25"
+    ]
+  },
+  "margin_grid": {
+    "base": 10,
+    "start_exponent": -3,
+    "step_denominator": 4,
+    "count": 9
+  },
+  "sigma": "1",
+  "eta": "0.05",
+  "gamma": "0.9",
+  "strict_witness_slack": "1e-70",
+  "semantics": "Exact pure-state endpoints; necessary/sufficient integer Gaussian repetition bounds, not exact optimal sample sizes. All grid cells retained. No Monte Carlo."
+}

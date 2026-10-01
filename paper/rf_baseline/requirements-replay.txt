@@ -1,0 +1,10 @@
+# Python 3.12.6; numerical outputs were checked with one BLAS thread.
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.9.0
+mpmath==1.3.0
+h5py==3.16.0
+threadpoolctl==3.6.0
+pandas==3.0.3
+matplotlib==3.11.0
+pillow==12.2.0
