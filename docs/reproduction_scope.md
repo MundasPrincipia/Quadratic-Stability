@@ -16,9 +16,11 @@ separately from source-digest and environment metadata.
 ## RF numerical consistency check
 
 `rf-interface` runs `check_rf_interface.py` on the complete companion selected
-with `--companion`. Its inputs are:
+with `--companion`. For the publication supplement, pass its `reproducibility/`
+directory (or the containing directory); the earlier companion layout remains
+accepted. Paths below are relative to `reproducibility/`. Its inputs are:
 
-- `paper/rf_baseline/data/raw_rebuild_run02/FLAGS.npz`;
+- `rf_baseline/data/raw_rebuild_run02/FLAGS.npz`;
 - S1 and S4 `SOURCE_INPUTS.npz`;
 - all 13 S1 and 3 S4 saved `COMMON_HEAD.npz` files.
 

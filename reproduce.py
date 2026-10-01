@@ -6,6 +6,7 @@ import os
 from pathlib import Path
 import subprocess
 import sys
+from scripts.companion_paths import locate_companion
 
 ROOT = Path(__file__).resolve().parent
 PAPER = ROOT / "paper/quadratic_stability"
@@ -31,7 +32,7 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True,
                         help="Fresh output directory outside this repository and external inputs")
     parser.add_argument("--companion", type=Path,
-                        help="Extracted root of the separate complete reproducibility companion")
+                        help="Extracted supplement's reproducibility directory (earlier companions also supported)")
     args = parser.parse_args()
     output = args.output.resolve()
     if output.exists() or overlaps(output, ROOT):
@@ -52,7 +53,10 @@ def main() -> None:
         parser.error("--companion must be the extracted complete companion, not this code repository.")
     if overlaps(output, companion):
         parser.error("Output must be outside the frozen companion.")
-    parent = companion / "paper/rf_baseline"
+    try:
+        analysis, parent, transfer = locate_companion(companion)
+    except ValueError as error:
+        parser.error(str(error))
     if args.mode == "rf-interface":
         required = [parent / "data/raw_rebuild_run02" / name for name in
                     ("FLAGS.npz", "S1/SOURCE_INPUTS.npz", "S4/SOURCE_INPUTS.npz")]
@@ -66,9 +70,9 @@ def main() -> None:
             parent / "results/e3_run01/DESIGN_RESULTS.csv",
             parent / "results/e3_run01/PAIR_RESULTS.csv",
             parent / "legacy_evidence/matrix/design/run_20260905_044629_927159/design.csv",
-            companion / "paper/reference_transfer/results/transfer_run01/TRANSFER_RESULTS.csv",
+            transfer / "results/transfer_run01/TRANSFER_RESULTS.csv",
         ]
-        results = companion / "paper/quadratic_stability/results/fair_design_run01"
+        results = analysis / "results/fair_design_run01"
         required += [results / name for name in ("DESIGN_RESULTS.csv", "PAIR_RESULTS.csv")]
         required += [results / f"ANCHOR_{i:03d}.npz" for i in range(160)]
     missing = [p.relative_to(companion).as_posix() for p in required if not p.is_file()]

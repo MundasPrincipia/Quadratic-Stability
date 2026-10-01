@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import importlib.util
 from pathlib import Path
+from companion_paths import locate_companion
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -26,9 +27,10 @@ def main() -> None:
     spec.loader.exec_module(module)
     # Only input directory bindings change; all scientific calculations remain
     # in the byte-identical implementation copied from the complete companion.
-    module.HERE = companion / "paper/quadratic_stability"
-    module.PARENT = companion / "paper/rf_baseline"
-    module.V17 = companion / "paper/reference_transfer"
+    try:
+        module.HERE, module.PARENT, module.V17 = locate_companion(companion)
+    except ValueError as error:
+        parser.error(str(error))
     module.run(module.HERE / "results/fair_design_run01", output)
 
 

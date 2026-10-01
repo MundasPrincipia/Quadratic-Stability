@@ -50,18 +50,20 @@ provide the corresponding results used in the paper.
 
 The RF commands require derived S1/S4 inputs, saved classifiers and measurement
 vectors, and design/witness records from the separate
-`quadratic_stability_reproducibility` companion. This repository includes RF
+`reproducibility/` directory of the supplementary archive
+`quadratic_stability_supplementary_materials.zip`. This repository includes RF
 source code and aggregate reference tables. Contact
 [2025310659@stu.hit.edu.cn](mailto:2025310659@stu.hit.edu.cn) for companion access details.
 
-Extract the companion into a separate directory. Replace
-`../quadratic_stability_reproducibility` below with its extracted root, containing
-`paper/rf_baseline`, `paper/reference_transfer`, and `paper/quadratic_stability`.
+Extract the supplementary archive into a separate directory. Replace the
+`--companion` path below with its `reproducibility/` directory, containing
+`rf_baseline/`, `reference_transfer/` and `analysis/`. The containing supplement
+directory and the earlier companion layout are also accepted.
 
 ```text
 python -m pip install -r requirements-rf.txt
-python -B reproduce.py rf-interface --companion ../quadratic_stability_reproducibility --output ../quadratic_rf_interface
-python -B reproduce.py rf-summaries --companion ../quadratic_stability_reproducibility --output ../quadratic_rf_summaries
+python -B reproduce.py rf-interface --companion ../quadratic_stability_supplementary_materials/reproducibility --output ../quadratic_rf_interface
+python -B reproduce.py rf-summaries --companion ../quadratic_stability_supplementary_materials/reproducibility --output ../quadratic_rf_summaries
 ```
 
 `rf-interface` compares feature-based, quadratic, pairwise, and coordinate

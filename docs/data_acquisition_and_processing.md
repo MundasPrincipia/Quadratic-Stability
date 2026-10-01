@@ -6,15 +6,13 @@ Contact: Hongyuan Wang, 2025310659@stu.hit.edu.cn
 
 ## 1. Inputs and directory conventions
 
-This repository contains RF processing code and aggregate reference results.
 Saved per-sample inputs, fold parameters, measurement banks, row-selection
-records, and witnesses are stored in the separate
-`quadratic_stability_reproducibility.zip` companion. For access details, contact
-the author at the address above. The [main README](../README.md) gives the
-commands for the analytic example and saved-input RF checks.
+records and witnesses are provided in the `reproducibility/` directory of
+`quadratic_stability_supplementary_materials.zip`. The accompanying README gives
+setup instructions and the analytic-example and saved-input RF commands.
 
 Unless marked as historical workspace paths, paths in Sections 2--6 are relative
-to the extracted complete companion. Original IQ recordings are obtained from
+to that `reproducibility/` directory. Original IQ recordings are obtained from
 the providers below. Raw reconstruction additionally requires the selection
 artifacts and historical workspace files listed in Section 6.
 
@@ -46,7 +44,7 @@ environment**: 400 rows per file and 5,200 rows in total. Use the recorded rows;
 selecting the first 40 packets or drawing a new sample would change the inputs.
 
 The exact file identities, sizes, and existing source digests are recorded in
-`paper/rf_baseline/data/raw_rebuild_run02/S1/RAW_SOURCE_HASHES.json`.
+`rf_baseline/data/raw_rebuild_run02/S1/RAW_SOURCE_HASHES.json`.
 The corresponding `RAW_ROW_LINEAGE.csv` gives each selected file and its
 zero-based HDF5 `raw_row`, device, environment, and output `row_id`.
 The historical script expects this test-data directory:
@@ -91,7 +89,7 @@ Day1, 168 on Day3, and 144 on Day5. The selected device labels are
 2, 3, 7, 8, 9, 10, 11, 13, 14, and 15, with 48 frames per device.
 These project subset counts are distinct from the provider's full collection.
 
-`paper/rf_baseline/data/raw_rebuild_run02/S4/RAW_SOURCE_HASHES.json` contains
+`rf_baseline/data/raw_rebuild_run02/S4/RAW_SOURCE_HASHES.json` contains
 the exact 40 file paths and source identities. `RAW_ROW_LINEAGE.csv` in that
 directory gives each frame's **zero-based `start_sample`**, device, day, and
 output `row_id`. Its S4 `raw_row` refers to the historical packet registry,
@@ -109,9 +107,9 @@ study.
 
 ## 3. S1 processing: IQ to the saved complex state
 
-The executed procedure is preserved in `paper/rf_baseline/src/rebuild_raw_iq.py`
+The executed procedure is preserved in `rf_baseline/src/rebuild_raw_iq.py`
 (`s1`). Its helper implementations are in
-`paper/rf_baseline/provenance/raw_code_snapshot/src/czrf/`.
+`rf_baseline/raw_processing/src/czrf/`.
 
 1. Read the selected HDF5 rows in the original manifest order. For each row,
    the `data` array stores 8,192 real I values followed by 8,192 real Q values.
@@ -137,7 +135,7 @@ precision conversions are part of the frozen implementation.
 ## 4. S4 processing: recording to the saved complex state
 
 The executed procedure is `s4` in the same rebuild script. The detector is
-preserved in `provenance/raw_code_snapshot/src/czrf/oregon_lora_adapter.py`.
+preserved in `rf_baseline/raw_processing/src/czrf/oregon_lora_adapter.py`.
 
 1. Read each `.dat` file as interleaved little-endian Float32 I/Q, represented
    by NumPy dtype `<c8`. The sample rate is 1,000,000 Hz and the bandwidth
@@ -211,7 +209,7 @@ six flags using those saved classifiers.
 The historical raw-reconstruction script reads the original recordings together
 with author-generated selection and qualification artifacts. Their paths and
 digests are recorded in
-`paper/rf_baseline/provenance/RAW_REBUILD_DEPENDENCIES_V2.json`:
+`rf_baseline/provenance/RAW_REBUILD_DEPENDENCIES_V2.json`:
 
 ```text
 configs/track_c_v1/B1_ROW_MANIFEST_V1_20260827_154500.csv
@@ -231,25 +229,25 @@ reference directory
 `paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf`
 inside the workspace selected by `--workspace`. This directory is an additional
 external input containing the fixed measurement-bank design and regression
-targets. The code snapshot and dependency map are under
-`paper/rf_baseline/provenance/` in the companion.
+targets. The code snapshot is in `rf_baseline/raw_processing/`; the dependency map
+and reconstruction receipts are in `rf_baseline/provenance/`.
 
 With these inputs arranged in a complete historical workspace, run the following
 from the extracted complete companion:
 
 ```text
-python -B paper/rf_baseline/src/replay_v16.py --workspace "<complete-historical-workspace>" --destination "../raw_iq_replay"
+python -B rf_baseline/src/replay_baseline.py --workspace "<complete-historical-workspace>" --destination "../raw_iq_replay"
 ```
 
 Replace the workspace placeholder with its actual path and choose a new output
 directory. This command reconstructs states from IQ and fits the training folds.
-The complete companion's `reproduce.py inherited` command instead uses the saved
+The complete companion's `reproduce.py baseline` command instead uses the saved
 derived inputs.
 
 The historical baseline recorded Python 3.12.6, NumPy 2.4.4, SciPy 1.17.1,
 and scikit-learn 1.9.0, with one BLAS thread; the complete recorded requirements
-are in `paper/rf_baseline/requirements-replay.txt`. The historical replay record
-is `paper/rf_baseline/provenance/RAW_TO_RESULTS_REPLAY_RECEIPT.json` in the
+are in `rf_baseline/requirements-replay.txt`. The historical replay record
+is `rf_baseline/provenance/RAW_TO_RESULTS_REPLAY_RECEIPT.json` in the
 complete companion.
 
 ## 7. Data source attribution
