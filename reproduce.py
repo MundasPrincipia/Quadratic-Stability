@@ -28,7 +28,7 @@ def execute(script: Path, *arguments: object) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("mode", choices=("boundary-refinement", "rf-interface", "rf-summaries"))
+    parser.add_argument("mode", choices=("boundary-refinement", "rf-interface", "rf-summaries", "rf-applicability"))
     parser.add_argument("--output", type=Path, required=True,
                         help="Fresh output directory outside this repository and external inputs")
     parser.add_argument("--companion", type=Path,
@@ -47,17 +47,17 @@ def main() -> None:
 
     if args.companion is None:
         parser.error("RF inputs are not bundled. Supply --companion with the extracted "
-                     "complete companion; see README.md and docs/reproduction_scope.md.")
+                     "companion; see README.md and docs/reproduction_scope.md.")
     companion = args.companion.resolve()
     if not companion.is_dir() or companion == ROOT:
-        parser.error("--companion must be the extracted complete companion, not this code repository.")
+        parser.error("--companion must be the extracted companion, not this code repository.")
     if overlaps(output, companion):
         parser.error("Output must be outside the frozen companion.")
     try:
         analysis, parent, transfer = locate_companion(companion)
     except ValueError as error:
         parser.error(str(error))
-    if args.mode == "rf-interface":
+    if args.mode in ("rf-interface", "rf-applicability"):
         required = [parent / "data/raw_rebuild_run02" / name for name in
                     ("FLAGS.npz", "S1/SOURCE_INPUTS.npz", "S4/SOURCE_INPUTS.npz")]
         for source, count in (("S1", 13), ("S4", 3)):
@@ -75,11 +75,16 @@ def main() -> None:
         results = analysis / "results/fair_design_run01"
         required += [results / name for name in ("DESIGN_RESULTS.csv", "PAIR_RESULTS.csv")]
         required += [results / f"ANCHOR_{i:03d}.npz" for i in range(160)]
+    if args.mode == "rf-applicability":
+        required += [parent / "src/run_e1_applicability.py",
+                     parent.parent / "checks/rf_applicability/REFERENCE_ARRAYS.json"]
     missing = [p.relative_to(companion).as_posix() for p in required if not p.is_file()]
     if missing:
         parser.error("Incomplete RF companion: missing " + ", ".join(missing[:5]))
 
-    if args.mode == "rf-interface":
+    if args.mode == "rf-applicability":
+        execute(ROOT / "scripts/replay_rf_applicability.py", "--parent", parent, "--output", output)
+    elif args.mode == "rf-interface":
         execute(PAPER / "src/check_rf_interface.py", "--parent", parent, "--output", output)
     else:
         execute(ROOT / "scripts/replay_rf_summaries.py", "--companion", companion,

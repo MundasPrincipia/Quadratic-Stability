@@ -19,8 +19,9 @@ companion.
 | Entry point | Inputs | Results |
 |---|---|---|
 | `boundary-refinement` | Included configuration | 39 endpoint cells, 27 margin cells, 100-digit interval checks, and the four-panel figure |
-| `rf-interface` | External complete companion with saved S1/S4 inputs and fold heads | Numerical consistency check for 13 S1 folds, 3 S4 folds, and 6 observation flags |
-| `rf-summaries` | External complete companion with saved designs, pair records, heads, and witnesses | Design/transfer summaries, tables, and figures |
+| `rf-interface` | External companion with saved S1/S4 inputs and fold heads | Numerical consistency check for 13 S1 folds, 3 S4 folds, and 6 observation flags |
+| `rf-applicability` | Submission companion with saved inputs and original array digests | Rebuild and verify the 96 E1 per-sample arrays omitted from the submission ZIP |
+| `rf-summaries` | External companion with saved designs, pair records, heads, and witnesses | Design/transfer summaries, tables, and figures |
 
 ## Run the analytic example
 
@@ -73,6 +74,20 @@ FOLD_FLAG_CHECKS.csv and SUMMARY.json.
 `rf-summaries` validates the saved records and rebuilds the comparison tables and
 figures for 2,400 design cells. The [reproduction details](docs/reproduction_scope.md)
 describe the required inputs, numerical conventions, and result files.
+
+## Rebuild the omitted applicability arrays
+
+The submission ZIP keeps the S1/S4 derived inputs, frozen classifiers, complete
+summary tables and design records. Its 96 E1 per-sample arrays can be reconstructed:
+
+```text
+python -B reproduce.py rf-applicability --companion ../quadratic_stability_supplementary_materials/reproducibility --output ../quadratic_rf_applicability
+```
+
+The output includes `results/e1_run01/` and `REPLAY_CHECK.json`. The command runs
+the original E1 calculation and checks array payloads against the recorded digests,
+along with the frozen E1 CSVs and scientific summary fields. It uses the saved
+classifier without refitting or design optimization.
 
 ## Processing original recordings
 

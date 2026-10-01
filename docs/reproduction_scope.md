@@ -15,7 +15,7 @@ separately from source-digest and environment metadata.
 
 ## RF numerical consistency check
 
-`rf-interface` runs `check_rf_interface.py` on the complete companion selected
+`rf-interface` runs `check_rf_interface.py` on the companion selected
 with `--companion`. For the publication supplement, pass its `reproducibility/`
 directory (or the containing directory); the earlier companion layout remains
 accepted. Paths below are relative to `reproducibility/`. Its inputs are:
@@ -37,7 +37,7 @@ separate interval-arithmetic procedure described above.
 
 ## RF summary replay
 
-`rf-summaries` uses saved inputs from the complete companion, including:
+`rf-summaries` uses saved inputs from the companion, including:
 
 - baseline anchors, fold class labels, designs, and competitor records;
 - later fair-design records and 160 saved anchor/witness payloads;
@@ -49,7 +49,7 @@ bases, numerical ordering, and bound formulas before aggregation. It covers
 The generated CSVs include `ABSOLUTE_RADII.csv`, `COMPARISON_SUMMARIES.csv`,
 `NUMERICAL_SUMMARIES.csv`, and `PAIRED_COMPARISONS.csv`. The first three are
 included here as small aggregate references; per-anchor paired records remain in
-the complete companion. Output path fields can differ across installations.
+the companion. Output path fields can differ across installations.
 
 The reference CSVs also include historical applicability and transfer summaries
 by source, fold, and device. The `rf-summaries` command rebuilds the four comparison
@@ -59,11 +59,21 @@ All 2,400 fixed-reference transfer cells have a recorded lower bound of zero.
 These are the computed lower bounds on the transfer radii; the exact radii remain
 unresolved where the available bounds do not determine them.
 
+## Reconstructible E1 intermediates
+
+The submission companion omits only the 96 per-sample NPZ files below
+`rf_baseline/results/e1_run01/S1/` and `S4/`. It retains the source inputs,
+classifiers, flag records, natural-row table, stratified applicability table,
+and all finite-bracket and aggregate summaries. `rf-applicability` reruns the
+frozen E1 numerical routine from those inputs into a new directory and checks
+every array payload against `checks/rf_applicability/REFERENCE_ARRAYS.json`.
+The accompanying CSVs and scientific summary fields are compared separately.
+The three earlier entry points use retained inputs and are unchanged.
+
 ## Historical processing and optimization code
 
 The historical source covers IQ processing, classifier fitting, observation
 design, and transfer calculations. Running those scripts requires the original
 recordings, selection metadata, and workspace layout described in the
-[acquisition guide](data_acquisition_and_processing.md). The three root-level
-commands cover the analytic example, saved-classifier checks, and saved-result
-aggregation.
+[acquisition guide](data_acquisition_and_processing.md). The root-level commands cover the analytic example, saved-classifier checks,
+E1 reconstruction, and saved-result aggregation.
