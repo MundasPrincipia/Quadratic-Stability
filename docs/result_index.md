@@ -20,6 +20,11 @@ Replace an alias with its directory when locating a file. For example,
 
 ## Results and their records
 
+The root `reproduce.py` exposes four modes: `boundary-refinement`, `rf-interface`,
+`rf-summaries`, and `rf-applicability`. In the table, `baseline`, `fair-design`,
+and `transfer` name historical workflows; their script locations are listed
+below. They are not additional modes of the public entry point.
+
 | Result or location | Frozen records relative to the aliased directory | Replay or checking route |
 |---|---|---|
 | Main-paper exact same-task refinement example, Figure 2 | `PAPER/results/boundary_refinement_run01/CONFIG.json`, `ENDPOINTS.json`, `MARGINS.json`, `SUMMARY.json`; plotted in `PAPER/figures/wang2.pdf` | `boundary-refinement`: 39 endpoint cells and 27 margin cells at 100 decimal digits |
@@ -52,14 +57,14 @@ metadata required by the original raw-IQ reconstruction route.
 
 ## Replay environments
 
-Use `reproduce.py` at the portable root and a fresh output directory outside the
-reference directories. The README at the portable root gives the commands and scope.
+Use `reproduce.py` at the repository root and a fresh output directory outside the
+repository. The root README gives the commands and scope.
 The accompanying [data acquisition and processing guide](data_acquisition_and_processing.md)
 lists the exact S1/S4 source subsets and preprocessing steps, and identifies
 the additional historical inputs required for the raw-IQ route. Bundled
 derived-input replay does not require downloading those recordings again.
 
-| Mode | Recorded environment or requirements |
+| Public mode or historical workflow | Recorded environment or requirements |
 |---|---|
 | `boundary-refinement` | Python 3.12; root `requirements-example.txt`; no SciPy dependency |
 | `rf-summaries`, `fair-design` | Root `requirements-rf.txt`; recorded SciPy 1.18.0 |
