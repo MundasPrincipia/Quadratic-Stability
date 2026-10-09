@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-09-07T11:17:50.282175+00:00",
+  "workspace_source": "results/track_s_flagship_r1/R1_JOINT_INTERFACE_AUDIT_20260831_001241.json",
+  "v16_copy": "legacy_evidence/rf/R1_BANK_REFERENCE.json",
+  "sha256": "3170323b50b92ac7ba4d89756f811ad179c84299ab45c88982769e7aefe02f33",
+  "role": "historical measurement-bank design metadata, not new experimental evidence"
+}

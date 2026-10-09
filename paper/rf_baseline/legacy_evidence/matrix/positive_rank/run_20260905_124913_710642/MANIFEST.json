@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-09-05T12:49:13.779769+08:00",
+  "files": {
+    "config.json": "173b71bc128fb06b2a8bea7e07252b0e7ac507320024a176ed07e6e474082fda",
+    "endpoint_brackets.csv": "22087debdc5198c094aba47991b95f41ea673a38a978032775b022968b14dae2",
+    "interval_certificates.json": "f11f36191a785bf8f5965815c570186b1feef7a57d6095009ce5297c193da252",
+    "raw_inputs.npz": "7ff705252ec0e9fd52de23c312d3cf289e53d3495251ffd668d7b09f3d3892d7",
+    "summary.json": "25fb2d5f57ae97786312964257179d1d2ef835d406eed09c8697add26a567b1f"
+  },
+  "source_hashes": {
+    "src\\positive_rank.py": "855a9e0a805f7ac65084bcc733f30dc47aec01559c5399a9330b36f7f32886b2",
+    "tests\\test_positive_rank.py": "d3e025b399847dbfab6c3ffb23b69aa8b1e54ecd9eca4cf711ae48b7557ff9eb",
+    "protocols\\PROTOCOL.md": "35c46b80651c735cffd441c9ea8a13e8771e550f309be18074aac4db5ad06d16",
+    "proofs\\C_positive_rank.md": "69efb5160a04f1d13ed9fd852a4074d3223508cd1d2e86d9a15406ee5ebe608a"
+  },
+  "protocol_sha256": "35c46b80651c735cffd441c9ea8a13e8771e550f309be18074aac4db5ad06d16",
+  "incomplete": false
+}

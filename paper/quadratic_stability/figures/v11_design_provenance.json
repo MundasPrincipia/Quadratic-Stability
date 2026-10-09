@@ -1,0 +1,10 @@
+{
+  "figure": "v11_design",
+  "sources": {
+    "results\\design\\run_20260905_044629_927159\\design.csv": "27c86db2f23e381df54af2e04f89c4a79bb402bf215aedfc7e7fcaba4d298210",
+    "results\\design\\run_20260905_044629_927159\\SUMMARY.json": "e4f35797922ba4d153f379cd534c96de1b26278c24d29dfbded305931d026771"
+  },
+  "script_sha256": "a5846ea53db6f53c5e86c3ac87f10825e2b8cc27e6a4c6db3126999773b04a00",
+  "display": "vector PDF and 300-dpi PNG; colorblind palette and redundant line/marker styles",
+  "not_ci": "All envelopes are analytic brackets or explicitly descriptive ranges; none is a confidence interval."
+}

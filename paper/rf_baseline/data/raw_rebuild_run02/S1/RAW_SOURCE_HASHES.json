@@ -1,0 +1,80 @@
+[
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/dataset_residential.h5",
+    "sha256": "f764f612a07162efdcbc3ea9af874d59e9dfac143f0a74149e17f0c7f0ccc85c",
+    "bytes": 524386216,
+    "rows": 400
+  },
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/channel_problem/A.h5",
+    "sha256": "62cccfc44e68de389674f93ca3a23c2dd8539b97b91a06ba40a4952b5f8b7253",
+    "bytes": 262194216,
+    "rows": 400
+  },
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/channel_problem/B.h5",
+    "sha256": "885eb394f1e78e4e4242cbcdb3901ae3abb75f5837f0106febc40e5a690e8f6d",
+    "bytes": 262194216,
+    "rows": 400
+  },
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/channel_problem/C.h5",
+    "sha256": "240e253d904826c88d8055b22f7f4c8d1b3b59d6b23eb36a71d816b38b39b428",
+    "bytes": 262194216,
+    "rows": 400
+  },
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/channel_problem/D.h5",
+    "sha256": "ff69f6454b8412ec79e0aa07f5f740ccf6731a90abdc6bca54390a697e1f0188",
+    "bytes": 262194216,
+    "rows": 400
+  },
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/channel_problem/E.h5",
+    "sha256": "f05743c41dcc957cf492b82b13c6d7a7c7126481b0ddb4a461e8bb13d41e6e4f",
+    "bytes": 262194216,
+    "rows": 400
+  },
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/channel_problem/F.h5",
+    "sha256": "078dc3a8468a33b340077b6b4c9537ffa736720ec873860f6ead6f3b23b917ec",
+    "bytes": 262194216,
+    "rows": 400
+  },
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/channel_problem/B_walk.h5",
+    "sha256": "636e87cbce2c4d54abf382a28640c9b94b32a94acaaa73c7e56a7142b17ffb22",
+    "bytes": 262194216,
+    "rows": 400
+  },
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/channel_problem/F_walk.h5",
+    "sha256": "d84518775f482d5eb23eb888e97cdfb73ccb7c5bfb22597baf2f952cd3506cbb",
+    "bytes": 262194216,
+    "rows": 400
+  },
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/channel_problem/moving_office.h5",
+    "sha256": "3782e182f564fce1bd0fe5d3bedbef33e6f0c2cd708325af4a3fb960677ea665",
+    "bytes": 262194216,
+    "rows": 400
+  },
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/channel_problem/moving_meeting_room.h5",
+    "sha256": "8783d1857205a2b0e264d6f6dae4c1ec7588be50bb755f8cb3bba0847d62e59e",
+    "bytes": 262194216,
+    "rows": 400
+  },
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/channel_problem/B_antenna.h5",
+    "sha256": "6a1c72038181acbbc411fce002b1040ec0df3841245324d6bf70a1d72e1b5df7",
+    "bytes": 262194216,
+    "rows": 400
+  },
+  {
+    "path": "ieee_dataport/LoRa_RFFI-main/LoRa_RFFI/dataset/Test/channel_problem/F_antenna.h5",
+    "sha256": "defb158d8ab0e1f05a09340bbed7ab11cd0367f38b647dd685512efb587d581c",
+    "bytes": 262194216,
+    "rows": 400
+  }
+]

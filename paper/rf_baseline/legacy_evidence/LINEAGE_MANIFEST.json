@@ -1,0 +1,246 @@
+{
+  "created_at": "2026-09-07T10:39:26.861940+00:00",
+  "role": "unchanged historical matrix evidence; not newly rerun",
+  "entries": [
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/budget_rates/run_20260905_045339_758316/E1_BUDGET.csv",
+      "v16_copy": "legacy_evidence/matrix/budget_rates/run_20260905_045339_758316/E1_BUDGET.csv",
+      "sha256": "2c5a3c6683470a935ed9edac7fb019ccc84d9d7c595bfeacb5da689128f0651d",
+      "bytes": 128776
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/budget_rates/run_20260905_045339_758316/E1_DUAL_COEFFICIENTS.csv",
+      "v16_copy": "legacy_evidence/matrix/budget_rates/run_20260905_045339_758316/E1_DUAL_COEFFICIENTS.csv",
+      "sha256": "a5120c7a0e5cb529455d923852925b739b0d1776d5db1d47577f3394bdaea553",
+      "bytes": 5644
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/budget_rates/run_20260905_045339_758316/E1_ENDPOINT_BRACKETS.csv",
+      "v16_copy": "legacy_evidence/matrix/budget_rates/run_20260905_045339_758316/E1_ENDPOINT_BRACKETS.csv",
+      "sha256": "4b6df0e57f0fbb36e9d0fb83985b3a3185d6185280d49fc005b98c04fe371e8a",
+      "bytes": 58822
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/budget_rates/run_20260905_045339_758316/E1_INPUTS.npz",
+      "v16_copy": "legacy_evidence/matrix/budget_rates/run_20260905_045339_758316/E1_INPUTS.npz",
+      "sha256": "1b66b796925502afcfb38324bf45617bd9c2087ab5ab0e442a282ab1c7f67925",
+      "bytes": 50946
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/budget_rates/run_20260905_045339_758316/E2_INPUTS_AND_WITNESSES.npz",
+      "v16_copy": "legacy_evidence/matrix/budget_rates/run_20260905_045339_758316/E2_INPUTS_AND_WITNESSES.npz",
+      "sha256": "9b4ca0f2da9ad44cb3cb634de3fa8f4b8767225e48a6e8a1f423040bf80bc983",
+      "bytes": 21816
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/budget_rates/run_20260905_045339_758316/E2_INTERVAL_CERTIFICATES.json",
+      "v16_copy": "legacy_evidence/matrix/budget_rates/run_20260905_045339_758316/E2_INTERVAL_CERTIFICATES.json",
+      "sha256": "33179399693111f27c61db8369592a6a7aad49eb7f143ef713baaada0bb7d04e",
+      "bytes": 243419
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/budget_rates/run_20260905_045339_758316/E2_RATES.csv",
+      "v16_copy": "legacy_evidence/matrix/budget_rates/run_20260905_045339_758316/E2_RATES.csv",
+      "sha256": "f0a55066be10a46e5ab2679b86a513a5b851981d9102a92350fc1ebe57967e70",
+      "bytes": 13238
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/budget_rates/run_20260905_045339_758316/E2_SLOPES.json",
+      "v16_copy": "legacy_evidence/matrix/budget_rates/run_20260905_045339_758316/E2_SLOPES.json",
+      "sha256": "1ba26000042391cc3fede46f9f5846d42e362eeb1d671e6240d744da4db7da38",
+      "bytes": 877
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/budget_rates/run_20260905_045339_758316/MANIFEST.json",
+      "v16_copy": "legacy_evidence/matrix/budget_rates/run_20260905_045339_758316/MANIFEST.json",
+      "sha256": "5686e85b69fe19defc1bf38b7329ec7ad4915820115c8626eee14838384772cb",
+      "bytes": 2095
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/budget_rates/run_20260905_045339_758316/SUMMARY.json",
+      "v16_copy": "legacy_evidence/matrix/budget_rates/run_20260905_045339_758316/SUMMARY.json",
+      "sha256": "d0fe3a76b9a1317fb3694077dfa1c94af83423060076a9a417cf6c8a3c1da509",
+      "bytes": 1751
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/design/run_20260905_044629_927159/design.csv",
+      "v16_copy": "legacy_evidence/matrix/design/run_20260905_044629_927159/design.csv",
+      "sha256": "27c86db2f23e381df54af2e04f89c4a79bb402bf215aedfc7e7fcaba4d298210",
+      "bytes": 61485
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/design/run_20260905_044629_927159/INPUTS.npz",
+      "v16_copy": "legacy_evidence/matrix/design/run_20260905_044629_927159/INPUTS.npz",
+      "sha256": "c8536fbed036fff5a716e95e1e86a9e9d1d68eb500e92c359d75b09988238a21",
+      "bytes": 124762
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/design/run_20260905_044629_927159/MANIFEST.json",
+      "v16_copy": "legacy_evidence/matrix/design/run_20260905_044629_927159/MANIFEST.json",
+      "sha256": "500680b469f46af69fcd16b7f0c2b82dcb4c602199cc2151fa35ed95415407a9",
+      "bytes": 1070
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/design/run_20260905_044629_927159/SUMMARY.json",
+      "v16_copy": "legacy_evidence/matrix/design/run_20260905_044629_927159/SUMMARY.json",
+      "sha256": "e4f35797922ba4d153f379cd534c96de1b26278c24d29dfbded305931d026771",
+      "bytes": 437
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/positive_rank/run_20260905_124913_710642/config.json",
+      "v16_copy": "legacy_evidence/matrix/positive_rank/run_20260905_124913_710642/config.json",
+      "sha256": "173b71bc128fb06b2a8bea7e07252b0e7ac507320024a176ed07e6e474082fda",
+      "bytes": 987
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/positive_rank/run_20260905_124913_710642/endpoint_brackets.csv",
+      "v16_copy": "legacy_evidence/matrix/positive_rank/run_20260905_124913_710642/endpoint_brackets.csv",
+      "sha256": "22087debdc5198c094aba47991b95f41ea673a38a978032775b022968b14dae2",
+      "bytes": 12110
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/positive_rank/run_20260905_124913_710642/interval_certificates.json",
+      "v16_copy": "legacy_evidence/matrix/positive_rank/run_20260905_124913_710642/interval_certificates.json",
+      "sha256": "f11f36191a785bf8f5965815c570186b1feef7a57d6095009ce5297c193da252",
+      "bytes": 103073
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/positive_rank/run_20260905_124913_710642/MANIFEST.json",
+      "v16_copy": "legacy_evidence/matrix/positive_rank/run_20260905_124913_710642/MANIFEST.json",
+      "sha256": "939a7d110c2fe7cd7cd2df8786c926212275660136c85e9a4d2c39cb32a1b47a",
+      "bytes": 1092
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/positive_rank/run_20260905_124913_710642/raw_inputs.npz",
+      "v16_copy": "legacy_evidence/matrix/positive_rank/run_20260905_124913_710642/raw_inputs.npz",
+      "sha256": "7ff705252ec0e9fd52de23c312d3cf289e53d3495251ffd668d7b09f3d3892d7",
+      "bytes": 32238
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/positive_rank/run_20260905_124913_710642/summary.json",
+      "v16_copy": "legacy_evidence/matrix/positive_rank/run_20260905_124913_710642/summary.json",
+      "sha256": "25fb2d5f57ae97786312964257179d1d2ef835d406eed09c8697add26a567b1f",
+      "bytes": 1256
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/weak_margin/run_20260905_130201/INTERVAL_CERTIFICATES.json",
+      "v16_copy": "legacy_evidence/matrix/weak_margin/run_20260905_130201/INTERVAL_CERTIFICATES.json",
+      "sha256": "9431b33219048ac20b2b36af1899a0ae2a2af7352f2e53ae448277abcf9f1558",
+      "bytes": 169540
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/weak_margin/run_20260905_130201/MANIFEST.json",
+      "v16_copy": "legacy_evidence/matrix/weak_margin/run_20260905_130201/MANIFEST.json",
+      "sha256": "2143d915d4e64691108403c04d5d78d98b8a2ee09fc28e8aeeb40db771d23130",
+      "bytes": 1938
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/weak_margin/run_20260905_130201/margin_transition.csv",
+      "v16_copy": "legacy_evidence/matrix/weak_margin/run_20260905_130201/margin_transition.csv",
+      "sha256": "fa57de6d7ee75ead2f58da87c2510162a41fadfb50ecc5a49a3f91e346d1001f",
+      "bytes": 7548
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/weak_margin/run_20260905_130201/RAW_MATRICES.npz",
+      "v16_copy": "legacy_evidence/matrix/weak_margin/run_20260905_130201/RAW_MATRICES.npz",
+      "sha256": "2db962388085cece143f1ca04ecc7c0c79cbd940dabf979250614740e7dc4eb8",
+      "bytes": 62714
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/weak_margin/run_20260905_130201/SUMMARY.json",
+      "v16_copy": "legacy_evidence/matrix/weak_margin/run_20260905_130201/SUMMARY.json",
+      "sha256": "e1123eef1696315f953427a3301b00b9ada95a2e3e6bed62a3d7a96deebbc0b5",
+      "bytes": 870
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/results/weak_margin/run_20260905_130201/weak_profile.csv",
+      "v16_copy": "legacy_evidence/matrix/weak_margin/run_20260905_130201/weak_profile.csv",
+      "sha256": "065db5d1d1bf7aad5b9e4077157e3c36e181c0c9a581ee3242a50971c1f605a1",
+      "bytes": 24236
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/DESIGN_RECONCILIATION.json",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/DESIGN_RECONCILIATION.json",
+      "sha256": "2ec2cb710391df586bd7f15350d5123038227e411b41d9d74e6a9764aa57c2a7",
+      "bytes": 685
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/DESIGN_STATUS_BY_CONFIGURATION.csv",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/DESIGN_STATUS_BY_CONFIGURATION.csv",
+      "sha256": "3e52210208fe9963e690da0d764a9554ae7eb2f75b911e03cdd740fe9330b64f",
+      "bytes": 2173
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/DESIGN_STATUS_BY_FAMILY.csv",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/DESIGN_STATUS_BY_FAMILY.csv",
+      "sha256": "13faf22f46369fd4f7a77f54627c1181178c0333ee610c37f0733542ac790a94",
+      "bytes": 666
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/ENDPOINTS.csv",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/ENDPOINTS.csv",
+      "sha256": "422129138b1a4fcb8714b66bbe48c188d4dc663be570d20864457d0a62402616",
+      "bytes": 34961
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/FROZEN_INPUTS.json",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/FROZEN_INPUTS.json",
+      "sha256": "8a75eea8dc7c520875b101a1fe0168e242660c45f940781a192ebfb1c042b243",
+      "bytes": 1108
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/INPUT_TASKS.npz",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/INPUT_TASKS.npz",
+      "sha256": "086841226d1b3f8b5fb7cd2582de010dd48640f6708462832a42d66842ff5bd3",
+      "bytes": 1722
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/INTERVAL_CERTIFICATES.json",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/INTERVAL_CERTIFICATES.json",
+      "sha256": "95e81192fa9827565696588d3e2535d02b7f01456522fd574b397eb2484f6fb0",
+      "bytes": 1167324
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/MANIFEST.json",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/MANIFEST.json",
+      "sha256": "3037414b56dde7b8f0162e7b345564a840aae7eee672962c3828efcd63696b8e",
+      "bytes": 2181
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/MARGINS.csv",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/MARGINS.csv",
+      "sha256": "b534f2687d504b06e85c3fe8aeaaa64e1e2d77649fadd5f70e2387871ff89f78",
+      "bytes": 15939
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/PROTOCOL_SNAPSHOT.md",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/PROTOCOL_SNAPSHOT.md",
+      "sha256": "d7af21d2fcf393dd973995db73fc2c4cc7352d10fcaece0a3a5efc2a41dcdac6",
+      "bytes": 7656
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/RAW_COMPLEX_STATES_AND_MATRICES.npz",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/RAW_COMPLEX_STATES_AND_MATRICES.npz",
+      "sha256": "64a3e744480ab769ed4fc82f34712e5b19b7f0c81527213049e95fcd5b45b51f",
+      "bytes": 208031
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/RUN_CONFIG.json",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/RUN_CONFIG.json",
+      "sha256": "3243ba4f499d85473b8489fc9b87889d7c7769f6463a842b5383e37cbc7929a0",
+      "bytes": 608
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/SLOPES.json",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/SLOPES.json",
+      "sha256": "3132bf4d2c8b17c5aa8cc6da584b7803a240f4724cf6e7d7843c37ec8c3c403e",
+      "bytes": 1798
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/results/oriented/run_20260905_070940_805688/SUMMARY.json",
+      "v16_copy": "legacy_evidence/oriented/run_20260905_070940_805688/SUMMARY.json",
+      "sha256": "3338b42047315ddb587de7b6300cb2409cf18fde72731fe89170939883107c03",
+      "bytes": 2986
+    }
+  ]
+}

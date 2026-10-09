@@ -11,7 +11,7 @@ outputs/
 replay_outputs/
 RAW_WORKSPACE_NOT_INCLUDED/
 
-# External recordings, per-sample arrays, and complete companion archives
+# External recordings, generated arrays, and complete companion archives
 *.h5
 *.hdf5
 *.npz
@@ -26,6 +26,13 @@ RAW_WORKSPACE_NOT_INCLUDED/
 *.gz
 data/
 ieee_dataport/
+
+# Frozen processed records imported from the submitted supplementary materials
+!/paper/rf_baseline/data/
+!/paper/rf_baseline/data/raw_rebuild_run02/**
+!/paper/rf_baseline/results/**/*.npz
+!/paper/rf_baseline/legacy_evidence/**/*.npz
+!/paper/quadratic_stability/results/fair_design_run01/*.npz
 
 # OS and editor files
 .DS_Store

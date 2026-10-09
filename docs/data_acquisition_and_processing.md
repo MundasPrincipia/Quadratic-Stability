@@ -9,12 +9,12 @@ Contact: Hongyuan Wang, 2025310659@stu.hit.edu.cn
 The journal supplementary file is `quadratic_stability_supplement.pdf`.
 Code and data-access documentation are maintained in this GitHub repository.
 Saved per-sample inputs, fold parameters, measurement banks, row-selection
-records and witnesses are prepared in the `reproducibility/` directory of
-`quadratic_stability_rf_replay_data.zip`. Publication of this RF archive is
-pending; the repository [README](../README.md#replay-saved-rf-inputs) records
-its availability and the saved-input replay commands.
+records and witnesses are included under `paper/` in this repository.
+The [README](../README.md#replay-saved-rf-inputs) gives the saved-input replay
+commands, and the [result index](result_index.md) maps results to files.
 
-Data paths in Sections 2--6 use that `reproducibility/` layout. Historical source
+Data paths in Sections 2--6 are relative to `paper/` unless identified as a
+historical workspace path. Historical source
 paths describe the complete reconstruction workspace; the public code is under
 [`paper/rf_baseline/`](../paper/rf_baseline/). Original IQ recordings are
 obtained from the providers below. Raw reconstruction additionally requires the
@@ -113,7 +113,7 @@ study.
 
 The executed procedure is preserved in `rf_baseline/src/rebuild_raw_iq.py`
 (`s1`). Its helper implementations are in
-`rf_baseline/raw_processing/src/czrf/`.
+`rf_baseline/provenance/raw_code_snapshot/src/czrf/`.
 
 1. Read the selected HDF5 rows in the original manifest order. For each row,
    the `data` array stores 8,192 real I values followed by 8,192 real Q values.
@@ -139,7 +139,7 @@ precision conversions are part of the frozen implementation.
 ## 4. S4 processing: recording to the saved complex state
 
 The executed procedure is `s4` in the same rebuild script. The detector is
-preserved in `rf_baseline/raw_processing/src/czrf/oregon_lora_adapter.py`.
+preserved in `rf_baseline/provenance/raw_code_snapshot/src/czrf/oregon_lora_adapter.py`.
 
 1. Read each `.dat` file as interleaved little-endian Float32 I/Q, represented
    by NumPy dtype `<c8`. The sample rate is 1,000,000 Hz and the bandwidth
@@ -223,9 +223,10 @@ results/s4_oregon_qualification/S4_OREGON_SOURCE_INVENTORY_20260827_030353.csv
 results/s4_oregon_qualification/S4_OREGON_SOURCE_QUALIFICATION_20260827_030353.json
 ```
 
-These five author-generated artifacts are outside the public code repository
-and the prepared RF replay archive and must be obtained separately for this
-raw-reconstruction route. The RF archive's lineage CSVs record
+These five author-generated artifacts are outside this repository and must be
+obtained separately for the historical raw-reconstruction route. The default
+saved-input RF commands use the included processed data and do not require them.
+The included lineage CSVs record
 the selected rows and frame starts; the historical script also reads the five
 files above. Contact the author for access details.
 
@@ -234,7 +235,7 @@ reference directory
 `paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf`
 inside the workspace selected by `--workspace`. This directory is an additional
 external input containing the fixed measurement-bank design and regression
-targets. The code snapshot is in `rf_baseline/raw_processing/`; the dependency map
+targets. The code snapshot is in `rf_baseline/provenance/raw_code_snapshot/`; the dependency map
 and reconstruction receipts are in `rf_baseline/provenance/`.
 
 With these inputs arranged in a complete historical workspace, run the following

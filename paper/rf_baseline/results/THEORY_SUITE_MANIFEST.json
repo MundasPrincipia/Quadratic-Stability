@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-09-07T10:26:52.570266+00:00",
+  "issuance": "post-run, post-outcome closure",
+  "sources": {
+    "src/run_theory_regressions.py": "1502d4e1412e893af5c41cbe68336d68878c4c62497f0aeff7dd160d7ec6bc23",
+    "src/run_extended_theory_regressions.py": "0299dd92cfc4541bbd729a4764dca18d453d4eed436025fe286f87769b6136bf",
+    "src/controlled_profiles.py": "e87b63aa3609c8ef0ab15ed09b0d5606d4f9c9c6d3f7f71a7f3a8a62de8b37de",
+    "src/common.py": "c3b099a50d71f74fb003ad46f885a74548c6df95813b5782e8911b27cb81cc3d"
+  },
+  "inputs": {
+    "protocol/LOCK.json": "a5c83bd38401edefbefafd2c372f1737c82f017ed54ac5f113c1d2593833a8ab",
+    "protocol/AMENDMENT_02_AUDIT_CLOSURE.md": "8b573ce5994b224d51f32b3e59567eb522d1820b56bf94daf2f0c956595812cc",
+    "PROOF_PACKAGE_V2.md": "ad0fc80d3d3ac8f1daddcd91bda27847985d1efce3115f23b7aeaec9aa6dc086"
+  },
+  "outputs": {
+    "results/THEORY_REGRESSIONS.json": {
+      "sha256": "d7036907b62690853aef5bed813bf7af97939e9b2a21f40a914ab72b93b79f8c",
+      "bytes": 3120
+    },
+    "results/THEORY_REGRESSIONS_EXTENDED_RUN02.json": {
+      "sha256": "178dfc5c780f4fb84c05f274436bdc51e0b70bc0b163631fa09a31ceb05c7fa8",
+      "bytes": 36789
+    }
+  },
+  "scope": "Original 125 executed cases plus 164 added regression records; not a preregistration or proof certificate."
+}

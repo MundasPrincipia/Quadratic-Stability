@@ -1,0 +1,23 @@
+{
+  "scope": "Fixed v16 E3 reference states and designs; derived transfer only",
+  "anchors": 160,
+  "design_cells": 1760,
+  "pair_records_checked": 15840,
+  "pair_positive_transfer": 0,
+  "multiclass_positive_transfer": 0,
+  "near_threshold_pair": 0,
+  "near_threshold_multiclass": 0,
+  "nested_design_comparisons": 800,
+  "min_tau_upper": 0.3265589226731204,
+  "max_tau_upper": 0.8651502267317515,
+  "max_pair_radius_lower": 0.005221347740786985,
+  "max_multiclass_radius_lower": 0.0046094057997108796,
+  "max_pair_slack": -0.32653253483066413,
+  "max_multiclass_slack": -0.32653268770941923,
+  "max_formula_distance_error": 8.659739592076221e-15,
+  "max_mass_identity_error": 5.551115123125783e-16,
+  "max_saved_reference_defect": 5.143642068847385e-16,
+  "full_state_candidate_agreement_anchors": 23,
+  "conditional_interpretation": "Positive transfer certifies strictly smaller radii. Zero transfer does not mean zero exact decision radius.",
+  "numerical_scope": "Inherited normwise binary64 envelope and polar-defect correction; not formally verified BLAS"
+}

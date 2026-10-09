@@ -1,0 +1,9 @@
+# Preserve the bytes of frozen scientific records and protocol lock inputs.
+paper/rf_baseline/** -text
+paper/quadratic_stability/results/** -text
+paper/reference_transfer/results/** -text
+paper/checks/** -text
+docs/submission_data_source_record.md -text
+*.npz binary
+*.pdf binary
+*.png binary

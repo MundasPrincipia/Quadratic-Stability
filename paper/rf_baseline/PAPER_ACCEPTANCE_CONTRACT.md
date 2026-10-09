@@ -1,0 +1,24 @@
+# v16 acceptance contract
+
+Status: accepted for implementation. Negotiation round: 2. Scope is the user-approved implementation plan. Reviewer: /root/v16_contract_review, gpt-5.6-sol xhigh, fresh context, same-family/provisional. CONTRACT_ACCEPTED: yes. Acceptance concerns this implementation contract, not journal acceptance.
+
+1. v15's 110 manifest objects, manifest and receipt remain unchanged; v16 writes stay in its independent namespace.
+2. The existing four-branch theorem retains its hypotheses, coefficients, iff conditions and explicit remainder constants; edits to its proof only remove duplication with equivalent complete arguments.
+3. For Hermitian E and 0<=delta<=1/4, each centered endpoint and halfwidth changes by at most B_E(delta)=alpha_E*sqrt(delta)+(sqrt(2)||b_E||+||K_E^r||)*delta+sqrt(2)||J_E||*delta^(3/2)+||K_E^t||*delta^2/2, where alpha_E=2 Omega_d^vee(unvec_r(g_E)) and matrix norms are operator norms. A cell is in the sufficient 25% window exactly when its proved ideal remainder e_0(delta) plus this envelope is <=c*delta^p/4, c>0. No fitted-range selection.
+4. The Schur proposition assumes g=b=0 and strictly positive K^r. For S_eff=K^t-J(K^r)^(-1)J^dagger with lambda_min<0 it proves Delta^-(delta)=-lambda_min(S_eff)*delta^2/2+o(delta^2); for S_eff PSD it proves global lower-endpoint flatness. Zero tangent dimension is flat; singular K^r is outside the assertion.
+5. For every pure state, joint false-acceptance probability is <=eta, with 0<eta<1/2; correct acceptance of class a at the declared strict-winning base is >=1-eta. With r_* the infimum of observation distance to states where a is not a strict winner, the Gaussian converse proves N>=4*sigma^2*[Phi^(-1)(1-eta)]^2/r_*^2. It identifies r_* with first failure; an empty bad set gives r_*=infinity and no finite lower bound.
+6. Matched small-margin repetition orders require fixed H,x,D,sigma,eta and a positive downward coefficient; the paper does not call them physical RF packet requirements or probability error exponents.
+7. Classification design uses difference heads; a common-mode example is exact; coefficient optimality is not called finite-radius or multiclass minimax optimality.
+8. Donoho and Carmeli metadata and cited context are verified against primary sources; the contribution comparison does not say nonconvexity makes all modulus reasoning unavailable.
+9. Raw rebuild preserves S1 5200 rows/13 folds and S4 480 rows/40 files/3 folds, original frontend precision steps, fixed bank and training-only ridge recipe; every new feature row traces to an original IQ row or byte offset.
+10. Rebuilt baseline score/zero-tolerance comparisons pass the predeclared numerical checks or have a resolved documented explanation before new outcomes enter the manuscript. No silent relabeling of historical results.
+11. E1 retains all six flags and all 12 radii, counts every applicability failure in its denominator, and records tau, residual mass, finite upper/lower evidence and inapplicability reasons.
+12. E2 uses exactly the locked epsilon/radius grids and all 160 preselected anchors; constructed tasks and numerical leakage are identified. For H_p+epsilon*E, E is the unscaled direction, B_(epsilon E)=epsilon*B_E, and the canonical window predicate is e_0(delta)+epsilon*B_E(delta)<=c*delta^p/4. Embedded defects add their own B_defect term. Canonical certified extrema are distinguished from embedded raw-matrix checks.
+13. E3 uses q=5,d=3,k=0,1,2, locked anchors and random seeds 17/29/43; reports target-pair and multiclass lower radii, witnessed upper radii or censoring, and coefficient statuses at equal k. Each upper bound saves the normalized full-state witness, actual redesigned-observation distance, and nonpositive a-versus-competitor score. Pair upper bounds use b; multiclass upper bounds take the minimum across witnessed competitors, with separate censoring if no witness exists by the cap.
+14. No unsuccessful/inapplicable case is silently removed; device/fold summaries do not treat flag-row cells as independent hardware replicates; head decisions and true labels remain separate.
+15. Every new plotted number and substantive numerical claim traces to a saved result; figures are reproducible and visually inspected both standalone and in the manuscript.
+16. Full new proofs, raw-IQ reconstruction entry point, supplement, response to all six comments, single/two-column PDFs and a result manifest are delivered; clean replay and no undefined references/citations are verified.
+17. Final PDFs have <=50 single-column and <=25 two-column pages; <=48 single is the target, not a reason to omit necessary proofs. Author fields stay reserved and no upload is performed.
+
+## Disputed
+Rounds 0 and 1 requested self-contained formulas, distinct scalar mass notation, competitor-specific witness semantics, and explicit epsilon scaling of the perturbation direction. These are specified above and in PROTOCOL.md; awaiting confirmation.

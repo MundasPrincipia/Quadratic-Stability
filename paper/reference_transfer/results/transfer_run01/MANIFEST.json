@@ -1,0 +1,1378 @@
+{
+  "analysis_version": "v17-transfer-1",
+  "protocol": "PROTOCOL.md",
+  "entry_point": "src/analyze_rf_transfer.py",
+  "parent_directory": "revision_track_s_operational_strengthening_v16_20260907",
+  "inputs": [
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_A/COMMON_HEAD.npz",
+      "bytes": 9925310
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_B/COMMON_HEAD.npz",
+      "bytes": 9925207
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_B_antenna/COMMON_HEAD.npz",
+      "bytes": 9925242
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_B_walk/COMMON_HEAD.npz",
+      "bytes": 9925236
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_C/COMMON_HEAD.npz",
+      "bytes": 9924806
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_D/COMMON_HEAD.npz",
+      "bytes": 9924450
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_E/COMMON_HEAD.npz",
+      "bytes": 9925302
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_F/COMMON_HEAD.npz",
+      "bytes": 9925373
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_F_antenna/COMMON_HEAD.npz",
+      "bytes": 9924902
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_F_walk/COMMON_HEAD.npz",
+      "bytes": 9925587
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_moving_meeting_room/COMMON_HEAD.npz",
+      "bytes": 9925067
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_moving_office/COMMON_HEAD.npz",
+      "bytes": 9925327
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/leave_environment_residential/COMMON_HEAD.npz",
+      "bytes": 9925250
+    },
+    {
+      "path": "data/raw_rebuild_run02/S1/SOURCE_INPUTS.npz",
+      "bytes": 42362075
+    },
+    {
+      "path": "data/raw_rebuild_run02/S4/leave_day1_out/COMMON_HEAD.npz",
+      "bytes": 2342998
+    },
+    {
+      "path": "data/raw_rebuild_run02/S4/leave_day3_out/COMMON_HEAD.npz",
+      "bytes": 2344950
+    },
+    {
+      "path": "data/raw_rebuild_run02/S4/leave_day5_out/COMMON_HEAD.npz",
+      "bytes": 2344404
+    },
+    {
+      "path": "data/raw_rebuild_run02/S4/SOURCE_INPUTS.npz",
+      "bytes": 2365877
+    },
+    {
+      "path": "protocol/ANCHORS.csv",
+      "bytes": 16739
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_000_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_000_WITNESSES.npz",
+      "bytes": 418361
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_001_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_001_WITNESSES.npz",
+      "bytes": 418881
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_002_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_002_WITNESSES.npz",
+      "bytes": 418509
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_003_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_003_WITNESSES.npz",
+      "bytes": 418246
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_004_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_004_WITNESSES.npz",
+      "bytes": 418397
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_005_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_005_WITNESSES.npz",
+      "bytes": 418569
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_006_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_006_WITNESSES.npz",
+      "bytes": 417999
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_007_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_007_WITNESSES.npz",
+      "bytes": 418208
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_008_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_008_WITNESSES.npz",
+      "bytes": 418363
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_009_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_009_WITNESSES.npz",
+      "bytes": 418266
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_010_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_010_WITNESSES.npz",
+      "bytes": 418033
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_011_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_011_WITNESSES.npz",
+      "bytes": 418081
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_012_BASES.npz",
+      "bytes": 3906
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_012_WITNESSES.npz",
+      "bytes": 418194
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_013_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_013_WITNESSES.npz",
+      "bytes": 418035
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_014_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_014_WITNESSES.npz",
+      "bytes": 418002
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_015_BASES.npz",
+      "bytes": 3890
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_015_WITNESSES.npz",
+      "bytes": 418099
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_016_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_016_WITNESSES.npz",
+      "bytes": 418554
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_017_BASES.npz",
+      "bytes": 3910
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_017_WITNESSES.npz",
+      "bytes": 417655
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_018_BASES.npz",
+      "bytes": 3908
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_018_WITNESSES.npz",
+      "bytes": 418159
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_019_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_019_WITNESSES.npz",
+      "bytes": 418345
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_020_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_020_WITNESSES.npz",
+      "bytes": 417791
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_021_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_021_WITNESSES.npz",
+      "bytes": 418163
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_022_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_022_WITNESSES.npz",
+      "bytes": 417852
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_023_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_023_WITNESSES.npz",
+      "bytes": 418435
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_024_BASES.npz",
+      "bytes": 3906
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_024_WITNESSES.npz",
+      "bytes": 418409
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_025_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_025_WITNESSES.npz",
+      "bytes": 417911
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_026_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_026_WITNESSES.npz",
+      "bytes": 418089
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_027_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_027_WITNESSES.npz",
+      "bytes": 417790
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_028_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_028_WITNESSES.npz",
+      "bytes": 418297
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_029_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_029_WITNESSES.npz",
+      "bytes": 417763
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_030_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_030_WITNESSES.npz",
+      "bytes": 417922
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_031_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_031_WITNESSES.npz",
+      "bytes": 418095
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_032_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_032_WITNESSES.npz",
+      "bytes": 418020
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_033_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_033_WITNESSES.npz",
+      "bytes": 418280
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_034_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_034_WITNESSES.npz",
+      "bytes": 418492
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_035_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_035_WITNESSES.npz",
+      "bytes": 417573
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_036_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_036_WITNESSES.npz",
+      "bytes": 417989
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_037_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_037_WITNESSES.npz",
+      "bytes": 418560
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_038_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_038_WITNESSES.npz",
+      "bytes": 418434
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_039_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_039_WITNESSES.npz",
+      "bytes": 418187
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_040_BASES.npz",
+      "bytes": 3892
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_040_WITNESSES.npz",
+      "bytes": 418499
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_041_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_041_WITNESSES.npz",
+      "bytes": 418437
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_042_BASES.npz",
+      "bytes": 3908
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_042_WITNESSES.npz",
+      "bytes": 418505
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_043_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_043_WITNESSES.npz",
+      "bytes": 418260
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_044_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_044_WITNESSES.npz",
+      "bytes": 418218
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_045_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_045_WITNESSES.npz",
+      "bytes": 418664
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_046_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_046_WITNESSES.npz",
+      "bytes": 418301
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_047_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_047_WITNESSES.npz",
+      "bytes": 418180
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_048_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_048_WITNESSES.npz",
+      "bytes": 418178
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_049_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_049_WITNESSES.npz",
+      "bytes": 418042
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_050_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_050_WITNESSES.npz",
+      "bytes": 417799
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_051_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_051_WITNESSES.npz",
+      "bytes": 417914
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_052_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_052_WITNESSES.npz",
+      "bytes": 417676
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_053_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_053_WITNESSES.npz",
+      "bytes": 418315
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_054_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_054_WITNESSES.npz",
+      "bytes": 418102
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_055_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_055_WITNESSES.npz",
+      "bytes": 417941
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_056_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_056_WITNESSES.npz",
+      "bytes": 417905
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_057_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_057_WITNESSES.npz",
+      "bytes": 418258
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_058_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_058_WITNESSES.npz",
+      "bytes": 417992
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_059_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_059_WITNESSES.npz",
+      "bytes": 417675
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_060_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_060_WITNESSES.npz",
+      "bytes": 417170
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_061_BASES.npz",
+      "bytes": 3906
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_061_WITNESSES.npz",
+      "bytes": 418077
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_062_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_062_WITNESSES.npz",
+      "bytes": 417767
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_063_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_063_WITNESSES.npz",
+      "bytes": 417722
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_064_BASES.npz",
+      "bytes": 3906
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_064_WITNESSES.npz",
+      "bytes": 417752
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_065_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_065_WITNESSES.npz",
+      "bytes": 417646
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_066_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_066_WITNESSES.npz",
+      "bytes": 417384
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_067_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_067_WITNESSES.npz",
+      "bytes": 417795
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_068_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_068_WITNESSES.npz",
+      "bytes": 417840
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_069_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_069_WITNESSES.npz",
+      "bytes": 418025
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_070_BASES.npz",
+      "bytes": 3906
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_070_WITNESSES.npz",
+      "bytes": 418164
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_071_BASES.npz",
+      "bytes": 3906
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_071_WITNESSES.npz",
+      "bytes": 417782
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_072_BASES.npz",
+      "bytes": 3892
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_072_WITNESSES.npz",
+      "bytes": 418427
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_073_BASES.npz",
+      "bytes": 3906
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_073_WITNESSES.npz",
+      "bytes": 418084
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_074_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_074_WITNESSES.npz",
+      "bytes": 418350
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_075_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_075_WITNESSES.npz",
+      "bytes": 418149
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_076_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_076_WITNESSES.npz",
+      "bytes": 418024
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_077_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_077_WITNESSES.npz",
+      "bytes": 418618
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_078_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_078_WITNESSES.npz",
+      "bytes": 418487
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_079_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_079_WITNESSES.npz",
+      "bytes": 418147
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_080_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_080_WITNESSES.npz",
+      "bytes": 417947
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_081_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_081_WITNESSES.npz",
+      "bytes": 417806
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_082_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_082_WITNESSES.npz",
+      "bytes": 417824
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_083_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_083_WITNESSES.npz",
+      "bytes": 417771
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_084_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_084_WITNESSES.npz",
+      "bytes": 418009
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_085_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_085_WITNESSES.npz",
+      "bytes": 417969
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_086_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_086_WITNESSES.npz",
+      "bytes": 417777
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_087_BASES.npz",
+      "bytes": 3892
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_087_WITNESSES.npz",
+      "bytes": 418181
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_088_BASES.npz",
+      "bytes": 3906
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_088_WITNESSES.npz",
+      "bytes": 417606
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_089_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_089_WITNESSES.npz",
+      "bytes": 417932
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_090_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_090_WITNESSES.npz",
+      "bytes": 418358
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_091_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_091_WITNESSES.npz",
+      "bytes": 417909
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_092_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_092_WITNESSES.npz",
+      "bytes": 417826
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_093_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_093_WITNESSES.npz",
+      "bytes": 418425
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_094_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_094_WITNESSES.npz",
+      "bytes": 418186
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_095_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_095_WITNESSES.npz",
+      "bytes": 418234
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_096_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_096_WITNESSES.npz",
+      "bytes": 417804
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_097_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_097_WITNESSES.npz",
+      "bytes": 418183
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_098_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_098_WITNESSES.npz",
+      "bytes": 417835
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_099_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_099_WITNESSES.npz",
+      "bytes": 417817
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_100_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_100_WITNESSES.npz",
+      "bytes": 417904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_101_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_101_WITNESSES.npz",
+      "bytes": 417637
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_102_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_102_WITNESSES.npz",
+      "bytes": 418467
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_103_BASES.npz",
+      "bytes": 3906
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_103_WITNESSES.npz",
+      "bytes": 417738
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_104_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_104_WITNESSES.npz",
+      "bytes": 418386
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_105_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_105_WITNESSES.npz",
+      "bytes": 417648
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_106_BASES.npz",
+      "bytes": 3892
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_106_WITNESSES.npz",
+      "bytes": 418093
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_107_BASES.npz",
+      "bytes": 3906
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_107_WITNESSES.npz",
+      "bytes": 417749
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_108_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_108_WITNESSES.npz",
+      "bytes": 417588
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_109_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_109_WITNESSES.npz",
+      "bytes": 417751
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_110_BASES.npz",
+      "bytes": 3892
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_110_WITNESSES.npz",
+      "bytes": 418483
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_111_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_111_WITNESSES.npz",
+      "bytes": 418061
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_112_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_112_WITNESSES.npz",
+      "bytes": 418467
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_113_BASES.npz",
+      "bytes": 3892
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_113_WITNESSES.npz",
+      "bytes": 418652
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_114_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_114_WITNESSES.npz",
+      "bytes": 418116
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_115_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_115_WITNESSES.npz",
+      "bytes": 418176
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_116_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_116_WITNESSES.npz",
+      "bytes": 418326
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_117_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_117_WITNESSES.npz",
+      "bytes": 418581
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_118_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_118_WITNESSES.npz",
+      "bytes": 418171
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_119_BASES.npz",
+      "bytes": 3906
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_119_WITNESSES.npz",
+      "bytes": 418314
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_120_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_120_WITNESSES.npz",
+      "bytes": 418399
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_121_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_121_WITNESSES.npz",
+      "bytes": 418508
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_122_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_122_WITNESSES.npz",
+      "bytes": 418176
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_123_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_123_WITNESSES.npz",
+      "bytes": 418181
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_124_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_124_WITNESSES.npz",
+      "bytes": 418473
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_125_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_125_WITNESSES.npz",
+      "bytes": 418499
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_126_BASES.npz",
+      "bytes": 3892
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_126_WITNESSES.npz",
+      "bytes": 418127
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_127_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_127_WITNESSES.npz",
+      "bytes": 418289
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_128_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_128_WITNESSES.npz",
+      "bytes": 418361
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_129_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_129_WITNESSES.npz",
+      "bytes": 418445
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_130_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_130_WITNESSES.npz",
+      "bytes": 222550
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_131_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_131_WITNESSES.npz",
+      "bytes": 222580
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_132_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_132_WITNESSES.npz",
+      "bytes": 222601
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_133_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_133_WITNESSES.npz",
+      "bytes": 222613
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_134_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_134_WITNESSES.npz",
+      "bytes": 222604
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_135_BASES.npz",
+      "bytes": 3890
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_135_WITNESSES.npz",
+      "bytes": 222720
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_136_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_136_WITNESSES.npz",
+      "bytes": 222660
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_137_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_137_WITNESSES.npz",
+      "bytes": 222649
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_138_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_138_WITNESSES.npz",
+      "bytes": 222430
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_139_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_139_WITNESSES.npz",
+      "bytes": 222576
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_140_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_140_WITNESSES.npz",
+      "bytes": 222642
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_141_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_141_WITNESSES.npz",
+      "bytes": 222330
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_142_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_142_WITNESSES.npz",
+      "bytes": 222555
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_143_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_143_WITNESSES.npz",
+      "bytes": 222768
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_144_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_144_WITNESSES.npz",
+      "bytes": 222658
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_145_BASES.npz",
+      "bytes": 3890
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_145_WITNESSES.npz",
+      "bytes": 222524
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_146_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_146_WITNESSES.npz",
+      "bytes": 222803
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_147_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_147_WITNESSES.npz",
+      "bytes": 222736
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_148_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_148_WITNESSES.npz",
+      "bytes": 222669
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_149_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_149_WITNESSES.npz",
+      "bytes": 222550
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_150_BASES.npz",
+      "bytes": 3902
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_150_WITNESSES.npz",
+      "bytes": 222676
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_151_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_151_WITNESSES.npz",
+      "bytes": 220473
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_152_BASES.npz",
+      "bytes": 3898
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_152_WITNESSES.npz",
+      "bytes": 222590
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_153_BASES.npz",
+      "bytes": 3892
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_153_WITNESSES.npz",
+      "bytes": 222615
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_154_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_154_WITNESSES.npz",
+      "bytes": 222472
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_155_BASES.npz",
+      "bytes": 3894
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_155_WITNESSES.npz",
+      "bytes": 222598
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_156_BASES.npz",
+      "bytes": 3900
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_156_WITNESSES.npz",
+      "bytes": 222629
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_157_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_157_WITNESSES.npz",
+      "bytes": 222627
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_158_BASES.npz",
+      "bytes": 3904
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_158_WITNESSES.npz",
+      "bytes": 222750
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_159_BASES.npz",
+      "bytes": 3896
+    },
+    {
+      "path": "results/e3_run01/ANCHOR_159_WITNESSES.npz",
+      "bytes": 222686
+    },
+    {
+      "path": "results/e3_run01/DESIGN_RESULTS.csv",
+      "bytes": 349521
+    },
+    {
+      "path": "results/e3_run01/PAIR_RESULTS.csv",
+      "bytes": 5193994
+    }
+  ],
+  "outputs": [
+    "TRANSFER_RESULTS.csv",
+    "TRANSFER_SUMMARIES.csv",
+    "SUMMARY.json"
+  ],
+  "checks": "Inline identity/row/competitor/refinement checks only; no training, optimizer, or broad test suite"
+}

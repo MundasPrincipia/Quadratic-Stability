@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-09-07T09:28:33.142420+00:00",
+  "status": "LOCAL_PRE_RESULT_LOCK",
+  "inputs": {
+    "PAPER_ACCEPTANCE_CONTRACT.md": "c04112f6f042a919fcb1ab96c78e746341be84263dc7acc13c77d82a193b5f83",
+    "protocol/PROTOCOL.md": "970c69696ec0acb338aa835843659ddcbcea17997bbc66a135e8d72995e7ef6e",
+    "protocol/ANCHORS.csv": "4096ce6f29aa90616a0686d4a421806dbe647641aebb412eccd3509f11fbfe13",
+    "PROOF_PACKAGE.md": "59c88eea05861a32bb2e501f46e51dceea7a47aa288c12194627805f78f4a433"
+  },
+  "external_registration": false
+}

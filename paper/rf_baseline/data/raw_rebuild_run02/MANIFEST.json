@@ -1,0 +1,615 @@
+{
+  "created_at": "2026-09-07T09:32:07.425327+00:00",
+  "entries": [
+    {
+      "path": "BASELINE_REPLAY.csv",
+      "sha256": "16243849a1bd7c71a3e5c33c90ec6bc8c919a52f3ea397fe40a8afc06b5a59ad",
+      "bytes": 6072
+    },
+    {
+      "path": "FLAGS.npz",
+      "sha256": "56cfd744f9aec1780b961bbe5c7fd4e98e504073d555eda598e7106f47c856f7",
+      "bytes": 2807
+    },
+    {
+      "path": "SUMMARY.json",
+      "sha256": "f16d2371f1e9d6488736984b3afae206615ae8c4a0f3da6ed63a5f3aabdffdce",
+      "bytes": 456
+    },
+    {
+      "path": "S1/RAW_ROW_LINEAGE.csv",
+      "sha256": "1a3304ee3d8f03827453c57a9dfeb67334453c3f6813e2d58df1b99880fd1c77",
+      "bytes": 867390
+    },
+    {
+      "path": "S1/RAW_SOURCE_HASHES.json",
+      "sha256": "f5944e611470a5aaf71ee8fae9869c741374f8b2713451659211fab3e4389823",
+      "bytes": 2988
+    },
+    {
+      "path": "S1/SOURCE_INPUTS.npz",
+      "sha256": "6e1ecc5e71f5a7bdb61c5913e1559ac9363a9b5d72b43f6e2e4a19775adb0adf",
+      "bytes": 42362075
+    },
+    {
+      "path": "S4/DETECTOR_REPLAY.csv",
+      "sha256": "12ef3a22b43295be53c5032813a5299ffd73c23b3f360af84b3de6f816414b40",
+      "bytes": 654
+    },
+    {
+      "path": "S4/RAW_ROW_LINEAGE.csv",
+      "sha256": "b6b2773fd9df47990e71342ec7e6b140f1f2471c3932c960b1b5c6b83be3ef11",
+      "bytes": 82141
+    },
+    {
+      "path": "S4/RAW_SOURCE_HASHES.json",
+      "sha256": "7b2060baa3d4533b641b602debab3f0ffdcae2a3dbd95bdc998a2ce35607bafd",
+      "bytes": 9265
+    },
+    {
+      "path": "S4/SOURCE_INPUTS.npz",
+      "sha256": "e6b32230e9632df2ac1a84ed866a82821588e5f118d1935b5e011fcde4d23686",
+      "bytes": 2365877
+    },
+    {
+      "path": "S1/leave_environment_A/COMMON_HEAD.npz",
+      "sha256": "79d2c71399c36f90700f96cafa2c1fc9b708770cfd2f01f1e45026b0f043b5bd",
+      "bytes": 9925310
+    },
+    {
+      "path": "S1/leave_environment_A/coordinate_BASELINE.npz",
+      "sha256": "51ca0ce5d657df58c7566a680261579f3d6d9f4a5c3cd26714f7aeb27f4402b8",
+      "bytes": 468569
+    },
+    {
+      "path": "S1/leave_environment_A/dct_BASELINE.npz",
+      "sha256": "a79fff0c40a0d0162e5a7e727018cf763749d1bf007519eaa97dcf22c1f854f2",
+      "bytes": 469245
+    },
+    {
+      "path": "S1/leave_environment_A/dft_BASELINE.npz",
+      "sha256": "d9629fc48dd5694f5b07d05c22a3988aeb7894c427925f57b4dae8cc56568e36",
+      "bytes": 469634
+    },
+    {
+      "path": "S1/leave_environment_A/permuted_polynomial_BASELINE.npz",
+      "sha256": "52177fcbbcda42a450eca053ab6d22048d4359efc03a6f1a9389df2b73a04dce",
+      "bytes": 468554
+    },
+    {
+      "path": "S1/leave_environment_A/polynomial_BASELINE.npz",
+      "sha256": "75998a3030d82a902343cc892cab57c263606cad816cb980338a49ba18c727ab",
+      "bytes": 464519
+    },
+    {
+      "path": "S1/leave_environment_A/random_orthogonal_BASELINE.npz",
+      "sha256": "940d9efc93251a76c5b47e2ef5437ecd7675868b0a74a8dd99cbf55c934d0ec8",
+      "bytes": 468957
+    },
+    {
+      "path": "S1/leave_environment_B/COMMON_HEAD.npz",
+      "sha256": "744b0e97f8ba35329f20644a08d89c9941d292b3d960563475557312780efe3b",
+      "bytes": 9925207
+    },
+    {
+      "path": "S1/leave_environment_B/coordinate_BASELINE.npz",
+      "sha256": "c683c3907d5a61da9162825d5701bcfff47f0c55931b1644fae7a78f8badaada",
+      "bytes": 469128
+    },
+    {
+      "path": "S1/leave_environment_B/dct_BASELINE.npz",
+      "sha256": "f764b9d65426d3c00a248c1e65f305adf8f28326063794df27314d85f85d664c",
+      "bytes": 469751
+    },
+    {
+      "path": "S1/leave_environment_B/dft_BASELINE.npz",
+      "sha256": "26466957c48be83516e9f88435c3f93aad613475e8916350a73d76e504c6fdd1",
+      "bytes": 469990
+    },
+    {
+      "path": "S1/leave_environment_B/permuted_polynomial_BASELINE.npz",
+      "sha256": "d33d685c575fe4f26133d3a6296a1857b2d6b5bbba179378b05fd4c0e48d9db3",
+      "bytes": 468524
+    },
+    {
+      "path": "S1/leave_environment_B/polynomial_BASELINE.npz",
+      "sha256": "40df118f481b0715ebcc87c5ea797328576fc130c53e98340e828991054c0683",
+      "bytes": 464504
+    },
+    {
+      "path": "S1/leave_environment_B/random_orthogonal_BASELINE.npz",
+      "sha256": "11e09dee182138fdcdc98e4d5a58a965baf9f677271923d89a334158e3667b1c",
+      "bytes": 469385
+    },
+    {
+      "path": "S1/leave_environment_B_antenna/COMMON_HEAD.npz",
+      "sha256": "bfa08da5dfb71764661bb3da6a8a44f1b7722228111695334e7e50326bd02c03",
+      "bytes": 9925242
+    },
+    {
+      "path": "S1/leave_environment_B_antenna/coordinate_BASELINE.npz",
+      "sha256": "7ae2527ec00c3faf98002a0036bfc4d3a0dc848b87baa0986dbafbc5c9882f19",
+      "bytes": 468872
+    },
+    {
+      "path": "S1/leave_environment_B_antenna/dct_BASELINE.npz",
+      "sha256": "cca3d6c4445848f33fb4abf4bcddf145b85a0a5d295dac9263bc669fa85f300d",
+      "bytes": 469697
+    },
+    {
+      "path": "S1/leave_environment_B_antenna/dft_BASELINE.npz",
+      "sha256": "ba820110b5e94743f9e85574636b108370510e9aaf1bf443b525632b5021d923",
+      "bytes": 470144
+    },
+    {
+      "path": "S1/leave_environment_B_antenna/permuted_polynomial_BASELINE.npz",
+      "sha256": "5294d6323925243d29d9b7c720f3407d6fd8ba228b73ba7dabcd61fd10c1308f",
+      "bytes": 468436
+    },
+    {
+      "path": "S1/leave_environment_B_antenna/polynomial_BASELINE.npz",
+      "sha256": "aad2527a9bb851851116729a5b836478833642bc93c3af91602adc557fb75754",
+      "bytes": 464646
+    },
+    {
+      "path": "S1/leave_environment_B_antenna/random_orthogonal_BASELINE.npz",
+      "sha256": "18d472c5d14689a30eca4d486547e29bb7ca6368427ad86ee8ac5380a3be74de",
+      "bytes": 469848
+    },
+    {
+      "path": "S1/leave_environment_B_walk/COMMON_HEAD.npz",
+      "sha256": "82a7449ebc283047d5536c89acce4f4eb28bfc7ff2cbb0a3658ad26a28be6e50",
+      "bytes": 9925236
+    },
+    {
+      "path": "S1/leave_environment_B_walk/coordinate_BASELINE.npz",
+      "sha256": "b453bf6c85d397473199321b04ecb6abf4e24205f0fc4643932730d81b13d596",
+      "bytes": 469527
+    },
+    {
+      "path": "S1/leave_environment_B_walk/dct_BASELINE.npz",
+      "sha256": "1e7e0a39457fc10922643a471d961160dd4333b5e66de6b071696d7d57665f16",
+      "bytes": 470584
+    },
+    {
+      "path": "S1/leave_environment_B_walk/dft_BASELINE.npz",
+      "sha256": "a8fcfcc1fcb6f893ead6263df638631f605907dc0815fa370d5790b4d6b8611c",
+      "bytes": 471086
+    },
+    {
+      "path": "S1/leave_environment_B_walk/permuted_polynomial_BASELINE.npz",
+      "sha256": "153ac674fcf78db7049d8b4257a564c11b36e7326573e84c46d79a1ae1790f25",
+      "bytes": 470086
+    },
+    {
+      "path": "S1/leave_environment_B_walk/polynomial_BASELINE.npz",
+      "sha256": "fe835d96cd2a361948cf01bb0718733d9ece34aa9fd9da02ad25eb4a4dd37252",
+      "bytes": 465794
+    },
+    {
+      "path": "S1/leave_environment_B_walk/random_orthogonal_BASELINE.npz",
+      "sha256": "14f73085f65e768eacc3eb8e4c24e3868655c090cdc0d9b0aae45cde11c5a003",
+      "bytes": 470514
+    },
+    {
+      "path": "S1/leave_environment_C/COMMON_HEAD.npz",
+      "sha256": "58926483f25b517aaab931cc163616b160abf85e03f4b63e46ad9665c9b8a0c8",
+      "bytes": 9924806
+    },
+    {
+      "path": "S1/leave_environment_C/coordinate_BASELINE.npz",
+      "sha256": "392239bf38b869341424176e723b8eab319b74ed7b6bd18aafc5384e637568db",
+      "bytes": 468844
+    },
+    {
+      "path": "S1/leave_environment_C/dct_BASELINE.npz",
+      "sha256": "6d10b980cf393fcdd9205ac2cdb535e1801ac1259450c00ce1e5f2a398a5ada3",
+      "bytes": 469281
+    },
+    {
+      "path": "S1/leave_environment_C/dft_BASELINE.npz",
+      "sha256": "eb5f8a5bb01fb650cb41fdb58a81c9b8fea616a15bd4b306305a03f5630a54f9",
+      "bytes": 469116
+    },
+    {
+      "path": "S1/leave_environment_C/permuted_polynomial_BASELINE.npz",
+      "sha256": "68e518cbe15ee462f8aa43cbeaf3509dc7a987d6813968ddaaa6c465b3b92b20",
+      "bytes": 467452
+    },
+    {
+      "path": "S1/leave_environment_C/polynomial_BASELINE.npz",
+      "sha256": "321462884c273d6ed7870ceaa4870c27be0c23f1fb637e2b0e561226a86fc9e3",
+      "bytes": 463824
+    },
+    {
+      "path": "S1/leave_environment_C/random_orthogonal_BASELINE.npz",
+      "sha256": "9ae34ad7fc1b2d0d19f14447d52b6c351a3c580a3e7b9f6d05f7190ccd1bba24",
+      "bytes": 469384
+    },
+    {
+      "path": "S1/leave_environment_D/COMMON_HEAD.npz",
+      "sha256": "54e280efb1bd87e1a77d1f145eee4d4035a7503ea967c57fc4dd3684019897f4",
+      "bytes": 9924450
+    },
+    {
+      "path": "S1/leave_environment_D/coordinate_BASELINE.npz",
+      "sha256": "48da05167a79211e41c5a8a42854360efd82e7c66c04f03b32f1499980fd8e9b",
+      "bytes": 468473
+    },
+    {
+      "path": "S1/leave_environment_D/dct_BASELINE.npz",
+      "sha256": "ed24fe72cd215dd5d4ff40ccae84a50260bbcbc6b5d5c6431dd421f6d8fb5b72",
+      "bytes": 469604
+    },
+    {
+      "path": "S1/leave_environment_D/dft_BASELINE.npz",
+      "sha256": "5453c8d006ef7d7dec22ca1f122a3264384add07bba8e246de0adc7718c16030",
+      "bytes": 469647
+    },
+    {
+      "path": "S1/leave_environment_D/permuted_polynomial_BASELINE.npz",
+      "sha256": "d5015c11a88856cc3092d593dfde831668fc12902cbd44b12f00120c0dd663d0",
+      "bytes": 468247
+    },
+    {
+      "path": "S1/leave_environment_D/polynomial_BASELINE.npz",
+      "sha256": "6def68d63817169b1e1785bb548474e059566b322d52e241e13c411c9f4ee65e",
+      "bytes": 464660
+    },
+    {
+      "path": "S1/leave_environment_D/random_orthogonal_BASELINE.npz",
+      "sha256": "0aa7d1587a86bf65ad1c148cb3001ad697fb23a042f41510e9755cf8545dc75f",
+      "bytes": 469091
+    },
+    {
+      "path": "S1/leave_environment_E/COMMON_HEAD.npz",
+      "sha256": "322bf12773c88e23a52a2a75b5823adcc93f84756a2267e677604e57384793f8",
+      "bytes": 9925302
+    },
+    {
+      "path": "S1/leave_environment_E/coordinate_BASELINE.npz",
+      "sha256": "128ce10549bb21fe1c553f55dcfa9a5102fd023b6d2ecce237111d7ab9c73904",
+      "bytes": 469254
+    },
+    {
+      "path": "S1/leave_environment_E/dct_BASELINE.npz",
+      "sha256": "5ba9b33d4fabc2aaee18befd51480da6d4aa0fe639a03b2d1d788a1c69acd4fe",
+      "bytes": 471314
+    },
+    {
+      "path": "S1/leave_environment_E/dft_BASELINE.npz",
+      "sha256": "7f867cffd26e289c6ddc0d7bfcdc08875b8532349a9c8b258f697931e51e22aa",
+      "bytes": 471992
+    },
+    {
+      "path": "S1/leave_environment_E/permuted_polynomial_BASELINE.npz",
+      "sha256": "10bb5cc596e3d1e0b146a2a5ac99048cab310a712e7688fb519c8b366c2b45f9",
+      "bytes": 471522
+    },
+    {
+      "path": "S1/leave_environment_E/polynomial_BASELINE.npz",
+      "sha256": "bd90e182fa6dac15093513f63a59b985cf927e0b7902cd9630f92d82925e3987",
+      "bytes": 468024
+    },
+    {
+      "path": "S1/leave_environment_E/random_orthogonal_BASELINE.npz",
+      "sha256": "c51621f9522d35d52f8456969c6b9bd2b4bfa8e2323cf6bb7f4c92fe0c2d71ae",
+      "bytes": 471037
+    },
+    {
+      "path": "S1/leave_environment_F/COMMON_HEAD.npz",
+      "sha256": "f829a493728b02916aff3e5f75c4f6bde1d9cc3a77efa6cd97813bb46e4ea664",
+      "bytes": 9925373
+    },
+    {
+      "path": "S1/leave_environment_F/coordinate_BASELINE.npz",
+      "sha256": "7da8e770d82d0286c4c56628c2a6cb176592566511936adca8290f28638d3e30",
+      "bytes": 468543
+    },
+    {
+      "path": "S1/leave_environment_F/dct_BASELINE.npz",
+      "sha256": "8c04e655af8fe0d943ff0b23dc0104d38b2f22147df0779198a442d1dcadf7b3",
+      "bytes": 469136
+    },
+    {
+      "path": "S1/leave_environment_F/dft_BASELINE.npz",
+      "sha256": "db27ea869db0181a4f1758599c72d62ca6609004c00362494c036b87f2b4f977",
+      "bytes": 469752
+    },
+    {
+      "path": "S1/leave_environment_F/permuted_polynomial_BASELINE.npz",
+      "sha256": "71e6c2cf79f33001bae624427b5a4405bf47ccbb3dec6fb11708faabfdd24d1d",
+      "bytes": 468344
+    },
+    {
+      "path": "S1/leave_environment_F/polynomial_BASELINE.npz",
+      "sha256": "43dc6547c5e58529c909afbd8d6c785098e07b4f7908c855f46593a4b9ec2c34",
+      "bytes": 463716
+    },
+    {
+      "path": "S1/leave_environment_F/random_orthogonal_BASELINE.npz",
+      "sha256": "9e5cc7f03542f761fca9f2e5606dc3cbf7eea3eec5d71af6b829ee9080840672",
+      "bytes": 468687
+    },
+    {
+      "path": "S1/leave_environment_F_antenna/COMMON_HEAD.npz",
+      "sha256": "4a1690963a5ec880b50e66a32da1895b87e291bbfaa4377ee0716b40ee82edac",
+      "bytes": 9924902
+    },
+    {
+      "path": "S1/leave_environment_F_antenna/coordinate_BASELINE.npz",
+      "sha256": "7978685bac6aaa45393d816cbd4e7963cc16457bc4cd95eb32fe37fd753519c1",
+      "bytes": 469285
+    },
+    {
+      "path": "S1/leave_environment_F_antenna/dct_BASELINE.npz",
+      "sha256": "5ea181b5aca97ca0b7206ceff8f30917685ab2e341e1405a04f0ba2790e6fbc2",
+      "bytes": 471822
+    },
+    {
+      "path": "S1/leave_environment_F_antenna/dft_BASELINE.npz",
+      "sha256": "833913dfa100241098a5fe12f645f1e72ec2154cdf0230817f6d0b11dc6be412",
+      "bytes": 472161
+    },
+    {
+      "path": "S1/leave_environment_F_antenna/permuted_polynomial_BASELINE.npz",
+      "sha256": "e412fe952b19c8631bc66de7ef3fce9ba18a582a5b37e9e4a41589940ea26358",
+      "bytes": 471095
+    },
+    {
+      "path": "S1/leave_environment_F_antenna/polynomial_BASELINE.npz",
+      "sha256": "e8affea453fa5f50720863bca270f6a80ffcad74541dad7d7f7f94bccc86d3b5",
+      "bytes": 467383
+    },
+    {
+      "path": "S1/leave_environment_F_antenna/random_orthogonal_BASELINE.npz",
+      "sha256": "0f2b570bd4a5dc2ed5d42286842d3515b84196f957634160461ddf1daed2641f",
+      "bytes": 470968
+    },
+    {
+      "path": "S1/leave_environment_F_walk/COMMON_HEAD.npz",
+      "sha256": "8c31c32e1cb0525efde06e801f70ca03a41c2cb1c31ee65ef6da6f6377c04222",
+      "bytes": 9925587
+    },
+    {
+      "path": "S1/leave_environment_F_walk/coordinate_BASELINE.npz",
+      "sha256": "ba4036fa41f67193251241e277b547795a88e7160476b070ea67f3825f480e6f",
+      "bytes": 469111
+    },
+    {
+      "path": "S1/leave_environment_F_walk/dct_BASELINE.npz",
+      "sha256": "6249dfb45c314c0d4d03c5ceb3bbfa68436d9cbdd0b14143607cd4684331077c",
+      "bytes": 469851
+    },
+    {
+      "path": "S1/leave_environment_F_walk/dft_BASELINE.npz",
+      "sha256": "8678b66211cc5abc06d805f48bf93359afa57c59616acda3fdd2e41d011e0995",
+      "bytes": 470415
+    },
+    {
+      "path": "S1/leave_environment_F_walk/permuted_polynomial_BASELINE.npz",
+      "sha256": "ec526047e89d4d5e7ac1ab7dc025d579149a53c5dd53b8b063154af38abdd669",
+      "bytes": 468817
+    },
+    {
+      "path": "S1/leave_environment_F_walk/polynomial_BASELINE.npz",
+      "sha256": "11bc67dcc212bf75c72ef17b774414214ad64ac6f54c4329462657f61bbcecc3",
+      "bytes": 465280
+    },
+    {
+      "path": "S1/leave_environment_F_walk/random_orthogonal_BASELINE.npz",
+      "sha256": "f0e5504a1817568ea264ad9d08becb3f1ea01f7ad26761e1365b812c318f28e4",
+      "bytes": 469910
+    },
+    {
+      "path": "S1/leave_environment_moving_meeting_room/COMMON_HEAD.npz",
+      "sha256": "94d3ca1880f2b5312734c2ad187c1f3b16fcadab840dfbab1ccc061f085caac0",
+      "bytes": 9925067
+    },
+    {
+      "path": "S1/leave_environment_moving_meeting_room/coordinate_BASELINE.npz",
+      "sha256": "90ef8aaf4ca83766295745582be4dc26ffdf07dac06a2b9ae35ac951863693eb",
+      "bytes": 469547
+    },
+    {
+      "path": "S1/leave_environment_moving_meeting_room/dct_BASELINE.npz",
+      "sha256": "104fc89a2025501f8031a6633306d6e884d5fd73933e54e2c1debfa730f6eac0",
+      "bytes": 469776
+    },
+    {
+      "path": "S1/leave_environment_moving_meeting_room/dft_BASELINE.npz",
+      "sha256": "50f992f78a8e2cc42a025b28c198fd6970091353416eed6b574b39985ea9a39c",
+      "bytes": 470822
+    },
+    {
+      "path": "S1/leave_environment_moving_meeting_room/permuted_polynomial_BASELINE.npz",
+      "sha256": "b88d8a4f9d9e75aeb5228cf602924a2ed843d498112eceded6bafd8b840d8f10",
+      "bytes": 469937
+    },
+    {
+      "path": "S1/leave_environment_moving_meeting_room/polynomial_BASELINE.npz",
+      "sha256": "045f1ccce04cb2978a956d40b9ae9359d73971ffd7f5095e43899b4349dc4fd9",
+      "bytes": 465852
+    },
+    {
+      "path": "S1/leave_environment_moving_meeting_room/random_orthogonal_BASELINE.npz",
+      "sha256": "e09228c000f8cccc441e7147181997679bbfd8e14541078c87a2b64d0c439298",
+      "bytes": 470353
+    },
+    {
+      "path": "S1/leave_environment_moving_office/COMMON_HEAD.npz",
+      "sha256": "6efef10dc16279310a0406c58ef17899aefbf090734dcafbb45a9730270ecc25",
+      "bytes": 9925327
+    },
+    {
+      "path": "S1/leave_environment_moving_office/coordinate_BASELINE.npz",
+      "sha256": "4a60de82b002240b223994f3d3a1443b94edd8df01dc73213088ab3d9c4963d8",
+      "bytes": 469510
+    },
+    {
+      "path": "S1/leave_environment_moving_office/dct_BASELINE.npz",
+      "sha256": "fa0cb0430b387a41788b5de62c7217aa1d644ef52bd1a41352753f292884761c",
+      "bytes": 469855
+    },
+    {
+      "path": "S1/leave_environment_moving_office/dft_BASELINE.npz",
+      "sha256": "fca19d9a018f52c25e63547c818c3ef9549ce1f7569a8adfa39945fa510b3241",
+      "bytes": 469872
+    },
+    {
+      "path": "S1/leave_environment_moving_office/permuted_polynomial_BASELINE.npz",
+      "sha256": "1f2157c770dbced21910bfdf1697423ae9dcdcfa1a7faf18702fd9b451f5f4c3",
+      "bytes": 468507
+    },
+    {
+      "path": "S1/leave_environment_moving_office/polynomial_BASELINE.npz",
+      "sha256": "ac8bbd1b294ee2e27d344d7a43e01f7d5893e856c788fcea28bf48fefb6ca2d6",
+      "bytes": 465043
+    },
+    {
+      "path": "S1/leave_environment_moving_office/random_orthogonal_BASELINE.npz",
+      "sha256": "92723646627dd1ad2fc99e833c4537805f5f6a4102fe0082582626c0d76c1d36",
+      "bytes": 470200
+    },
+    {
+      "path": "S1/leave_environment_residential/COMMON_HEAD.npz",
+      "sha256": "5ee1849a7102c48beca3806696e2feabb77ac1874ce8cb40212f8d1e21cf21be",
+      "bytes": 9925250
+    },
+    {
+      "path": "S1/leave_environment_residential/coordinate_BASELINE.npz",
+      "sha256": "939dd4fbe2635089ecd85dac89cfc94074f86ec1bec0bfb58e4a053d0bee00be",
+      "bytes": 468536
+    },
+    {
+      "path": "S1/leave_environment_residential/dct_BASELINE.npz",
+      "sha256": "2f38e9c5766364cc0fca31fc171410878242d91f36e04c6c6a1d6bf1a7df8aa4",
+      "bytes": 468833
+    },
+    {
+      "path": "S1/leave_environment_residential/dft_BASELINE.npz",
+      "sha256": "0034be28a709f358e74da202cbd7ec2cd3ca11c914dde091f2795a4c3db962a9",
+      "bytes": 469381
+    },
+    {
+      "path": "S1/leave_environment_residential/permuted_polynomial_BASELINE.npz",
+      "sha256": "90b8aa1dafce41756475f6ea69b2a2cee0d4cfd27b3f70be4aa58c50f41f3d46",
+      "bytes": 467914
+    },
+    {
+      "path": "S1/leave_environment_residential/polynomial_BASELINE.npz",
+      "sha256": "a6638f64f91b75d5702e800fa6748ea93bd3b71a2065b7c2c9c24591888cb96b",
+      "bytes": 463163
+    },
+    {
+      "path": "S1/leave_environment_residential/random_orthogonal_BASELINE.npz",
+      "sha256": "ed766112b7532b9f9c220e8868dbfc49221dbc0eab5c6c2c420b3117603d3763",
+      "bytes": 468760
+    },
+    {
+      "path": "S4/leave_day1_out/COMMON_HEAD.npz",
+      "sha256": "1b77ef5c029f5ef976b08e7df9806b698c487bee71e2383504c5b761ee08c41d",
+      "bytes": 2342998
+    },
+    {
+      "path": "S4/leave_day1_out/coordinate_BASELINE.npz",
+      "sha256": "47b0f59afde6871225e89ea1ca847d9553807aeea84ae0b96bcf42fc491c6b20",
+      "bytes": 199821
+    },
+    {
+      "path": "S4/leave_day1_out/dct_BASELINE.npz",
+      "sha256": "9f37ba468651d70598390991047918b236fd05d361e1ee318ca0a0c3a46be79e",
+      "bytes": 199875
+    },
+    {
+      "path": "S4/leave_day1_out/dft_BASELINE.npz",
+      "sha256": "fd31ab1d5b4f711ecd2d50736b6a880a2871d52c83ae0437cc4ab4e2f6763f28",
+      "bytes": 199778
+    },
+    {
+      "path": "S4/leave_day1_out/permuted_polynomial_BASELINE.npz",
+      "sha256": "17653c925ce201ad172753f05f741f5c668784233ed5c8236a237b4bb2e9f7da",
+      "bytes": 199791
+    },
+    {
+      "path": "S4/leave_day1_out/polynomial_BASELINE.npz",
+      "sha256": "dc16b1cb41e247e87cfc89877e9ea41b9f8153dbf2aed987e446ba279315616f",
+      "bytes": 200033
+    },
+    {
+      "path": "S4/leave_day1_out/random_orthogonal_BASELINE.npz",
+      "sha256": "581576e6597aa2a111109ac1446c2d47810e845bc98f4ae91b2640c3d2d7dc74",
+      "bytes": 200333
+    },
+    {
+      "path": "S4/leave_day3_out/COMMON_HEAD.npz",
+      "sha256": "96a3f67b6741fcc97cd747bb207f55238d3085d75f58e55a2f4e3837497a90fc",
+      "bytes": 2344950
+    },
+    {
+      "path": "S4/leave_day3_out/coordinate_BASELINE.npz",
+      "sha256": "0726e512dea69712f315dc034c8782798747cdd438d99faa7477db16898139f1",
+      "bytes": 199751
+    },
+    {
+      "path": "S4/leave_day3_out/dct_BASELINE.npz",
+      "sha256": "1d4a7dba9033e16429ec7525e8076a7f7c85cbe4d07f4ce4a6343ad0b47a9051",
+      "bytes": 199944
+    },
+    {
+      "path": "S4/leave_day3_out/dft_BASELINE.npz",
+      "sha256": "a47df60c4c58b269be5c7482672d9f288620619c42e96a02394aa1d5c0e5f65b",
+      "bytes": 199881
+    },
+    {
+      "path": "S4/leave_day3_out/permuted_polynomial_BASELINE.npz",
+      "sha256": "fca165a385de38d9ee0b09c99e7bff4d4e3618ff2aff148d11c9aa3728300cd6",
+      "bytes": 200110
+    },
+    {
+      "path": "S4/leave_day3_out/polynomial_BASELINE.npz",
+      "sha256": "39a30ac8cebfd668089d0a0f652f37061dd8062bdd9fc3c6ad17ab8a361262c9",
+      "bytes": 200146
+    },
+    {
+      "path": "S4/leave_day3_out/random_orthogonal_BASELINE.npz",
+      "sha256": "afd465ba2f7cea93c95bd2baaced981ff25af7a5dcf44cfa81552d70c2efbd0d",
+      "bytes": 200547
+    },
+    {
+      "path": "S4/leave_day5_out/COMMON_HEAD.npz",
+      "sha256": "3749ad964a9fca195fc675be925e96b3e53bbc820344f542059f5b46a318ac59",
+      "bytes": 2344404
+    },
+    {
+      "path": "S4/leave_day5_out/coordinate_BASELINE.npz",
+      "sha256": "b7d7fd6086f272ef86badd3c45313a2277b5685cc2454818198d1ef79edf2e16",
+      "bytes": 171623
+    },
+    {
+      "path": "S4/leave_day5_out/dct_BASELINE.npz",
+      "sha256": "3f13c8b61443d9fab6349382a2bb43437e81491d9f10da2a384aeca8777c26c3",
+      "bytes": 171870
+    },
+    {
+      "path": "S4/leave_day5_out/dft_BASELINE.npz",
+      "sha256": "1bf57db5031001fce0cfae09414edb009d67e9736385ab7993f2698cb3f19370",
+      "bytes": 171765
+    },
+    {
+      "path": "S4/leave_day5_out/permuted_polynomial_BASELINE.npz",
+      "sha256": "3511fc962925fd79a6405b32dae6771ed4315402382af306d507df63e319d9d5",
+      "bytes": 171995
+    },
+    {
+      "path": "S4/leave_day5_out/polynomial_BASELINE.npz",
+      "sha256": "008c8b00e43a5f965d7535b64a2673155d692ebaa9b4840d2d3688d35c60d6b0",
+      "bytes": 172102
+    },
+    {
+      "path": "S4/leave_day5_out/random_orthogonal_BASELINE.npz",
+      "sha256": "97cd365d2ae394f4b66284f5dd9acff30d70afb89c2c161c6621d5ddb6a6602e",
+      "bytes": 172274
+    }
+  ]
+}

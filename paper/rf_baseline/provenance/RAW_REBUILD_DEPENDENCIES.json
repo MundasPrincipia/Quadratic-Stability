@@ -1,0 +1,164 @@
+{
+  "created_at": "2026-09-07T10:36:01.982147+00:00",
+  "code": [
+    {
+      "workspace_path": "scripts/run_track_c_b1_s1_s2.py",
+      "snapshot_path": "provenance/raw_code_snapshot/scripts/run_track_c_b1_s1_s2.py",
+      "sha256": "29e25130a226d4b5931208afefc8e1bc7e249d0b5b053f95af2806a12f3f81d5"
+    },
+    {
+      "workspace_path": "scripts/run_track_c_m2r1_single_seed.py",
+      "snapshot_path": "provenance/raw_code_snapshot/scripts/run_track_c_m2r1_single_seed.py",
+      "sha256": "7790a77164dc9452eb8ec3a081af46871021c5a013a37b3ebe3d07cc7ddf962e"
+    },
+    {
+      "workspace_path": "scripts/run_track_c_v1_1_m1.py",
+      "snapshot_path": "provenance/raw_code_snapshot/scripts/run_track_c_v1_1_m1.py",
+      "sha256": "6b0e1ebbb52b11b39451cffac3784e5f60da88b0be07179a17a57cb3f56af923"
+    },
+    {
+      "workspace_path": "scripts/run_track_s_r1_capacity_flag_controls.py",
+      "snapshot_path": "provenance/raw_code_snapshot/scripts/run_track_s_r1_capacity_flag_controls.py",
+      "sha256": "5dba30aaeb54ac54d0da533708a10c59eae6280359dddfd6d7eace26641aa276"
+    },
+    {
+      "workspace_path": "scripts/run_track_s_r1_joint_interface_audit.py",
+      "snapshot_path": "provenance/raw_code_snapshot/scripts/run_track_s_r1_joint_interface_audit.py",
+      "sha256": "351d3f318901e50ce073bb6dbd5bc4da50e156b81a88426b705dd36d4e622918"
+    },
+    {
+      "workspace_path": "src/czrf/__init__.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/__init__.py",
+      "sha256": "45052b19483c52249ad56b5220bbebabf761bacabfe93f0f8c587b4d67991b7a"
+    },
+    {
+      "workspace_path": "src/czrf/core.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/core.py",
+      "sha256": "fefd153000436fd55a0362fafe42366572bef02f7ef80632115489a8dbfb7624"
+    },
+    {
+      "workspace_path": "src/czrf/experiments.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/experiments.py",
+      "sha256": "bfbe0135db955a0bf05e945e0e43ee0f107db4580af0a9089b1e7bb66a5f7942"
+    },
+    {
+      "workspace_path": "src/czrf/ordered_task_interface.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/ordered_task_interface.py",
+      "sha256": "9dafc46f132f28fbaa34d8f499035732fdd9c1c6e7e1056c7796c6df885c8714"
+    },
+    {
+      "workspace_path": "src/czrf/ordered_twirl_adapter.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/ordered_twirl_adapter.py",
+      "sha256": "71de282334f4881a7a6ca134617a68a1e2e5a47d1f9788cac355822c79181382"
+    },
+    {
+      "workspace_path": "src/czrf/ordered_twirl_stability.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/ordered_twirl_stability.py",
+      "sha256": "2cb84a1d27c51890fb26063e2a58e0933d40e981cdcd76688448250711cf2314"
+    },
+    {
+      "workspace_path": "src/czrf/oregon_lora_adapter.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/oregon_lora_adapter.py",
+      "sha256": "2180451badbcc4ec5fc202605117c621237c7fa395708946663082b920cb09c7"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/__init__.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/__init__.py",
+      "sha256": "4de003ff80ef6e450d9c6a880110ca859e456fa12c3590626d55c0b90efd1edd"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/fold_local.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/fold_local.py",
+      "sha256": "93ee7a557d7d9c6786c17304f1a4eb6321483d2cce8cbbbf09e4c0fc2765d17e"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/frame.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/frame.py",
+      "sha256": "57e6d32b4679ad3323701fecb98a9068a03fb5f25919bd43a3476451ad55050f"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/frontends.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/frontends.py",
+      "sha256": "6fe1212b3d0840500e5c7843433fd788b822beafce46a25fcbc1b29def467f24"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/geometry.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/geometry.py",
+      "sha256": "21f607c9296d4e0e9db9864188a5c2633fcb34961768ff09fb9c3d71ce879211"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/harmonic.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/harmonic.py",
+      "sha256": "9a0b744b28f3c956fbd7383e7e70cf91284819029c2b7657979838740b254ae8"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/inference.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/inference.py",
+      "sha256": "b217eaecab89fe6797441cca6662e09b6b9495eb7536bd856f92a8b6571de89f"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/mechanism.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/mechanism.py",
+      "sha256": "0edae3ce2cc5d102350c1b71e6cb856b8e91a0de9eb93b767b77d11af5227394"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/mji_selector.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/mji_selector.py",
+      "sha256": "1ccd4a5cfe633886f520cdaa8788883804a4dd161232bfea4fe34b80d2a042b4"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/multiscale.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/multiscale.py",
+      "sha256": "ab72eb324d30954fe76a9c58b26a58e90eeb2380280307a72aa517241ad0480b"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/ordered_filtration.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/ordered_filtration.py",
+      "sha256": "ffdf8af7be38e5d63d9ad0f6a445e095a59d913d4ea94fa4bb1ccb84524fa3ac"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/sketch.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/sketch.py",
+      "sha256": "e75b190664eeb08e398f7c3c3fdf6dc41e28bcaea28bf0f6cacd96c84fd4235d"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/support.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/support.py",
+      "sha256": "f1e6393aae4a3a66667184304eae8785c3dc3dd45034688041cb9c05a83a2b21"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/symmetry_lattice.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/symmetry_lattice.py",
+      "sha256": "ba627b8727afff77054a432b5faeae7f9b6b97d68e26088eb5b145970ecf2cd1"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/symmetry_provenance.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/symmetry_provenance.py",
+      "sha256": "013acffe8ace2243cfd7a660587f2414ab6da3981fa16bc5b96ec527818045a7"
+    },
+    {
+      "workspace_path": "src/czrf/passive_quotient/transport.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/passive_quotient/transport.py",
+      "sha256": "fd6dfd4dad96d10f5cb91180e726044f96ff1b02a800510d0911fbc4f88ee3d8"
+    },
+    {
+      "workspace_path": "src/czrf/projective_task_certificate.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/projective_task_certificate.py",
+      "sha256": "053e5261cbd7c23a246893df6b0ec8515e9156ffa0194cde16ff2ff2632267b1"
+    },
+    {
+      "workspace_path": "src/czrf/track_a_v2_features.py",
+      "snapshot_path": "provenance/raw_code_snapshot/src/czrf/track_a_v2_features.py",
+      "sha256": "a4fccc97a32add6008188eeea18bc46279573554b0754df62bd0e854ce684c1d"
+    }
+  ],
+  "metadata": {
+    "configs/track_c_v1/B1_ROW_MANIFEST_V1_20260827_154500.csv": "0876479b66f34a1150bd49592d20a72b7f52aaf8782fddc4753d9373dc66d124",
+    "runs/s4_oregon/S4_OREGON_FEATURE_CACHE_20260827_032417.h5": "ba2882c587f98f3c41f670a6592503f7d35890402441bb57ff0eaf0be7855770",
+    "runs/track_c_v0/M2_SMOKE_HARMONIC_FEATURES_20260827_144025.npz": "c95ded35468ebf2fb421d3254c65e35a9888e6d4c1f5005853f4bb9055edc1a2",
+    "results/s4_oregon_qualification/S4_OREGON_SOURCE_INVENTORY_20260827_030353.csv": "7ecfbdacea1eb4fafdedfd2803fb42319740611206b82d9a4b0e9a8da596e46c",
+    "results/s4_oregon_qualification/S4_OREGON_SOURCE_QUALIFICATION_20260827_030353.json": "39bacd7aee105f4bbc98daf7867b3123e4292278426337dcda44bdc05824f434"
+  },
+  "historical_regression_target": "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_decision_semantics_v13_20260905\\inherited_v11\\inherited_rf",
+  "roles": "S4 cached files supply row identities, detector starts and selection metadata only; old C/H are regression targets, never training inputs. Raw IQ is exclusively S1/S4."
+}

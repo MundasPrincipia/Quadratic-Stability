@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-09-07T10:20:15.660636+00:00",
+  "issuance": "post-run provenance inventory",
+  "source_snapshot_timing": "current run implementation",
+  "runner": "summarize_results.py",
+  "runner_snapshot": "src/summarize_results.py",
+  "sources": {
+    "src/bootstrap.py": "2a7269a1f3542ed09e9a54e0a54c908a702881e78f7fc0b10db03b792001a723",
+    "src/common.py": "c3b099a50d71f74fb003ad46f885a74548c6df95813b5782e8911b27cb81cc3d",
+    "src/controlled_profiles.py": "e87b63aa3609c8ef0ab15ed09b0d5606d4f9c9c6d3f7f71a7f3a8a62de8b37de",
+    "src/issue_run_manifests.py": "603c54f176e842be0db052b8211fda8680137b8ed23612ad4aaa0550e0827d2f",
+    "src/lock_protocol.py": "140edb44f22b98c45cfb4f3b84bc56be5345c9891bafa6042014e9388c2f8132",
+    "src/make_figures.py": "ad00bd5703618918715da7119396c72a4602926d0ff504ae3e3b032248db975b",
+    "src/numerical_bounds.py": "548bb53a239d92461b7139666c0b50f56e957d532562a8f360110222193e7564",
+    "src/rebuild_raw_iq.py": "29b49c663cdad9b572c13f92bd2559f96358fd8c3706aad0bb98133da3e22e4b",
+    "src/run_e1_applicability.py": "6c032a745076607bc580ba5ec0ec27abd2caacc0d60ff2b11ef6dc33fd6412de",
+    "src/run_e2_perturbations.py": "3b264c378e0672056317b79fbbc1d50ca1984779fce3d3db2cedcbbb28c3b12c",
+    "src/run_e3_design.py": "e385f40380aa979e18a985e82ffafa2ca5a79302f62f734cb622a7d69457d058",
+    "src/run_extended_theory_regressions.py": "0299dd92cfc4541bbd729a4764dca18d453d4eed436025fe286f87769b6136bf",
+    "src/run_theory_regressions.py": "1502d4e1412e893af5c41cbe68336d68878c4c62497f0aeff7dd160d7ec6bc23",
+    "src/snapshot_run_sources.py": "f80049423320f9fdd1f6c049d2f60e91476a0d6e96478428f0a1202bee8c0624",
+    "src/summarize_results.py": "e36dd46df5e60f67495bc85a5f7f2ccce428854fa0f85b9080b9a3ec4e2f0f37"
+  },
+  "inputs": {
+    "protocol/LOCK.json": "a5c83bd38401edefbefafd2c372f1737c82f017ed54ac5f113c1d2593833a8ab",
+    "protocol/ANCHORS.csv": "4096ce6f29aa90616a0686d4a421806dbe647641aebb412eccd3509f11fbfe13",
+    "data/raw_rebuild_run02/MANIFEST.json": "692c2f4f317971f305abe43bc5fc039a638da27edcb68f5ec68dc1ae9193b307",
+    "results/e1_run01/MANIFEST.json": "a24085d3a56076d791151fc62239171cd324864a8ee5af9a292d5d6202389ea3",
+    "results/e2_run02/MANIFEST.json": "23aed30033ffe86dd2d1cb7440f380a67db1bb7d6d5ef9db26fb18f0759f9c01",
+    "results/e3_run01/MANIFEST.json": "9ba3ab055cfeae277fcd1d8a178997bad979537ebc83a6979de82faa750c04b0"
+  },
+  "outputs": {
+    "E1_FINITE_BRACKETS.csv": {
+      "sha256": "f25e62a4653bbb00d74f083979dc1e0e18656163638e0eb49f0e9f5d1a416842",
+      "bytes": 15052620
+    },
+    "E1_RESIDUAL_DISTRIBUTIONS.csv": {
+      "sha256": "935ae1c7f456ba3d88717488d0693bac082248fa411536fd18dc9cf270463894",
+      "bytes": 1752
+    },
+    "E1_SOURCE_FLAG.csv": {
+      "sha256": "4e666c372b819e701a38c3eeb38cadaa7abce519c4ed8dc08dbc4199329d80e2",
+      "bytes": 6969
+    },
+    "E2_WINDOWS.csv": {
+      "sha256": "05536c7959f7ab5d45d5af37d35524a7790721a004e292ab96165b4d1f33ac8b",
+      "bytes": 2368
+    },
+    "E3_DEVICES.csv": {
+      "sha256": "160c9e38301e17609ec676fe091740f3da87daa3b2c02edaabaff0f28d3e3d95",
+      "bytes": 134792
+    },
+    "E3_FOLDS.csv": {
+      "sha256": "bf5503b73f23c6116c90e07136425969e4845bc4913df72ea9262560395e7081",
+      "bytes": 112276
+    },
+    "E3_PAIRED_ROWS.csv": {
+      "sha256": "c281a7f9c409bbb72482222b03b8a0c3c5aa1ad0a12c2a07d1a33004f9a39343",
+      "bytes": 541604
+    },
+    "E3_SOURCE.csv": {
+      "sha256": "1d7471bfedc6fc858e892377b309ad2ada18777fb52d1f815329d75cd8622ba5",
+      "bytes": 14426
+    },
+    "SUMMARY.json": {
+      "sha256": "fb4602267f99a09e78b44f31fbfc04eb1a5ccf419ac71d2de044651ce27c30fd",
+      "bytes": 1759
+    }
+  },
+  "environment": {
+    "python": "3.12.6",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "mpmath": "1.3.0"
+  }
+}

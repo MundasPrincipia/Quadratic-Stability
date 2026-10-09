@@ -1,0 +1,67 @@
+{
+  "version": "v23",
+  "kind": "numerical consistency check",
+  "created_utc": "2026-10-01T02:13:13.580883+00:00",
+  "status": "PASS",
+  "absolute_tolerance": 1e-08,
+  "environment": {
+    "python": "3.12.6",
+    "numpy": "2.4.4",
+    "blas_threads": 1
+  },
+  "sources": [
+    {
+      "source": "S1",
+      "folds": 13,
+      "held_out_rows": 5200,
+      "class_score_cells": 52000,
+      "pair_difference_cells": 234000
+    },
+    {
+      "source": "S4",
+      "folds": 3,
+      "held_out_rows": 480,
+      "class_score_cells": 4800,
+      "pair_difference_cells": 21600
+    }
+  ],
+  "folds": 16,
+  "flags": [
+    "coordinate",
+    "dct",
+    "dft",
+    "polynomial",
+    "random_orthogonal",
+    "permuted_polynomial"
+  ],
+  "fold_flag_cells": 96,
+  "max_score_residual": 8.63439518407075e-13,
+  "max_operator_residual": 2.1033985276606463e-12,
+  "max_basis_defect_frobenius": 1.6850001436918814e-15,
+  "input_sha256": {
+    "data/raw_rebuild_run02/FLAGS.npz": "56cfd744f9aec1780b961bbe5c7fd4e98e504073d555eda598e7106f47c856f7",
+    "data/raw_rebuild_run02/S1/SOURCE_INPUTS.npz": "6e1ecc5e71f5a7bdb61c5913e1559ac9363a9b5d72b43f6e2e4a19775adb0adf",
+    "data/raw_rebuild_run02/S1/leave_environment_A/COMMON_HEAD.npz": "79d2c71399c36f90700f96cafa2c1fc9b708770cfd2f01f1e45026b0f043b5bd",
+    "data/raw_rebuild_run02/S1/leave_environment_B/COMMON_HEAD.npz": "744b0e97f8ba35329f20644a08d89c9941d292b3d960563475557312780efe3b",
+    "data/raw_rebuild_run02/S1/leave_environment_B_antenna/COMMON_HEAD.npz": "bfa08da5dfb71764661bb3da6a8a44f1b7722228111695334e7e50326bd02c03",
+    "data/raw_rebuild_run02/S1/leave_environment_B_walk/COMMON_HEAD.npz": "82a7449ebc283047d5536c89acce4f4eb28bfc7ff2cbb0a3658ad26a28be6e50",
+    "data/raw_rebuild_run02/S1/leave_environment_C/COMMON_HEAD.npz": "58926483f25b517aaab931cc163616b160abf85e03f4b63e46ad9665c9b8a0c8",
+    "data/raw_rebuild_run02/S1/leave_environment_D/COMMON_HEAD.npz": "54e280efb1bd87e1a77d1f145eee4d4035a7503ea967c57fc4dd3684019897f4",
+    "data/raw_rebuild_run02/S1/leave_environment_E/COMMON_HEAD.npz": "322bf12773c88e23a52a2a75b5823adcc93f84756a2267e677604e57384793f8",
+    "data/raw_rebuild_run02/S1/leave_environment_F/COMMON_HEAD.npz": "f829a493728b02916aff3e5f75c4f6bde1d9cc3a77efa6cd97813bb46e4ea664",
+    "data/raw_rebuild_run02/S1/leave_environment_F_antenna/COMMON_HEAD.npz": "4a1690963a5ec880b50e66a32da1895b87e291bbfaa4377ee0716b40ee82edac",
+    "data/raw_rebuild_run02/S1/leave_environment_F_walk/COMMON_HEAD.npz": "8c31c32e1cb0525efde06e801f70ca03a41c2cb1c31ee65ef6da6f6377c04222",
+    "data/raw_rebuild_run02/S1/leave_environment_moving_meeting_room/COMMON_HEAD.npz": "94d3ca1880f2b5312734c2ad187c1f3b16fcadab840dfbab1ccc061f085caac0",
+    "data/raw_rebuild_run02/S1/leave_environment_moving_office/COMMON_HEAD.npz": "6efef10dc16279310a0406c58ef17899aefbf090734dcafbb45a9730270ecc25",
+    "data/raw_rebuild_run02/S1/leave_environment_residential/COMMON_HEAD.npz": "5ee1849a7102c48beca3806696e2feabb77ac1874ce8cb40212f8d1e21cf21be",
+    "data/raw_rebuild_run02/S4/SOURCE_INPUTS.npz": "e6b32230e9632df2ac1a84ed866a82821588e5f118d1935b5e011fcde4d23686",
+    "data/raw_rebuild_run02/S4/leave_day1_out/COMMON_HEAD.npz": "1b77ef5c029f5ef976b08e7df9806b698c487bee71e2383504c5b761ee08c41d",
+    "data/raw_rebuild_run02/S4/leave_day3_out/COMMON_HEAD.npz": "96a3f67b6741fcc97cd747bb207f55238d3085d75f58e55a2f4e3837497a90fc",
+    "data/raw_rebuild_run02/S4/leave_day5_out/COMMON_HEAD.npz": "3749ad964a9fca195fc675be925e96b3e53bbc820344f542059f5b46a318ac59"
+  },
+  "inputs_unchanged_after_check": true,
+  "standardized_coefficients": "Reconstructed algebraically from saved raw parameters; no independent refit or original standardized-parameter comparison.",
+  "pair_coverage": "All held-out class-pair differences; direct quadratic evaluation of all 45 pair matrices on 16 evenly spaced validation rows per fold.",
+  "scope": "Implementation consistency only. Does not prove the algebra, certify RF endpoints by interval arithmetic, or validate a physical RF noise model.",
+  "failures": []
+}

@@ -1,0 +1,22 @@
+{
+  "inherited_input": "inherited_v11\\results\\design\\run_20260905_044629_927159\\design.csv",
+  "input_sha256": "27c86db2f23e381df54af2e04f89c4a79bb402bf215aedfc7e7fcaba4d298210",
+  "configurations": 72,
+  "families": 18,
+  "totals": {
+    "rows": 432,
+    "finite_ordered_bounds": 432,
+    "saved_success": 391,
+    "non_success": 41,
+    "fully_resolved_no_solver": 108,
+    "solver_success": 283,
+    "solver_calls": 324
+  },
+  "saved_messages": {
+    "Optimization terminated successfully": 283,
+    "fully resolved": 108,
+    "Positive directional derivative for linesearch": 41
+  },
+  "all_rows_retained": true,
+  "inherited_optimization_rerun": false
+}

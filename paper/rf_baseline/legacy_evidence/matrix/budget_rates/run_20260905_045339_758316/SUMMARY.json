@@ -1,0 +1,60 @@
+{
+  "experiments": [
+    "E1",
+    "E2"
+  ],
+  "E1_cases": 24,
+  "E1_budget_rows": 864,
+  "E1_endpoint_brackets": 216,
+  "E2_rows": 45,
+  "E2_interval_certificates": 45,
+  "E2_interval_pass": 45,
+  "E1_solver_non_success": 4,
+  "max_budget_absolute_error": 3.2932640989247197e-18,
+  "max_budget_relative_error": 4.732367735178711e-10,
+  "max_state_norm_error": 6.661338147750939e-16,
+  "max_dual_normalized_gap": 1.203988274193302e-08,
+  "min_binary64_endpoint_gap": 5.946053443454252e-10,
+  "max_E2_endpoint_error": 1.734723475976807e-18,
+  "slopes": [
+    {
+      "task": "active_half",
+      "expected_exponent": 0.5,
+      "all_grid_fitted_slope": 0.49973440890230864,
+      "grid_points": 9,
+      "fit_used_as_proof": false
+    },
+    {
+      "task": "tangent_linear",
+      "expected_exponent": 1.0,
+      "all_grid_fitted_slope": 0.9999984361459531,
+      "grid_points": 9,
+      "fit_used_as_proof": false
+    },
+    {
+      "task": "mixed_three_half",
+      "expected_exponent": 1.5,
+      "all_grid_fitted_slope": 1.4999999999999996,
+      "grid_points": 9,
+      "fit_used_as_proof": false
+    },
+    {
+      "task": "tangent_quadratic",
+      "expected_exponent": 2.0,
+      "all_grid_fitted_slope": 1.9999999999999996,
+      "grid_points": 9,
+      "fit_used_as_proof": false
+    },
+    {
+      "task": "constant",
+      "expected_exponent": null,
+      "all_grid_fitted_slope": null,
+      "grid_points": 9,
+      "fit_used_as_proof": false
+    }
+  ],
+  "scope": "E1 is binary64 analytic-bound regression; E2 has 100-digit interval full-set brackets.",
+  "protocol_departures": [],
+  "retained_all_prescribed_points": true,
+  "created_utc": "2026-09-05T04:53:39.854672+00:00"
+}

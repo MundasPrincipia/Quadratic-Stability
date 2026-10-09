@@ -1,0 +1,58 @@
+[
+  {
+    "task": "active_half",
+    "expected_downward_exponent": 0.5,
+    "expected_threshold_exponent": 2.0,
+    "all_grid_downward_slope": 0.49973440890230864,
+    "all_grid_threshold_slope": 2.000002182410104,
+    "fit_used_as_proof": false
+  },
+  {
+    "task": "tangent_linear",
+    "expected_downward_exponent": 1.0,
+    "expected_threshold_exponent": 1.0,
+    "all_grid_downward_slope": 0.9999984361459531,
+    "all_grid_threshold_slope": 1.0000010912050519,
+    "fit_used_as_proof": false
+  },
+  {
+    "task": "mixed_three_half",
+    "expected_downward_exponent": 1.5,
+    "expected_threshold_exponent": 0.6666666666666666,
+    "all_grid_downward_slope": 1.4999999999999996,
+    "all_grid_threshold_slope": 0.6666666666666667,
+    "fit_used_as_proof": false
+  },
+  {
+    "task": "tangent_quadratic",
+    "expected_downward_exponent": null,
+    "expected_threshold_exponent": null,
+    "all_grid_downward_slope": null,
+    "all_grid_threshold_slope": null,
+    "fit_used_as_proof": false
+  },
+  {
+    "task": "constant",
+    "expected_downward_exponent": null,
+    "expected_threshold_exponent": null,
+    "all_grid_downward_slope": null,
+    "all_grid_threshold_slope": null,
+    "fit_used_as_proof": false
+  },
+  {
+    "task": "negative_quadratic",
+    "expected_downward_exponent": 2.0,
+    "expected_threshold_exponent": 0.5,
+    "all_grid_downward_slope": 1.9999999999999996,
+    "all_grid_threshold_slope": 0.5000000000000001,
+    "fit_used_as_proof": false
+  },
+  {
+    "task": "linear_up_quadratic_down",
+    "expected_downward_exponent": 2.0,
+    "expected_threshold_exponent": 0.5,
+    "all_grid_downward_slope": 1.9999999999999996,
+    "all_grid_threshold_slope": 0.5000000000000001,
+    "fit_used_as_proof": false
+  }
+]

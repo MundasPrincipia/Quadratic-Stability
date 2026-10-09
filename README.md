@@ -9,10 +9,10 @@ Contact: **2025310659@stu.hit.edu.cn**
 ORCID: [0009-0007-5829-4266](https://orcid.org/0009-0007-5829-4266)
 
 This repository provides the analytic observation-refinement example, RF
-processing and analysis code, and reference results accompanying the paper.
-The analytic example runs directly from the included configuration. RF checks
-and summary calculations require saved inputs from a separate RF replay
-archive, whose availability is described below.
+processing and analysis code, processed S1/S4 inputs, saved classifiers, and
+frozen results accompanying the paper. The input and result files are taken
+from the supplementary materials prepared for submission. The analytic example
+and saved-input RF checks run from the files included here.
 
 The Supporting Results PDF is submitted separately with the manuscript as
 `quadratic_stability_supplement.pdf`. Code, data-access instructions and
@@ -23,9 +23,9 @@ reproduction documentation are maintained in this repository.
 | Entry point | Inputs | Results |
 |---|---|---|
 | `boundary-refinement` | Included configuration | 39 endpoint cells, 27 margin cells, 100-digit interval checks, and the four-panel figure |
-| `rf-interface` | External companion with saved S1/S4 inputs and fold heads | Numerical consistency check for 13 S1 folds, 3 S4 folds, and 6 observation flags |
-| `rf-applicability` | RF replay data with saved inputs and original array digests | Rebuild and verify the 96 E1 per-sample arrays |
-| `rf-summaries` | External companion with saved designs, pair records, heads, and witnesses | Design/transfer summaries, tables, and figures |
+| `rf-interface` | Included S1/S4 inputs and fold heads | Numerical consistency check for 13 S1 folds, 3 S4 folds, and 6 observation flags |
+| `rf-applicability` | Included saved inputs and original array digests | Rebuild and verify the 96 E1 per-sample arrays |
+| `rf-summaries` | Included designs, pair records, heads, and witnesses | Design/transfer summaries, tables, and figures |
 
 ## Run the analytic example
 
@@ -53,23 +53,22 @@ provide the corresponding results used in the paper.
 
 ## Replay saved RF inputs
 
-Publication of the RF replay inputs is pending. The prepared archive is
-**quadratic_stability_rf_replay_data.zip** (250,632,175 bytes). Its
-`reproducibility/` directory contains the derived S1/S4 inputs, saved
-classifiers and measurement vectors, design/witness records, and reference
-checks used by the RF commands. Source code and aggregate reference tables
-are included in this repository.
+The processed inputs and saved models are in
+[`paper/rf_baseline/data/raw_rebuild_run02/`](paper/rf_baseline/data/raw_rebuild_run02/).
+Design and witness records are in the corresponding `results/` directories;
+reference checks are in [`paper/checks/`](paper/checks/). The
+[result index](docs/result_index.md) maps the paper's results to these files.
 
-Once the archive is available, extract it into a separate directory. Replace the
-`--companion` path below with its `reproducibility/` directory, containing
-`rf_baseline/`, `reference_transfer/` and `analysis/`. The containing data
-directory and the earlier companion layout are also accepted.
+Run the following commands from the repository root:
 
 ```text
 python -m pip install -r requirements-rf.txt
-python -B reproduce.py rf-interface --companion ../quadratic_stability_rf_replay_data/reproducibility --output ../quadratic_rf_interface
-python -B reproduce.py rf-summaries --companion ../quadratic_stability_rf_replay_data/reproducibility --output ../quadratic_rf_summaries
+python -B reproduce.py rf-interface --output ../quadratic_rf_interface
+python -B reproduce.py rf-summaries --output ../quadratic_rf_summaries
 ```
+
+An existing extracted companion can still be selected with
+`--companion <path-to-reproducibility>`.
 
 `rf-interface` compares feature-based, quadratic, pairwise, and coordinate
 representations of the saved classifier scores at tolerance `1e-8`. It writes
@@ -81,11 +80,11 @@ describe the required inputs, numerical conventions, and result files.
 
 ## Rebuild the omitted applicability arrays
 
-The RF replay data includes the S1/S4 derived inputs, frozen classifiers,
+The repository includes the S1/S4 derived inputs, frozen classifiers,
 summary tables and design records. The 96 E1 per-sample arrays can be reconstructed:
 
 ```text
-python -B reproduce.py rf-applicability --companion ../quadratic_stability_rf_replay_data/reproducibility --output ../quadratic_rf_applicability
+python -B reproduce.py rf-applicability --output ../quadratic_rf_applicability
 ```
 
 The output includes `results/e1_run01/` and `REPLAY_CHECK.json`. The command runs
@@ -110,8 +109,11 @@ of that guide.
 | `paper/quadratic_stability/protocol/` | Frozen analytic-example configuration |
 | `paper/quadratic_stability/results/` | Analytic reference records and selected RF aggregate CSVs |
 | `paper/rf_baseline/src/` | Historical RF processing and analysis source |
+| `paper/rf_baseline/data/` | Processed S1/S4 inputs, saved fold classifiers and baseline records |
+| `paper/rf_baseline/results/` | Frozen applicability, perturbation and design records |
 | `paper/rf_baseline/provenance/raw_code_snapshot/` | Preserved helper-code snapshot |
-| `paper/reference_transfer/` | Transfer-analysis source and aggregate results |
+| `paper/reference_transfer/` | Transfer-analysis source and saved results |
+| `paper/checks/` | Saved interface checks and applicability-array digests |
 | `docs/` | Data acquisition, input requirements, and numerical details |
 
 ## Citation and terms
@@ -119,4 +121,5 @@ of that guide.
 See [CITATION.cff](CITATION.cff) for the author and manuscript information.
 
 Software license: pending.
-Third-party data access and use follow the original providers' terms.
+Third-party data access and use follow the original providers' terms, described
+in the [data-source notes](docs/data_sources.md).

@@ -1,0 +1,20 @@
+{
+  "frozen_before_calculation_utc": "2026-09-05T07:09:40.816248+00:00",
+  "files": {
+    "src\\v12_oriented_regression.py": "d1e0e2602e20aa2dfe6348f96915bb95aba1101691fc3ea1d1048b0c3b5f9d68",
+    "tests\\test_v12_oriented.py": "8b52da056d67419918ee680f35568a00dbbede99b5073600c3265edade27e664",
+    "proofs\\NUMERIC_REDUCTION_NOTES.md": "77a5d630f8d529938302de757a2aaeac46e4fef7676e355a9bece3a33148f438",
+    "protocols\\ORIENTED_REGRESSION_PROTOCOL.md": "fb99e861006f598376ac6243ffb6d4a06e6e02850abe6807c934103887cf10fc",
+    "inherited_v11\\src\\numerics_common.py": "6e271a6ebd069f376f9ef8aa5bca3d3850b55eb8fa39037527c4856f571f703f",
+    "inherited_v11\\results\\design\\run_20260905_044629_927159\\design.csv": "27c86db2f23e381df54af2e04f89c4a79bb402bf215aedfc7e7fcaba4d298210"
+  },
+  "generated_inputs": {
+    "RUN_CONFIG.json": "3243ba4f499d85473b8489fc9b87889d7c7769f6463a842b5383e37cbc7929a0",
+    "INPUT_TASKS.npz": "086841226d1b3f8b5fb7cd2582de010dd48640f6708462832a42d66842ff5bd3"
+  },
+  "versions": {
+    "python": "3.12.6",
+    "numpy": "2.4.4",
+    "mpmath": "1.3.0"
+  }
+}

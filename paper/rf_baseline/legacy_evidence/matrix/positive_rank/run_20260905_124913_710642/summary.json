@@ -1,0 +1,36 @@
+{
+  "rows": 27,
+  "prescribed_rows": 27,
+  "discarded_rows": 0,
+  "strict_interval_certificates": 27,
+  "max_raw_formula_score_residual": 1.3877787807814457e-17,
+  "max_abs_raw_feasibility_excess": 1.0430024899310553e-16,
+  "max_raw_trace_error": 2.220446049250313e-16,
+  "max_relative_endpoint_gap": 0.06849827904094623,
+  "relative_endpoint_gap_at_smallest_delta": {
+    "1/10": 6.825743487175462e-06,
+    "1/3": 2.0477227041160466e-06,
+    "9/10": 7.584157821966138e-07
+  },
+  "leading_coefficient_by_a": {
+    "1/10": {
+      "full_set_leading_coefficient": 0.6619501839293747,
+      "fixed_branch_leading_coefficient": 0.6466581003833891
+    },
+    "1/3": {
+      "full_set_leading_coefficient": 1.2085501589427072,
+      "fixed_branch_leading_coefficient": 1.2085501589427072
+    },
+    "9/10": {
+      "full_set_leading_coefficient": 1.9858505517881238,
+      "fixed_branch_leading_coefficient": 1.7718208671922848
+    }
+  },
+  "evidence_boundary": "raw binary64 regressions plus finite 80-digit outward-rounded feasible brackets; no global numerical optimum claim",
+  "finished_at": "2026-09-05T12:49:13.752169+08:00",
+  "environment": {
+    "python": "3.12.6",
+    "numpy": "2.4.4",
+    "mpmath": "1.3.0"
+  }
+}

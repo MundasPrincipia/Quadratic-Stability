@@ -1,0 +1,12 @@
+{
+  "experiment": "E5",
+  "rows": 432,
+  "families": 18,
+  "random_comparison_violations": [],
+  "max_rowvec_error": 7.259024953699689e-16,
+  "max_dual_gap": 3.9076692992523476e-08,
+  "max_annihilated_alpha_upper": 1.6660018847673593e-15,
+  "solver_non_success": 41,
+  "scope": "single-task SVD optimality and multitask annihilation threshold; no multitask minimax claim",
+  "created_utc": "2026-09-05T04:46:30.058978+00:00"
+}

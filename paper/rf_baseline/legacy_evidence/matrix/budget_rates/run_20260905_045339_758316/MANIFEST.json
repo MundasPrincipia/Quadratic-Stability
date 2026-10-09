@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-05T04:53:39.854672+00:00",
+  "evidence": "binary64 regression unless a row explicitly states interval arithmetic",
+  "files": {
+    "E1_BUDGET.csv": "2c5a3c6683470a935ed9edac7fb019ccc84d9d7c595bfeacb5da689128f0651d",
+    "E1_DUAL_COEFFICIENTS.csv": "a5120c7a0e5cb529455d923852925b739b0d1776d5db1d47577f3394bdaea553",
+    "E1_ENDPOINT_BRACKETS.csv": "4b6df0e57f0fbb36e9d0fb83985b3a3185d6185280d49fc005b98c04fe371e8a",
+    "E1_INPUTS.npz": "1b66b796925502afcfb38324bf45617bd9c2087ab5ab0e442a282ab1c7f67925",
+    "E2_INPUTS_AND_WITNESSES.npz": "9b4ca0f2da9ad44cb3cb634de3fa8f4b8767225e48a6e8a1f423040bf80bc983",
+    "E2_INTERVAL_CERTIFICATES.json": "33179399693111f27c61db8369592a6a7aad49eb7f143ef713baaada0bb7d04e",
+    "E2_RATES.csv": "f0a55066be10a46e5ab2679b86a513a5b851981d9102a92350fc1ebe57967e70",
+    "E2_SLOPES.json": "1ba26000042391cc3fede46f9f5846d42e362eeb1d671e6240d744da4db7da38",
+    "SUMMARY.json": "d0fe3a76b9a1317fb3694077dfa1c94af83423060076a9a417cf6c8a3c1da509"
+  },
+  "code": {
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\src\\run_budget_rates.py": "4b5cf35a3965667762f7b9009929ad9b38d2a5e7e80df3093d53b473c29a2021",
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\src\\numerics_common.py": "6e271a6ebd069f376f9ef8aa5bca3d3850b55eb8fa39037527c4856f571f703f",
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\tests\\test_budget_rates.py": "3308ab23bc5b7787f35b574f54b6f7d44f3419bf388a25ae86c66185043cd51f",
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\protocols\\PROTOCOL.md": "35c46b80651c735cffd441c9ea8a13e8771e550f309be18074aac4db5ad06d16",
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\staging\\A_proof.tex": "f92b6a0610dfd28eb4556d4e5dea95fb7c6e6f9835971a445ed4ddaa57d4d607"
+  }
+}

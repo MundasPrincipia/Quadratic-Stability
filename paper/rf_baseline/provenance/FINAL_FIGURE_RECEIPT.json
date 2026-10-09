@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-09-07T10:54:12.797216+00:00",
+  "scope": "presentation-only, complete grids unchanged",
+  "source_sha256": "0dc67c70b4599199864b04ea0c09cb6e6fb6699aec0a779c166267757386cb79",
+  "inputs": {
+    "results/analysis_run03/E1_SOURCE_FLAG.csv": "4e666c372b819e701a38c3eeb38cadaa7abce519c4ed8dc08dbc4199329d80e2",
+    "results/analysis_run03/E3_PAIRED_ROWS.csv": "c281a7f9c409bbb72482222b03b8a0c3c5aa1ad0a12c2a07d1a33004f9a39343",
+    "results/e2_run02/CANONICAL_INTERVALS.csv": "66197c7d5a70a2a5d2066e1445cbf80528b6ac71ac2fdc3135feeff45368c6cf"
+  },
+  "outputs": {
+    "figures/v16_applicability.pdf": "e6963b6e4b286d773a7d3af165864e55ab6c8fd51e51e75769fd9553b0555038",
+    "figures/v16_applicability.svg": "a33ed4e7afd8a9274d5b28c7233de5ec570bfe06fc050c76597a998f90d0a63f",
+    "figures/v16_applicability.png": "18343923d7cd45435a4cf6ae198a776c01ead5b7666e66751b63d1a8aed34796",
+    "figures/v16_perturbation.pdf": "e694421c425b30c134dd462ef6db70d45eff9537945b3bff3206a5e829282bb7",
+    "figures/v16_perturbation.svg": "e469015fe6b2f4505f6665ee0515b2734117db4ee55094c55aaaaace72e8f183",
+    "figures/v16_perturbation.png": "6c8112df31fbc419b36704bfc02e60cb38cb1738a8de5b2fbf0433c7ce9d1e3e",
+    "figures/v16_design.pdf": "9e0761cca9468ad6e33d8e0e7a88c7e45eaee206b7fc450aff1e83260ea5996e",
+    "figures/v16_design.svg": "2f3e2a669afbda72a79ef4c1864fea3872c0dc33b20c6ddebd6174cec8295b61",
+    "figures/v16_design.png": "77d45281e6cd59de42683cfc27456aab3d707f0cefff734e353a131698466210"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "figure": "v11_weak_margin",
+  "sources": {
+    "results\\weak_margin\\run_20260905_130201\\weak_profile.csv": "065db5d1d1bf7aad5b9e4077157e3c36e181c0c9a581ee3242a50971c1f605a1",
+    "results\\weak_margin\\run_20260905_130201\\margin_transition.csv": "fa57de6d7ee75ead2f58da87c2510162a41fadfb50ecc5a49a3f91e346d1001f",
+    "results\\weak_margin\\run_20260905_130201\\summary.json": "e1123eef1696315f953427a3301b00b9ada95a2e3e6bed62a3d7a96deebbc0b5"
+  },
+  "script_sha256": "a5846ea53db6f53c5e86c3ac87f10825e2b8cc27e6a4c6db3126999773b04a00",
+  "display": "vector PDF and 300-dpi PNG; colorblind palette and redundant line/marker styles",
+  "not_ci": "All envelopes are analytic brackets or explicitly descriptive ranges; none is a confidence interval."
+}

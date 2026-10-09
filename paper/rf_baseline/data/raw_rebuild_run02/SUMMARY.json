@@ -1,0 +1,15 @@
+{
+  "status": "PASS_RAW_IQ_REBUILD_AND_REFIT",
+  "created_at": "2026-09-07T09:32:07.417334+00:00",
+  "cells": 34080,
+  "accepted": 6049,
+  "label_correct_accepted": 4913,
+  "accept_mismatches": 0,
+  "max_C_error": 0.0,
+  "max_score_error": 0.0,
+  "python": "3.12.6",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "sklearn": "1.9.0",
+  "raw_source_scope": "S1/S4 published local IQ only; historical bank fixed, old C/H are comparison targets"
+}

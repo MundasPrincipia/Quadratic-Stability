@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-09-05T04:46:30.058978+00:00",
+  "evidence": "binary64 regression unless a row explicitly states interval arithmetic",
+  "files": {
+    "design.csv": "27c86db2f23e381df54af2e04f89c4a79bb402bf215aedfc7e7fcaba4d298210",
+    "INPUTS.npz": "c8536fbed036fff5a716e95e1e86a9e9d1d68eb500e92c359d75b09988238a21",
+    "SUMMARY.json": "e4f35797922ba4d153f379cd534c96de1b26278c24d29dfbded305931d026771"
+  },
+  "code": {
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\src\\run_design.py": "3dd24dadb992fd47a203639fb2364f54c8c76a8214bac907e84bcf05b016bd72",
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\src\\numerics_common.py": "6e271a6ebd069f376f9ef8aa5bca3d3850b55eb8fa39037527c4856f571f703f",
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\protocols\\PROTOCOL.md": "35c46b80651c735cffd441c9ea8a13e8771e550f309be18074aac4db5ad06d16"
+  }
+}

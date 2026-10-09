@@ -23,8 +23,14 @@ def main():
         parser.error("Choose a new output directory outside the RF inputs.")
     reference_path = parent.parent / "checks/rf_applicability/REFERENCE_ARRAYS.json"
     reference = json.loads(reference_path.read_text(encoding="utf8"))
-    sys.path.insert(0, str(parent / "src"))
+    # A data-only companion reuses the existing repository implementation.
+    code = parent / "src"
+    if not (code / "run_e1_applicability.py").is_file():
+        code = Path(__file__).resolve().parents[1] / "paper/rf_baseline/src"
+    sys.path.insert(0, str(code))
     import run_e1_applicability as e1
+    import common
+    common.HERE = parent
 
     # Redirect only input/output locations; execute the frozen numerical routine.
     output.mkdir(parents=True)

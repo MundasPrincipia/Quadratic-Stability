@@ -1,4 +1,4 @@
-"""Locate RF inputs in the publication supplement or an earlier companion."""
+"""Locate RF inputs in this repository or an extracted publication companion."""
 from pathlib import Path
 
 
@@ -12,4 +12,4 @@ def locate_companion(root: Path) -> tuple[Path, Path, Path]:
         ):
             if all(path.is_dir() for path in (analysis, baseline, transfer)):
                 return analysis, baseline, transfer
-    raise ValueError("Select the supplement's reproducibility directory or its containing directory.")
+    raise ValueError("Select this repository, the supplement's reproducibility directory, or its containing directory.")

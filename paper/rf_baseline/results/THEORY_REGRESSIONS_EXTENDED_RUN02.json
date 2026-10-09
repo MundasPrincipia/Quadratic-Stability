@@ -1,0 +1,1534 @@
+{
+  "created_at": "2026-09-07T10:16:07.215211+00:00",
+  "status": "PASS_EXECUTED_DECLARED_REGRESSIONS",
+  "prior_executed_result_sha256": "d7036907b62690853aef5bed813bf7af97939e9b2a21f40a914ab72b93b79f8c",
+  "counts": {
+    "zero_tangent": 40,
+    "residual_rejection": 3,
+    "complex_schur": 9,
+    "prescribed_branch": 108,
+    "fixed_rate_families": 4
+  },
+  "scope": "Deterministic regression controls plus prior 125 executed cases; mathematical proof remains in manuscript.",
+  "rows": [
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 1e-06,
+      "score": 1.5425559660760682e-07,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 1e-06,
+      "score": 5.383679867164093e-07,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 1e-06,
+      "score": 5.570748803348822e-07,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 1e-06,
+      "score": 4.0886639463887415e-07,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 1e-06,
+      "score": 3.3233338838173654e-07,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 1e-06,
+      "score": 8.480491807134051e-07,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 1e-06,
+      "score": 4.838091636613905e-07,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 1e-06,
+      "score": 8.395845295088559e-07,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 1e-06,
+      "score": 5.80052455582026e-07,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 1e-06,
+      "score": 4.793294174818007e-07,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.001,
+      "score": 0.000822100057688283,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.001,
+      "score": 0.0006088967287456072,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.001,
+      "score": 0.0002551661229464144,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.001,
+      "score": 0.0005996987938642074,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.001,
+      "score": 0.0005135269743573199,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.001,
+      "score": 0.000977691514913094,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.001,
+      "score": 0.0009499261886690886,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.001,
+      "score": 0.0009259196625891115,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.001,
+      "score": 0.0005927566172296374,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.001,
+      "score": 0.00020570902089415177,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.1,
+      "score": 0.025060309052219273,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.1,
+      "score": 0.09973514576463442,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.1,
+      "score": 0.03791485710637692,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.1,
+      "score": 0.04849828100998955,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.1,
+      "score": 0.08973705102674527,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.1,
+      "score": 0.038917361276982504,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.1,
+      "score": 0.09221984584307069,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.1,
+      "score": 0.05615019191414372,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.1,
+      "score": 0.04270978137676332,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.1,
+      "score": 0.023712320613943634,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.25,
+      "score": 0.1629975329492911,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.25,
+      "score": 0.10457380671292095,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.25,
+      "score": 0.24373246823650857,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.25,
+      "score": 0.10787320484252563,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.25,
+      "score": 0.09337771325677978,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.25,
+      "score": 0.07118358779215354,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.25,
+      "score": 0.21101889659738393,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.25,
+      "score": 0.11907135744597881,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.25,
+      "score": 0.07095984105774987,
+      "pass_": true
+    },
+    {
+      "test": "zero_tangent_flat_lower",
+      "delta": 0.25,
+      "score": 0.24817530106168656,
+      "pass_": true
+    },
+    {
+      "test": "singular_or_indefinite_Kr_rejected",
+      "spectrum": [
+        0.0,
+        1.0
+      ],
+      "pass_": true
+    },
+    {
+      "test": "singular_or_indefinite_Kr_rejected",
+      "spectrum": [
+        0.0,
+        0.0
+      ],
+      "pass_": true
+    },
+    {
+      "test": "singular_or_indefinite_Kr_rejected",
+      "spectrum": [
+        -0.1,
+        1.0
+      ],
+      "pass_": true
+    },
+    {
+      "test": "complex_2d_schur",
+      "lambda_min": -1.0,
+      "delta": 0.01,
+      "loss": -4.9999989086097395e-05,
+      "pass_": true
+    },
+    {
+      "test": "complex_2d_schur",
+      "lambda_min": -1.0,
+      "delta": 0.001,
+      "loss": -4.999999989086091e-07,
+      "pass_": true
+    },
+    {
+      "test": "complex_2d_schur",
+      "lambda_min": -1.0,
+      "delta": 0.0001,
+      "loss": -4.99999999989086e-09,
+      "pass_": true
+    },
+    {
+      "test": "complex_2d_schur",
+      "lambda_min": 0.0,
+      "delta": 0.01,
+      "loss": 0.0,
+      "pass_": true
+    },
+    {
+      "test": "complex_2d_schur",
+      "lambda_min": 0.0,
+      "delta": 0.001,
+      "loss": 6.617444900424222e-24,
+      "pass_": true
+    },
+    {
+      "test": "complex_2d_schur",
+      "lambda_min": 0.0,
+      "delta": 0.0001,
+      "loss": 1.0339757656912846e-25,
+      "pass_": true
+    },
+    {
+      "test": "complex_2d_schur",
+      "lambda_min": 0.8,
+      "delta": 0.01,
+      "loss": 3.999999126887792e-05,
+      "pass_": true
+    },
+    {
+      "test": "complex_2d_schur",
+      "lambda_min": 0.8,
+      "delta": 0.001,
+      "loss": 3.999999991268874e-07,
+      "pass_": true
+    },
+    {
+      "test": "complex_2d_schur",
+      "lambda_min": 0.8,
+      "delta": 0.0001,
+      "loss": 3.999999999912689e-09,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "preserving",
+      "delta": 1e-06,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "preserving",
+      "delta": 1e-06,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "preserving",
+      "delta": 1e-06,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "preserving",
+      "delta": 0.001,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "preserving",
+      "delta": 0.001,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "preserving",
+      "delta": 0.001,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "preserving",
+      "delta": 0.1,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "preserving",
+      "delta": 0.1,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "preserving",
+      "delta": 0.1,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "preserving",
+      "delta": 0.25,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "preserving",
+      "delta": 0.25,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "preserving",
+      "delta": 0.25,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "cross",
+      "delta": 1e-06,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "cross",
+      "delta": 1e-06,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "cross",
+      "delta": 1e-06,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "cross",
+      "delta": 0.001,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "cross",
+      "delta": 0.001,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "cross",
+      "delta": 0.001,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "cross",
+      "delta": 0.1,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "cross",
+      "delta": 0.1,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "cross",
+      "delta": 0.1,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "cross",
+      "delta": 0.25,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "cross",
+      "delta": 0.25,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "cross",
+      "delta": 0.25,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "tangent",
+      "delta": 1e-06,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "tangent",
+      "delta": 1e-06,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "tangent",
+      "delta": 1e-06,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "tangent",
+      "delta": 0.001,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "tangent",
+      "delta": 0.001,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "tangent",
+      "delta": 0.001,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "tangent",
+      "delta": 0.1,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "tangent",
+      "delta": 0.1,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "tangent",
+      "delta": 0.1,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "tangent",
+      "delta": 0.25,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "tangent",
+      "delta": 0.25,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "tangent",
+      "delta": 0.25,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "residual",
+      "delta": 1e-06,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "residual",
+      "delta": 1e-06,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "residual",
+      "delta": 1e-06,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "residual",
+      "delta": 0.001,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "residual",
+      "delta": 0.001,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "residual",
+      "delta": 0.001,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "residual",
+      "delta": 0.1,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "residual",
+      "delta": 0.1,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "residual",
+      "delta": 0.1,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "residual",
+      "delta": 0.25,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "residual",
+      "delta": 0.25,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "mixed",
+      "kind": "residual",
+      "delta": 0.25,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "preserving",
+      "delta": 1e-06,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "preserving",
+      "delta": 1e-06,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "preserving",
+      "delta": 1e-06,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "preserving",
+      "delta": 0.001,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "preserving",
+      "delta": 0.001,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "preserving",
+      "delta": 0.001,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "preserving",
+      "delta": 0.1,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "preserving",
+      "delta": 0.1,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "preserving",
+      "delta": 0.1,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "preserving",
+      "delta": 0.25,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "preserving",
+      "delta": 0.25,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "preserving",
+      "delta": 0.25,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "cross",
+      "delta": 1e-06,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "cross",
+      "delta": 1e-06,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "cross",
+      "delta": 1e-06,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "cross",
+      "delta": 0.001,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "cross",
+      "delta": 0.001,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "cross",
+      "delta": 0.001,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "cross",
+      "delta": 0.1,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "cross",
+      "delta": 0.1,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "cross",
+      "delta": 0.1,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "cross",
+      "delta": 0.25,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "cross",
+      "delta": 0.25,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "cross",
+      "delta": 0.25,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "tangent",
+      "delta": 1e-06,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "tangent",
+      "delta": 1e-06,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "tangent",
+      "delta": 1e-06,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "tangent",
+      "delta": 0.001,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "tangent",
+      "delta": 0.001,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "tangent",
+      "delta": 0.001,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "tangent",
+      "delta": 0.1,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "tangent",
+      "delta": 0.1,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "tangent",
+      "delta": 0.1,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "tangent",
+      "delta": 0.25,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "tangent",
+      "delta": 0.25,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "tangent",
+      "delta": 0.25,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "residual",
+      "delta": 1e-06,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "residual",
+      "delta": 1e-06,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "residual",
+      "delta": 1e-06,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "residual",
+      "delta": 0.001,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "residual",
+      "delta": 0.001,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "residual",
+      "delta": 0.001,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "residual",
+      "delta": 0.1,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "residual",
+      "delta": 0.1,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "residual",
+      "delta": 0.1,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "residual",
+      "delta": 0.25,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "residual",
+      "delta": 0.25,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "residual",
+      "delta": 0.25,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "mixed",
+      "delta": 1e-06,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "mixed",
+      "delta": 1e-06,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "mixed",
+      "delta": 1e-06,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "mixed",
+      "delta": 0.001,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "mixed",
+      "delta": 0.001,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "mixed",
+      "delta": 0.001,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "mixed",
+      "delta": 0.1,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "mixed",
+      "delta": 0.1,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "mixed",
+      "delta": 0.1,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "mixed",
+      "delta": 0.25,
+      "epsilon": 1e-08,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "mixed",
+      "delta": 0.25,
+      "epsilon": 0.0001,
+      "pass_": true
+    },
+    {
+      "test": "prescribed_perturbation_branch",
+      "order": "quadratic",
+      "kind": "mixed",
+      "delta": 0.25,
+      "epsilon": 0.1,
+      "pass_": true
+    },
+    {
+      "test": "fixed_matrix_intercept_only_rate",
+      "family": "cross",
+      "p": 0.5,
+      "expected_N_exponent": -4.0,
+      "margins": [
+        1e-06,
+        1.778279410038923e-06,
+        3.162277660168379e-06,
+        5.623413251903491e-06,
+        1e-05,
+        1.778279410038923e-05,
+        3.1622776601683795e-05,
+        5.623413251903491e-05,
+        0.0001,
+        0.00017782794100389227,
+        0.00031622776601683794,
+        0.0005623413251903491,
+        0.001,
+        0.0017782794100389228,
+        0.0031622776601683794,
+        0.005623413251903491,
+        0.01
+      ],
+      "first_failure_radii": [
+        3.535533905933622e-13,
+        1.118033988750779e-12,
+        3.5355339059415764e-12,
+        1.118033988758734e-11,
+        3.535533906021127e-11,
+        1.1180339888382835e-10,
+        3.5355339068166216e-10,
+        1.1180339896337783e-09,
+        3.5355339147715727e-09,
+        1.1180339975887297e-08,
+        3.5355339943210905e-08,
+        1.1180340771382567e-07,
+        3.535534789816656e-07,
+        1.1180348726347688e-06,
+        3.535542744811697e-06,
+        1.1180428277244167e-05,
+        3.5356222987000804e-05
+      ],
+      "N_lower": [
+        7.791965147790891e+24,
+        7.791965147782466e+23,
+        7.79196514775583e+22,
+        7.791965147671583e+21,
+        7.791965147405186e+20,
+        7.791965146562768e+19,
+        7.791965143898803e+18,
+        7.791965135474611e+17,
+        7.791965108834962e+16,
+        7791965024593003.0,
+        779196475819652.2,
+        77919639157768.72,
+        7791961251811.729,
+        779195282761.1262,
+        77919261879.20349,
+        7791841945.521205,
+        779157554.4667174
+      ],
+      "local_log_slopes": [
+        -4.000000000001888,
+        -4.0000000000059375,
+        -4.000000000018774,
+        -4.000000000059396,
+        -4.000000000187817,
+        -4.000000000593914,
+        -4.000000001878133,
+        -4.0000000059391585,
+        -4.00000001878131,
+        -4.000000059391709,
+        -4.000000187813078,
+        -4.000000593917307,
+        -4.000001878133443,
+        -4.000005939199476,
+        -4.0000187815982775,
+        -4.000059394633281
+      ],
+      "pass_": true
+    },
+    {
+      "test": "fixed_matrix_intercept_only_rate",
+      "family": "linear",
+      "p": 1.0,
+      "expected_N_exponent": -2.0,
+      "margins": [
+        1e-06,
+        1.778279410038923e-06,
+        3.162277660168379e-06,
+        5.623413251903491e-06,
+        1e-05,
+        1.778279410038923e-05,
+        3.1622776601683795e-05,
+        5.623413251903491e-05,
+        0.0001,
+        0.00017782794100389227,
+        0.00031622776601683794,
+        0.0005623413251903491,
+        0.001,
+        0.0017782794100389228,
+        0.0031622776601683794,
+        0.005623413251903491,
+        0.01
+      ],
+      "first_failure_radii": [
+        1.4142135623730952e-06,
+        2.5148668593658712e-06,
+        4.47213595499958e-06,
+        7.952707287670507e-06,
+        1.4142135623730953e-05,
+        2.5148668593658712e-05,
+        4.47213595499958e-05,
+        7.952707287670508e-05,
+        0.0001414213562373095,
+        0.0002514866859365871,
+        0.00044721359549995795,
+        0.0007952707287670508,
+        0.0014142135623730952,
+        0.0025148668593658707,
+        0.00447213595499958,
+        0.007952707287670507,
+        0.014142135623730952
+      ],
+      "N_lower": [
+        486997821737.17426,
+        154002233223.01288,
+        48699782173.71742,
+        15400223322.30129,
+        4869978217.371741,
+        1540022332.2301285,
+        486997821.7371742,
+        154002233.22301286,
+        48699782.17371743,
+        15400223.32230129,
+        4869978.217371743,
+        1540022.3322301286,
+        486997.8217371741,
+        154002.2332230129,
+        48699.78217371743,
+        15400.22332230129,
+        4869.978217371741
+      ],
+      "local_log_slopes": [
+        -2.000000000000006,
+        -2.0,
+        -1.9999999999999938,
+        -2.000000000000006,
+        -2.0,
+        -2.0,
+        -2.0,
+        -1.9999999999999938,
+        -2.000000000000006,
+        -2.0,
+        -2.0,
+        -1.999999999999997,
+        -2.000000000000003,
+        -2.0,
+        -1.999999999999997,
+        -2.0
+      ],
+      "pass_": true
+    },
+    {
+      "test": "fixed_matrix_intercept_only_rate",
+      "family": "mixed",
+      "p": 1.5,
+      "expected_N_exponent": -1.3333333333333333,
+      "margins": [
+        1e-06,
+        1.778279410038923e-06,
+        3.162277660168379e-06,
+        5.623413251903491e-06,
+        1e-05,
+        1.778279410038923e-05,
+        3.1622776601683795e-05,
+        5.623413251903491e-05,
+        0.0001,
+        0.00017782794100389227,
+        0.00031622776601683794,
+        0.0005623413251903491,
+        0.001,
+        0.0017782794100389228,
+        0.0031622776601683794,
+        0.005623413251903491,
+        0.01
+      ],
+      "first_failure_radii": [
+        0.00012247448713915897,
+        0.0001797679625252461,
+        0.0002638632837364679,
+        0.00038729833462074187,
+        0.0005684762119075722,
+        0.0008344089674985028,
+        0.0012247448713915896,
+        0.0017976796252524606,
+        0.0026386328373646786,
+        0.0038729833462074177,
+        0.00568476211907572,
+        0.008344089674985027,
+        0.012247448713915893,
+        0.017976796252524605,
+        0.02638632837364678,
+        0.038729833462074176,
+        0.056847621190757196
+      ],
+      "N_lower": [
+        64933042.89828983,
+        30139248.68492017,
+        13989400.014940407,
+        6493304.289828984,
+        3013924.8684920166,
+        1398940.0014940412,
+        649330.4289828985,
+        301392.48684920184,
+        139894.0001494041,
+        64933.04289828988,
+        30139.24868492019,
+        13989.400014940413,
+        6493.304289828988,
+        3013.924868492019,
+        1398.9400014940416,
+        649.3304289828989,
+        301.39248684920193
+      ],
+      "local_log_slopes": [
+        -1.3333333333333333,
+        -1.3333333333333395,
+        -1.3333333333333293,
+        -1.3333333333333333,
+        -1.3333333333333364,
+        -1.3333333333333293,
+        -1.3333333333333333,
+        -1.3333333333333324,
+        -1.3333333333333333,
+        -1.3333333333333364,
+        -1.3333333333333313,
+        -1.3333333333333344,
+        -1.3333333333333333,
+        -1.3333333333333328,
+        -1.3333333333333328,
+        -1.3333333333333328
+      ],
+      "pass_": true
+    },
+    {
+      "test": "fixed_matrix_intercept_only_rate",
+      "family": "quadratic",
+      "p": 2.0,
+      "expected_N_exponent": -1.0,
+      "margins": [
+        1e-06,
+        1.778279410038923e-06,
+        3.162277660168379e-06,
+        5.623413251903491e-06,
+        1e-05,
+        1.778279410038923e-05,
+        3.1622776601683795e-05,
+        5.623413251903491e-05,
+        0.0001,
+        0.00017782794100389227,
+        0.00031622776601683794,
+        0.0005623413251903491,
+        0.001,
+        0.0017782794100389228,
+        0.0031622776601683794,
+        0.005623413251903491,
+        0.01
+      ],
+      "first_failure_radii": [
+        0.001414213562373095,
+        0.001885884095080566,
+        0.0025148668593658707,
+        0.003353628856001657,
+        0.00447213595499958,
+        0.005963689143540134,
+        0.007952707287670507,
+        0.010605105611830078,
+        0.01414213562373095,
+        0.01885884095080566,
+        0.025148668593658708,
+        0.03353628856001657,
+        0.044721359549995794,
+        0.05963689143540134,
+        0.07952707287670507,
+        0.10605105611830078,
+        0.1414213562373095
+      ],
+      "N_lower": [
+        486997.82173717435,
+        273859.000440496,
+        154002.2332230129,
+        86601.81991290227,
+        48699.78217371743,
+        27385.9000440496,
+        15400.22332230129,
+        8660.181991290228,
+        4869.978217371743,
+        2738.59000440496,
+        1540.022332230129,
+        866.0181991290226,
+        486.9978217371743,
+        273.859000440496,
+        154.0022332230129,
+        86.6018199129023,
+        48.69978217371743
+      ],
+      "local_log_slopes": [
+        -1.0,
+        -1.000000000000003,
+        -0.9999999999999969,
+        -1.000000000000003,
+        -1.0,
+        -0.9999999999999969,
+        -1.000000000000003,
+        -0.9999999999999969,
+        -1.0000000000000016,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -0.9999999999999984,
+        -1.0000000000000007
+      ],
+      "pass_": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "VERIFIED_V10_RF_E4_E5_DESCRIPTIVE",
+  "folds": 16,
+  "flag_row_cells": 34080,
+  "selective_rows": 3168,
+  "mechanism_rows": 34080,
+  "accepted": 6049,
+  "accepted_reference_violations": 0,
+  "hp_rechecks": 6049,
+  "maximum_full_head_replay_error": 4.476419235288631e-13,
+  "maximum_radius_identity_residual": 2.842170943040401e-14,
+  "maximum_score_identity_residual": 7.389644451905042e-13,
+  "maximum_witness_endpoint_residual": 8.526512829121202e-13,
+  "maximum_alignment": 0.06026388527964756,
+  "elapsed_seconds": 207.26727289997507,
+  "peak_rss_bytes": 460161024,
+  "scope": "q7 exact fibers; fixed heads; fold-descriptive; no new RF activation or population claim",
+  "unsoundness": "verified phase witnesses with outward arithmetic envelope; unresolved counts explicit",
+  "inputs_unchanged": true,
+  "historical_accepts": 6049,
+  "historical_count_note": "new conservative measurement-sum envelope need not equal prior binary64 radius implementation"
+}

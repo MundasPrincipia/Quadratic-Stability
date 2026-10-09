@@ -1,0 +1,12 @@
+{
+  "figure": "v11_budget_rates",
+  "sources": {
+    "results\\budget_rates\\run_20260905_045339_758316\\E2_RATES.csv": "f0a55066be10a46e5ab2679b86a513a5b851981d9102a92350fc1ebe57967e70",
+    "results\\budget_rates\\run_20260905_045339_758316\\E1_BUDGET.csv": "2c5a3c6683470a935ed9edac7fb019ccc84d9d7c595bfeacb5da689128f0651d",
+    "results\\budget_rates\\run_20260905_045339_758316\\E1_DUAL_COEFFICIENTS.csv": "a5120c7a0e5cb529455d923852925b739b0d1776d5db1d47577f3394bdaea553",
+    "results\\budget_rates\\run_20260905_045339_758316\\E2_INTERVAL_CERTIFICATES.json": "33179399693111f27c61db8369592a6a7aad49eb7f143ef713baaada0bb7d04e"
+  },
+  "script_sha256": "a5846ea53db6f53c5e86c3ac87f10825e2b8cc27e6a4c6db3126999773b04a00",
+  "display": "vector PDF and 300-dpi PNG; colorblind palette and redundant line/marker styles",
+  "not_ci": "All envelopes are analytic brackets or explicitly descriptive ranges; none is a confidence interval."
+}

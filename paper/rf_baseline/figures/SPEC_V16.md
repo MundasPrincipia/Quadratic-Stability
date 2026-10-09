@@ -1,0 +1,7 @@
+# v16 figure contracts
+
+1. Natural applicability: two source panels, all six flags and all 12 radii; y is applicable/retained rows, using the conservative floating implementation of tau<=delta/2 and delta+tau<=1/4. The drop at delta=0.25 is the finite-theorem domain, not data deletion. Saved per-device/per-fold denominators accompany the plot.
+2. Perturbation windows: all 9 task/leakage families by all 9 epsilon levels, color is number of eligible radii out of 12; adjacent quadratic-cross panel shows all radii and epsilon levels, with markers where the fixed 25% sufficient predicate holds. Normalization is by the analytic ideal coefficient, never by a fitted prediction maximum.
+3. Design: source rows, coefficient and multiclass lower-radius columns, fixed k=0,1,2. Difference, raw-score, and three-seed random designs shown at equal k. Random is first averaged across the three locked seeds within anchor. Lines are source medians of paired ratios to the same anchor's k=0; bands are descriptive quartiles, not confidence intervals. Raw unnormalized metrics and all paired rows are in the tables.
+
+Vector PDF, editable SVG and PNG previews, embedded fonts, white background, no chart-title duplication of captions; minimum final-size type 8 pt. Hero rate figure is retained. Legacy positive-rank, weak-transition and generic-design details move unchanged to supporting material. No result is discarded from a saved grid.

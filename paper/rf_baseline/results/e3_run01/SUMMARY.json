@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-09-07T09:42:13.851440+00:00",
+  "anchors": 160,
+  "design_cells": 1760,
+  "pair_cells": 15840,
+  "witnessed": 15839,
+  "solver_non_success": 9494,
+  "scope": "fixed boundary anchors; canonical coefficient design, finite certified bounds and explicitly witnessed failures",
+  "input_manifest_sha256": "692c2f4f317971f305abe43bc5fc039a638da27edcb68f5ec68dc1ae9193b307"
+}

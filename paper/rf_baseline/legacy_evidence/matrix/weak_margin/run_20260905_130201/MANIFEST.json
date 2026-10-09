@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-09-05T05:02:02.835195+00:00",
+  "evidence": "binary64 regression unless a row explicitly states interval arithmetic",
+  "files": {
+    "INTERVAL_CERTIFICATES.json": "9431b33219048ac20b2b36af1899a0ae2a2af7352f2e53ae448277abcf9f1558",
+    "margin_transition.csv": "fa57de6d7ee75ead2f58da87c2510162a41fadfb50ecc5a49a3f91e346d1001f",
+    "RAW_MATRICES.npz": "2db962388085cece143f1ca04ecc7c0c79cbd940dabf979250614740e7dc4eb8",
+    "SUMMARY.json": "e1123eef1696315f953427a3301b00b9ada95a2e3e6bed62a3d7a96deebbc0b5",
+    "weak_profile.csv": "065db5d1d1bf7aad5b9e4077157e3c36e181c0c9a581ee3242a50971c1f605a1"
+  },
+  "code": {
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\src\\run_weak_margin.py": "36ea88badab1dafac38dca7d6f7b32a418a73c6e32a3421b9539e9070f265494",
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\src\\numerics_common.py": "6e271a6ebd069f376f9ef8aa5bca3d3850b55eb8fa39037527c4856f571f703f",
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\tests\\test_weak_margin.py": "fcaf79d7260955508e7b6daf6b385b49f87502c49c6471a64469f98a52b071be",
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\protocols\\PROTOCOL.md": "35c46b80651c735cffd441c9ea8a13e8771e550f309be18074aac4db5ad06d16",
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\protocols\\WEAK_MODEL_SPEC.md": "d6e11d234312d8343caed9e3c2186eb7acaa1355967518e311a843c8732ec6d3",
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\development_track_s_task_stability_candidate_v11_20260905\\proofs\\B_weak_design_decisions.md": "ac7db8eef0236c2c232002fd3232ef538eee0fd4c95adc7f02ea41cb36131416"
+  }
+}

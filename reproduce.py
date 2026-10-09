@@ -1,4 +1,4 @@
-"""Run the analytic example or replay saved RF inputs from an external companion."""
+"""Run the analytic example or replay the saved RF inputs included in this repository."""
 from __future__ import annotations
 
 import argparse
@@ -32,7 +32,7 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True,
                         help="Fresh output directory outside this repository and external inputs")
     parser.add_argument("--companion", type=Path,
-                        help="Extracted supplement's reproducibility directory (earlier companions also supported)")
+                        help="Optional external RF input directory; defaults to this repository")
     args = parser.parse_args()
     output = args.output.resolve()
     if output.exists() or overlaps(output, ROOT):
@@ -45,12 +45,9 @@ def main() -> None:
                 "--output", output / "figures")
         return
 
-    if args.companion is None:
-        parser.error("RF inputs are not bundled. Supply --companion with the extracted "
-                     "companion; see README.md and docs/reproduction_scope.md.")
-    companion = args.companion.resolve()
-    if not companion.is_dir() or companion == ROOT:
-        parser.error("--companion must be the extracted companion, not this code repository.")
+    companion = args.companion.resolve() if args.companion is not None else ROOT
+    if not companion.is_dir():
+        parser.error("The RF input directory does not exist.")
     if overlaps(output, companion):
         parser.error("Output must be outside the frozen companion.")
     try:
@@ -76,8 +73,7 @@ def main() -> None:
         required += [results / name for name in ("DESIGN_RESULTS.csv", "PAIR_RESULTS.csv")]
         required += [results / f"ANCHOR_{i:03d}.npz" for i in range(160)]
     if args.mode == "rf-applicability":
-        required += [parent / "src/run_e1_applicability.py",
-                     parent.parent / "checks/rf_applicability/REFERENCE_ARRAYS.json"]
+        required += [parent.parent / "checks/rf_applicability/REFERENCE_ARRAYS.json"]
     missing = [p.relative_to(companion).as_posix() for p in required if not p.is_file()]
     if missing:
         parser.error("Incomplete RF companion: missing " + ", ".join(missing[:5]))

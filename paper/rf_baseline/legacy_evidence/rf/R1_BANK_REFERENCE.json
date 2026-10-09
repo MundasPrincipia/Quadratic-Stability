@@ -1,0 +1,321 @@
+{
+  "run_id": "TRACK_S_R1_JOINT_INTERFACE_AUDIT",
+  "release_id": "20260831_001241",
+  "status": "PASS_TRACK_S_R1_JOINT_INTERFACE_AND_ALL_BUDGET_AUDIT",
+  "contract": {
+    "path": "configs/track_s_flagship_r1/TRACK_S_R1_EXECUTION_CONTRACT_20260831_001241.json",
+    "sha256": "6310cbf98a3323b96a667ae0330275f08364adca603573da7d8ce579b918796d"
+  },
+  "source_ledger": {
+    "S1": {
+      "rows": 5200,
+      "devices": 10,
+      "folds": 13,
+      "loader": {
+        "container": "runs/track_c_v1/B1_S1_S2_FRONTEND_CACHE_20260827_160000.h5",
+        "container_group_read": "S1",
+        "S2_group_read": false
+      },
+      "bank": {
+        "seed": 20260827,
+        "input_dimension": 256,
+        "maximum_output_dimension": 1024,
+        "used_output_dimension": 512,
+        "frozen_maximum_bank_sha256": "a83369261a12c2a3ef88126da21b83d7e03f902fe447b09c25d85b36dc3c90cc",
+        "physical_bank_sha256": "fff53c8c31dd01a880519926eedd56b9aad547069badf4db42e68e4315dc4b5f",
+        "used_prefix_sha256": "f4ecf6727854ba4cfd244efeb9ef3d32b2328ad0f4888e3e339f997a47e3b898"
+      },
+      "projected_full_feature_max_abs_replay_error": 1.1657341758564144e-15,
+      "pooled_full_head_metrics": {
+        "rows": 5200,
+        "present_classes": 10,
+        "accuracy": 0.7105769230769231,
+        "macro_f1_present_classes": 0.7055632211911196,
+        "balanced_accuracy": 0.710576923076923,
+        "worst_present_device_recall": 0.5096153846153846,
+        "cohen_kappa": 0.6784188034188036,
+        "matthews_correlation": 0.6790690800935987
+      }
+    },
+    "S4": {
+      "rows": 480,
+      "devices": 10,
+      "folds": 3,
+      "loader": {
+        "container": "runs/track_c_v0/M2_SMOKE_HARMONIC_FEATURES_20260827_144025.npz",
+        "array_keys_read": [
+          "S4_selected_indices",
+          "S4_labels",
+          "S4_day",
+          "S4_harmonic_complex",
+          "S4_harmonic_projective",
+          "S4_file_id"
+        ],
+        "S3_array_keys_read": false
+      },
+      "bank": {
+        "seed": 20260827,
+        "input_dimension": 128,
+        "maximum_output_dimension": 512,
+        "used_output_dimension": 256,
+        "frozen_maximum_bank_sha256": "6581b418ca89f412cd20b5f4d8e70a3d5652ab111d2db3632557adda66dfa130",
+        "physical_bank_sha256": "6581b418ca89f412cd20b5f4d8e70a3d5652ab111d2db3632557adda66dfa130",
+        "used_prefix_sha256": "5002238501f867e594882674ccdf5f67baab0739e483a021967d052784960ce0"
+      },
+      "projected_full_feature_max_abs_replay_error": 1.4988010832439613e-15,
+      "pooled_full_head_metrics": {
+        "rows": 480,
+        "present_classes": 10,
+        "accuracy": 0.7041666666666667,
+        "macro_f1_present_classes": 0.6917142754537713,
+        "balanced_accuracy": 0.7041666666666666,
+        "worst_present_device_recall": 0.25,
+        "cohen_kappa": 0.6712962962962963,
+        "matthews_correlation": 0.6755283471889687
+      }
+    }
+  },
+  "gs2_q8_reinterpreted_ledger": {
+    "S1": {
+      "rows": 5200,
+      "row_coverage": 0.9726923076923077,
+      "group_coverage": {
+        "covered": 1243,
+        "total": 1365,
+        "rate": 0.9106227106227106
+      },
+      "worst_fold_group_coverage": 0.7040816326530612,
+      "fold_group_coverage": {
+        "leave_environment_A": {
+          "covered": 96,
+          "total": 100,
+          "rate": 0.96
+        },
+        "leave_environment_B": {
+          "covered": 95,
+          "total": 100,
+          "rate": 0.95
+        },
+        "leave_environment_B_antenna": {
+          "covered": 92,
+          "total": 99,
+          "rate": 0.9292929292929293
+        },
+        "leave_environment_B_walk": {
+          "covered": 87,
+          "total": 99,
+          "rate": 0.8787878787878788
+        },
+        "leave_environment_C": {
+          "covered": 89,
+          "total": 100,
+          "rate": 0.89
+        },
+        "leave_environment_D": {
+          "covered": 96,
+          "total": 99,
+          "rate": 0.9696969696969697
+        },
+        "leave_environment_E": {
+          "covered": 89,
+          "total": 99,
+          "rate": 0.898989898989899
+        },
+        "leave_environment_F": {
+          "covered": 92,
+          "total": 100,
+          "rate": 0.92
+        },
+        "leave_environment_F_antenna": {
+          "covered": 92,
+          "total": 99,
+          "rate": 0.9292929292929293
+        },
+        "leave_environment_F_walk": {
+          "covered": 88,
+          "total": 98,
+          "rate": 0.8979591836734694
+        },
+        "leave_environment_moving_meeting_room": {
+          "covered": 69,
+          "total": 98,
+          "rate": 0.7040816326530612
+        },
+        "leave_environment_moving_office": {
+          "covered": 92,
+          "total": 100,
+          "rate": 0.92
+        },
+        "leave_environment_residential": {
+          "covered": 166,
+          "total": 174,
+          "rate": 0.9540229885057471
+        }
+      },
+      "diagnostic_singleton_hits": 2,
+      "wrong_singleton_hits": 1
+    },
+    "S4": {
+      "rows": 480,
+      "row_coverage": 0.9833333333333333,
+      "group_coverage": {
+        "covered": 37,
+        "total": 40,
+        "rate": 0.925
+      },
+      "worst_fold_group_coverage": 0.7857142857142857,
+      "fold_group_coverage": {
+        "leave_day1_out": {
+          "covered": 11,
+          "total": 14,
+          "rate": 0.7857142857142857
+        },
+        "leave_day3_out": {
+          "covered": 14,
+          "total": 14,
+          "rate": 1.0
+        },
+        "leave_day5_out": {
+          "covered": 12,
+          "total": 12,
+          "rate": 1.0
+        }
+      },
+      "diagnostic_singleton_hits": 0,
+      "wrong_singleton_hits": 0
+    }
+  },
+  "all_budget_aggregate": [
+    {
+      "source": "S1",
+      "strategy": "fixed_prefix",
+      "rows": 5200,
+      "prefull_certified_count": 0,
+      "prefull_certification_rate": 0.0,
+      "full_or_earlier_certified_count": 5200,
+      "minimum_first_certified_budget": 512,
+      "median_first_certified_budget": 512.0,
+      "measurement_count": 512
+    },
+    {
+      "source": "S1",
+      "strategy": "random",
+      "rows": 5200,
+      "prefull_certified_count": 0,
+      "prefull_certification_rate": 0.0,
+      "full_or_earlier_certified_count": 5200,
+      "minimum_first_certified_budget": 512,
+      "median_first_certified_budget": 512.0,
+      "measurement_count": 512
+    },
+    {
+      "source": "S1",
+      "strategy": "task_weight",
+      "rows": 5200,
+      "prefull_certified_count": 0,
+      "prefull_certification_rate": 0.0,
+      "full_or_earlier_certified_count": 5200,
+      "minimum_first_certified_budget": 512,
+      "median_first_certified_budget": 512.0,
+      "measurement_count": 512
+    },
+    {
+      "source": "S1",
+      "strategy": "task_operator_greedy",
+      "rows": 5200,
+      "prefull_certified_count": 0,
+      "prefull_certification_rate": 0.0,
+      "full_or_earlier_certified_count": 5200,
+      "minimum_first_certified_budget": 512,
+      "median_first_certified_budget": 512.0,
+      "measurement_count": 512
+    },
+    {
+      "source": "S4",
+      "strategy": "fixed_prefix",
+      "rows": 480,
+      "prefull_certified_count": 0,
+      "prefull_certification_rate": 0.0,
+      "full_or_earlier_certified_count": 480,
+      "minimum_first_certified_budget": 256,
+      "median_first_certified_budget": 256.0,
+      "measurement_count": 256
+    },
+    {
+      "source": "S4",
+      "strategy": "random",
+      "rows": 480,
+      "prefull_certified_count": 0,
+      "prefull_certification_rate": 0.0,
+      "full_or_earlier_certified_count": 480,
+      "minimum_first_certified_budget": 256,
+      "median_first_certified_budget": 256.0,
+      "measurement_count": 256
+    },
+    {
+      "source": "S4",
+      "strategy": "task_weight",
+      "rows": 480,
+      "prefull_certified_count": 0,
+      "prefull_certification_rate": 0.0,
+      "full_or_earlier_certified_count": 480,
+      "minimum_first_certified_budget": 256,
+      "median_first_certified_budget": 256.0,
+      "measurement_count": 256
+    },
+    {
+      "source": "S4",
+      "strategy": "task_operator_greedy",
+      "rows": 480,
+      "prefull_certified_count": 0,
+      "prefull_certification_rate": 0.0,
+      "full_or_earlier_certified_count": 480,
+      "minimum_first_certified_budget": 256,
+      "median_first_certified_budget": 256.0,
+      "measurement_count": 256
+    }
+  ],
+  "ordered_obstruction_rows": 80,
+  "all_integer_budget_rows": 29760,
+  "first_certification_rows": 22720,
+  "implementation_audit": {
+    "truth_interval_violations": 0,
+    "head_replication_violations": 0,
+    "solver_failures": 0
+  },
+  "gates": {
+    "tests_pass": true,
+    "truth_interval_violations_zero": true,
+    "head_replication_violations_zero": true,
+    "solver_failures_zero": true,
+    "full_projected_feature_replay_within_1e_10": true,
+    "all_rows_certified_by_full_budget": true
+  },
+  "elapsed_seconds": 25.61093140000594,
+  "raw_outputs": [
+    "results/track_s_flagship_r1/R1_FULL_HEAD_FOLD_RAW_20260831_001241.csv",
+    "results/track_s_flagship_r1/R1_ORDERED_TASK_OBSTRUCTION_RAW_20260831_001241.csv",
+    "results/track_s_flagship_r1/R1_ALL_INTEGER_BUDGET_RAW_20260831_001241.csv",
+    "results/track_s_flagship_r1/R1_FIRST_CERTIFICATION_ROW_RAW_20260831_001241.csv"
+  ],
+  "claim_boundary": [
+    "The ordered fixed-algebra result closes the state-task interface for the declared linear head; it is not a no-go theorem for every classifier.",
+    "Full-budget certification means frozen-head replication completeness, not correct device authentication.",
+    "q is an algebraic information level and S is a feature-evaluation count; neither is claimed to be RF acquisition latency, sample count, energy, or memory.",
+    "Residual unitary symmetry is the kernel of a designed observation, not a validated physical RF nuisance group.",
+    "S1/S4 remain retrospective adapter/head/fold-conditional case studies.",
+    "No open-set, transmitter-causal, replay-security, cross-receiver, or deployment claim is made.",
+    "No new data are requested or opened by this contract."
+  ],
+  "environment": {
+    "python": "3.12.6",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.9.0",
+    "h5py": "3.16.0",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "data_request": {
+    "needed_now": false
+  }
+}

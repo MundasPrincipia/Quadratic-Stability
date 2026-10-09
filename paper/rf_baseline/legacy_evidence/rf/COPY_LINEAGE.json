@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-09-07T11:01:11.698620+00:00",
+  "role": "unchanged exact-fiber/high-precision reference ledgers, not new v16 execution",
+  "entries": [
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf/HIGH_PRECISION_ACCEPTANCE.csv",
+      "v16_copy": "legacy_evidence/rf/HIGH_PRECISION_ACCEPTANCE.csv",
+      "sha256": "ce321abca51cc52e848cdf387e2c701c33cfa992e8f0ffd10313509cdf50439f",
+      "bytes": 656190
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf/FLAG_MECHANISM_RAW.csv",
+      "v16_copy": "legacy_evidence/rf/FLAG_MECHANISM_RAW.csv",
+      "sha256": "71c04a60f276ec49fcd7530c684f26a2418d52c9f29720ad2754c0db414ae9f5",
+      "bytes": 12892616
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf/FLAG_MECHANISM_FOLD_SUMMARY.csv",
+      "v16_copy": "legacy_evidence/rf/FLAG_MECHANISM_FOLD_SUMMARY.csv",
+      "sha256": "9d8fbd1bca86bbb2bb859912b223f512105314580d5c4c451781893ccda8bf92",
+      "bytes": 54274
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf/SELECTIVE_MATCHED_SOURCE_SUMMARY.csv",
+      "v16_copy": "legacy_evidence/rf/SELECTIVE_MATCHED_SOURCE_SUMMARY.csv",
+      "sha256": "b2c819798171e3343b15785b4afa30ae389a22b9e1aa2f04cb441230bad67baf",
+      "bytes": 7881
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf/SELECTIVE_RAW.csv",
+      "v16_copy": "legacy_evidence/rf/SELECTIVE_RAW.csv",
+      "sha256": "67978fc5018e8712deb1704baec2d0a91401f3a9addf843147d04c20919bc9f5",
+      "bytes": 701260
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf/ROW_DECISIONS.csv",
+      "v16_copy": "legacy_evidence/rf/ROW_DECISIONS.csv",
+      "sha256": "d9322c52c98ceb9632c4101fac638d21f63ed47818067aad4ae04c5fbe6ffe89",
+      "bytes": 7561316
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf/CONFIG.json",
+      "v16_copy": "legacy_evidence/rf/CONFIG.json",
+      "sha256": "2550589c1e447d6a761455ff89dcdcbe00d275ae75255d6b42cc2503fdcafbcb",
+      "bytes": 3929
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf/SUMMARY.json",
+      "v16_copy": "legacy_evidence/rf/SUMMARY.json",
+      "sha256": "707c66e097de7c67cb7a891d9d5763582381e2a45b78b0b1e5a87e913d260e9f",
+      "bytes": 999
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf/ENVIRONMENT.json",
+      "v16_copy": "legacy_evidence/rf/ENVIRONMENT.json",
+      "sha256": "d53cb3bf1c1a253d418eaa62d330f89afde47b5210af291df9cbd509b0cf846b",
+      "bytes": 181
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf/HEAD_LINEAGE.json",
+      "v16_copy": "legacy_evidence/rf/HEAD_LINEAGE.json",
+      "sha256": "849c76cc26657907479fd1586bab28d46e135042ed724d57316fbcf31fa6cc46",
+      "bytes": 13237
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf/RESULT_MANIFEST.json",
+      "v16_copy": "legacy_evidence/rf/RESULT_MANIFEST.json",
+      "sha256": "bcb00bf8959e7d3a40a7c581ee412d1ebe1d93e74422c22c3e6e065e2cec9b4d",
+      "bytes": 26985
+    },
+    {
+      "workspace_source": "paper/revision_track_s_decision_semantics_v13_20260905/inherited_v11/inherited_rf/FLAGS.npz",
+      "v16_copy": "legacy_evidence/rf/FLAGS.npz",
+      "sha256": "56cfd744f9aec1780b961bbe5c7fd4e98e504073d555eda598e7106f47c856f7",
+      "bytes": 2807
+    }
+  ],
+  "original_manifest_scope": "Original RESULT_MANIFEST.json also lists source arrays outside this selected ledger copy; it is retained as source metadata, not asserted to be a self-contained manifest for this folder."
+}

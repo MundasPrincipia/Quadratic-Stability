@@ -1,0 +1,433 @@
+family,kind,d,seed,k,design,task,alpha_primal,alpha_upper,gap,rowvec_error,success,message,target_rank
+single_d2_s17,single,2,17,0,svd,0,3.906931357940784,3.9069313579411378,3.539391002504999e-13,3.1592929488711313e-16,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,0,random_0,0,3.9069313579407847,3.9069313579411387,3.539391002504999e-13,2.7755575615628914e-17,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,0,random_1,0,3.906931357940784,3.9069313579411378,3.539391002504999e-13,2.3551386880256624e-16,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,0,random_2,0,3.906931357940784,3.9069313579411378,3.539391002504999e-13,2.7755575615628914e-16,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,0,random_3,0,3.906931357940785,3.9069313579411395,3.5438318946034997e-13,1.2412670766236366e-16,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,0,random_4,0,3.9069313579407847,3.9069313579411387,3.539391002504999e-13,3.925231146709438e-17,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,0,random_5,0,3.9069313579407847,3.906931357941139,3.5438318946034997e-13,1.3597399555105182e-16,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,0,random_6,0,3.9069313579407843,3.906931357941138,3.539391002504999e-13,2.830524433501838e-16,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,0,random_7,0,3.906931357940784,3.9069313579411378,3.539391002504999e-13,1.5700924586837752e-16,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,1,svd,0,0.8963999886855263,0.8963999886855267,4.440892098500626e-16,0.0,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,1,random_0,0,2.023394752297566,2.0233947522975675,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,1,random_1,0,3.3043985307743977,3.3043985307743995,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,1,random_2,0,2.1868290981265472,2.186829098126548,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,1,random_3,0,1.0476144453545937,1.0476144453545941,4.440892098500626e-16,0.0,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,1,random_4,0,2.7637334733059875,2.7637334733059893,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,1,random_5,0,2.9918787588269504,2.9918787588269518,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,1,random_6,0,1.4776144066553472,1.477614406655348,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,1,random_7,0,0.921145468414572,0.9211454684145725,4.440892098500626e-16,0.0,True,Optimization terminated successfully,2
+single_d2_s17,single,2,17,2,svd,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s17,single,2,17,2,random_0,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s17,single,2,17,2,random_1,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s17,single,2,17,2,random_2,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s17,single,2,17,2,random_3,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s17,single,2,17,2,random_4,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s17,single,2,17,2,random_5,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s17,single,2,17,2,random_6,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s17,single,2,17,2,random_7,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d2_s17,multi,2,17,0,stacked_nullspace,0,3.109878092875054,3.1098780928750545,4.440892098500626e-16,2.263928827509367e-16,True,Optimization terminated successfully,1
+multi_d2_s17,multi,2,17,1,stacked_nullspace,0,6.347034998376446e-16,6.34703499837645e-16,3.944304526105059e-31,0.0,True,Optimization terminated successfully,1
+multi_d2_s17,multi,2,17,2,stacked_nullspace,0,0.0,0.0,0.0,0.0,True,fully resolved,1
+multi_d2_s17,multi,2,17,0,stacked_nullspace,1,3.0502591932049907,3.050259193204991,4.440892098500626e-16,5.410424143394753e-17,True,Optimization terminated successfully,1
+multi_d2_s17,multi,2,17,1,stacked_nullspace,1,6.694806567637026e-16,6.69480656763703e-16,3.944304526105059e-31,0.0,True,Optimization terminated successfully,1
+multi_d2_s17,multi,2,17,2,stacked_nullspace,1,0.0,0.0,0.0,0.0,True,fully resolved,1
+multi_d2_s17,multi,2,17,0,stacked_nullspace,2,3.7083231261160847,3.7083231261160856,8.881784197001252e-16,2.958703267862721e-17,True,Optimization terminated successfully,1
+multi_d2_s17,multi,2,17,1,stacked_nullspace,2,7.591136247831689e-16,7.591136247831693e-16,3.944304526105059e-31,0.0,True,Optimization terminated successfully,1
+multi_d2_s17,multi,2,17,2,stacked_nullspace,2,0.0,0.0,0.0,0.0,True,fully resolved,1
+single_d2_s29,single,2,29,0,svd,0,4.041049004478818,4.041049006188717,1.7098988891461886e-09,2.498001805406602e-16,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,0,random_0,0,4.041049004478819,4.041049006188717,1.7098980009677689e-09,4.126162952233366e-16,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,0,random_1,0,4.041049004478818,4.041049006188717,1.7098988891461886e-09,5.721958498152797e-17,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,0,random_2,0,4.041049004478818,4.041049006188716,1.7098980009677689e-09,1.3877787807814457e-16,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,0,random_3,0,4.041049004478818,4.041049006188716,1.7098980009677689e-09,2.4196749845665633e-16,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,0,random_4,0,4.041049004478818,4.041049006188716,1.7098980009677689e-09,2.603703785810335e-16,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,0,random_5,0,4.041049004478818,4.041049006188716,1.7098980009677689e-09,3.510833468576701e-16,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,0,random_6,0,4.041049004478818,4.041049006188716,1.7098980009677689e-09,1.6883057536160649e-16,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,0,random_7,0,4.041049004478818,4.041049006188717,1.7098988891461886e-09,2.482534153247273e-16,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,1,svd,0,1.2432004598670368,1.2432004598670374,6.661338147750939e-16,0.0,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,1,random_0,0,2.0965991314737895,2.0965991314737904,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,1,random_1,0,3.092080275547429,3.092080275547431,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,1,random_2,0,1.8886453916932389,1.8886453916932398,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,1,random_3,0,2.0066330154216208,2.0066330154216216,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,1,random_4,0,1.9451534056381143,1.9451534056381152,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,1,random_5,0,3.0566715631554566,3.0566715631554584,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,1,random_6,0,3.1920593890468947,3.1920593890468965,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,1,random_7,0,2.668746991690794,2.6687469916907953,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s29,single,2,29,2,svd,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s29,single,2,29,2,random_0,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s29,single,2,29,2,random_1,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s29,single,2,29,2,random_2,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s29,single,2,29,2,random_3,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s29,single,2,29,2,random_4,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s29,single,2,29,2,random_5,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s29,single,2,29,2,random_6,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s29,single,2,29,2,random_7,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d2_s29,multi,2,29,0,stacked_nullspace,0,1.8978001651901177,1.8978001651901182,4.440892098500626e-16,1.6996749443881478e-17,True,Optimization terminated successfully,1
+multi_d2_s29,multi,2,29,1,stacked_nullspace,0,3.6100956835581074e-16,3.6100956835581094e-16,1.9721522630525295e-31,0.0,True,Optimization terminated successfully,1
+multi_d2_s29,multi,2,29,2,stacked_nullspace,0,0.0,0.0,0.0,0.0,True,fully resolved,1
+multi_d2_s29,multi,2,29,0,stacked_nullspace,1,2.726587306576866,2.7265873065768664,4.440892098500626e-16,1.167818111637772e-16,True,Optimization terminated successfully,1
+multi_d2_s29,multi,2,29,1,stacked_nullspace,1,4.501572090019741e-16,4.501572090019743e-16,1.9721522630525295e-31,0.0,True,Optimization terminated successfully,1
+multi_d2_s29,multi,2,29,2,stacked_nullspace,1,0.0,0.0,0.0,0.0,True,fully resolved,1
+multi_d2_s29,multi,2,29,0,stacked_nullspace,2,4.9235561979138565,4.923556197913857,8.881784197001252e-16,2.7755575615628914e-17,True,Optimization terminated successfully,1
+multi_d2_s29,multi,2,29,1,stacked_nullspace,2,7.990179675212e-16,7.990179675212004e-16,3.944304526105059e-31,0.0,True,Optimization terminated successfully,1
+multi_d2_s29,multi,2,29,2,stacked_nullspace,2,0.0,0.0,0.0,0.0,True,fully resolved,1
+single_d2_s43,single,2,43,0,svd,0,6.208562337691696,6.208562351919708,1.422801254591377e-08,1.3597399555105182e-16,False,Positive directional derivative for linesearch,2
+single_d2_s43,single,2,43,0,random_0,0,6.208562337691695,6.208562354184514,1.6492819554514426e-08,4.775249788392736e-16,False,Positive directional derivative for linesearch,2
+single_d2_s43,single,2,43,0,random_1,0,6.208562337691695,6.208562354184369,1.6492673893253595e-08,4.965068306494546e-16,False,Positive directional derivative for linesearch,2
+single_d2_s43,single,2,43,0,random_2,0,6.208562337691696,6.208562339805553,2.1138575334589405e-09,4.0125770192081414e-16,True,Optimization terminated successfully,2
+single_d2_s43,single,2,43,0,random_3,0,6.208562337691695,6.208562349532845,1.1841150282521085e-08,4.742874840267547e-16,False,Positive directional derivative for linesearch,2
+single_d2_s43,single,2,43,0,random_4,0,6.208562337691698,6.208562337757514,6.581579725661868e-11,2.5438405243138006e-16,True,Optimization terminated successfully,2
+single_d2_s43,single,2,43,0,random_5,0,6.208562337691698,6.208562337757514,6.581579725661868e-11,2.5438405243138006e-16,True,Optimization terminated successfully,2
+single_d2_s43,single,2,43,0,random_6,0,6.208562337691696,6.208562353152642,1.5460946301004697e-08,2.5438405243138006e-16,False,Positive directional derivative for linesearch,2
+single_d2_s43,single,2,43,0,random_7,0,6.208562337691696,6.208562354184515,1.6492819554514426e-08,3.2487068343022356e-16,False,Positive directional derivative for linesearch,2
+single_d2_s43,single,2,43,1,svd,0,0.7997070114239992,0.7997070114239997,4.440892098500626e-16,0.0,True,Optimization terminated successfully,2
+single_d2_s43,single,2,43,1,random_0,0,3.7730637257630013,3.773063725763003,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s43,single,2,43,1,random_1,0,4.851486978863289,4.851486978863291,2.6645352591003757e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s43,single,2,43,1,random_2,0,2.2849737467651567,2.284973746765158,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s43,single,2,43,1,random_3,0,3.7171803920070485,3.7171803920070503,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s43,single,2,43,1,random_4,0,3.263261171443859,3.263261171443861,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s43,single,2,43,1,random_5,0,4.762769213290109,4.762769213290111,2.6645352591003757e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s43,single,2,43,1,random_6,0,2.4390042829410676,2.439004282941069,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s43,single,2,43,1,random_7,0,5.189368401595631,5.189368401595634,2.6645352591003757e-15,0.0,True,Optimization terminated successfully,2
+single_d2_s43,single,2,43,2,svd,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s43,single,2,43,2,random_0,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s43,single,2,43,2,random_1,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s43,single,2,43,2,random_2,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s43,single,2,43,2,random_3,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s43,single,2,43,2,random_4,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s43,single,2,43,2,random_5,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s43,single,2,43,2,random_6,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d2_s43,single,2,43,2,random_7,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d2_s43,multi,2,43,0,stacked_nullspace,0,2.3334339295567106,2.333433929556711,4.440892098500626e-16,1.1359458890015176e-16,True,Optimization terminated successfully,1
+multi_d2_s43,multi,2,43,1,stacked_nullspace,0,7.151967556460787e-16,7.151967556460791e-16,3.944304526105059e-31,0.0,True,Optimization terminated successfully,1
+multi_d2_s43,multi,2,43,2,stacked_nullspace,0,0.0,0.0,0.0,0.0,True,fully resolved,1
+multi_d2_s43,multi,2,43,0,stacked_nullspace,1,5.768841660438305,5.768841660438306,8.881784197001252e-16,4.49102453150674e-16,True,Optimization terminated successfully,1
+multi_d2_s43,multi,2,43,1,stacked_nullspace,1,1.6660018847673585e-15,1.6660018847673593e-15,7.888609052210118e-31,0.0,True,Optimization terminated successfully,1
+multi_d2_s43,multi,2,43,2,stacked_nullspace,1,0.0,0.0,0.0,0.0,True,fully resolved,1
+multi_d2_s43,multi,2,43,0,stacked_nullspace,2,2.652422716444797,2.6524227164447973,4.440892098500626e-16,5.561946577567963e-17,True,Optimization terminated successfully,1
+multi_d2_s43,multi,2,43,1,stacked_nullspace,2,7.535429099876747e-16,7.535429099876751e-16,3.944304526105059e-31,0.0,True,Optimization terminated successfully,1
+multi_d2_s43,multi,2,43,2,stacked_nullspace,2,0.0,0.0,0.0,0.0,True,fully resolved,1
+single_d3_s17,single,3,17,0,svd,0,4.307620128954743,4.307620128963842,9.099387909827783e-12,2.4444217419384483e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,0,random_0,0,4.307620128954742,4.307620128963842,9.100276088247483e-12,3.040470972244059e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,0,random_1,0,4.307620128954743,4.307620128963842,9.099387909827783e-12,2.423651445728339e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,0,random_2,0,4.307620128954742,4.307620128963842,9.100276088247483e-12,2.633125101432526e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,0,random_3,0,4.307620128954743,4.307620128963842,9.099387909827783e-12,3.424750116624316e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,0,random_4,0,4.307620128954741,4.307620128963841,9.100276088247483e-12,1.7554167342883506e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,0,random_5,0,4.307620128954745,4.307620128963845,9.100276088247483e-12,2.2247786310271853e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,0,random_6,0,4.307620128954742,4.307620128963842,9.100276088247483e-12,8.326672684688674e-17,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,0,random_7,0,4.307620128954743,4.307620128963842,9.099387909827783e-12,2.6945789820192466e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,1,svd,0,1.6510747323621482,1.6510747323621484,2.220446049250313e-16,2.2291027918243403e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,1,random_0,0,2.9589325594196842,2.958932565412032,5.99234795117809e-09,2.5626980138831173e-16,False,Positive directional derivative for linesearch,2
+single_d3_s17,single,3,17,1,random_1,0,3.2264857147137596,3.2264857147143586,5.990763440877345e-13,2.603703785810335e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,1,random_2,0,3.202034703990268,3.202034703991283,1.014743844507393e-12,2.387624894196368e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,1,random_3,0,4.040349706473776,4.040349709759137,3.285360428151307e-09,2.7755575615628914e-17,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,1,random_4,0,2.3380918450607835,2.3380918453867405,3.2595703913784746e-10,1.2533302082415627e-16,False,Positive directional derivative for linesearch,2
+single_d3_s17,single,3,17,1,random_5,0,3.2722989584375144,3.2722989584387028,1.1883827255587676e-12,2.8441001681421824e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,1,random_6,0,2.5191807064482306,2.519180706448451,2.2026824808563106e-13,2.3592239273284576e-16,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,1,random_7,0,3.34280160998296,3.3428016099829705,1.0658141036401503e-14,9.020562075079397e-17,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,2,svd,0,2.0875540702105476e-16,2.0875540702105486e-16,9.860761315262648e-32,0.0,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,2,random_0,0,2.3026131808727475,2.3026131808727484,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,2,random_1,0,2.963963259674451,2.9639632596744523,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,2,random_2,0,1.1624535690773241,1.1624535690773246,4.440892098500626e-16,0.0,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,2,random_3,0,2.1865465548865943,2.186546554886595,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,2,random_4,0,1.2966830792335238,1.2966830792335242,4.440892098500626e-16,0.0,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,2,random_5,0,2.106921405199772,2.1069214051997727,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,2,random_6,0,1.878402621330796,1.878402621330797,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,2,random_7,0,1.841059769801505,1.8410597698015059,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d3_s17,single,3,17,3,svd,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s17,single,3,17,3,random_0,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s17,single,3,17,3,random_1,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s17,single,3,17,3,random_2,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s17,single,3,17,3,random_3,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s17,single,3,17,3,random_4,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s17,single,3,17,3,random_5,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s17,single,3,17,3,random_6,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s17,single,3,17,3,random_7,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d3_s17,multi,3,17,0,stacked_nullspace,0,4.581215178324085,4.581215178602322,2.7823698900419913e-10,3.255369336802011e-16,True,Optimization terminated successfully,2
+multi_d3_s17,multi,3,17,1,stacked_nullspace,0,2.318358662999367,2.3183586629993673,4.440892098500626e-16,8.582937747229195e-17,True,Optimization terminated successfully,2
+multi_d3_s17,multi,3,17,2,stacked_nullspace,0,4.50308446099808e-16,4.503084460998082e-16,1.9721522630525295e-31,0.0,True,Optimization terminated successfully,2
+multi_d3_s17,multi,3,17,3,stacked_nullspace,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d3_s17,multi,3,17,0,stacked_nullspace,1,7.103703100660798,7.103703100661961,1.162625551387464e-12,2.5210253502251575e-16,True,Optimization terminated successfully,2
+multi_d3_s17,multi,3,17,1,stacked_nullspace,1,2.723718061035118,2.7237180610351186,4.440892098500626e-16,1.1610990315520314e-16,True,Optimization terminated successfully,2
+multi_d3_s17,multi,3,17,2,stacked_nullspace,1,7.897606350566176e-16,7.8976063505661795e-16,3.944304526105059e-31,0.0,True,Optimization terminated successfully,2
+multi_d3_s17,multi,3,17,3,stacked_nullspace,1,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d3_s17,multi,3,17,0,stacked_nullspace,2,5.061294983176296,5.061294984043911,8.676153129272279e-10,1.9675159943996247e-16,False,Positive directional derivative for linesearch,2
+multi_d3_s17,multi,3,17,1,stacked_nullspace,2,3.4290650268672787,3.429065026867279,4.440892098500626e-16,1.1857187100668868e-16,True,Optimization terminated successfully,2
+multi_d3_s17,multi,3,17,2,stacked_nullspace,2,4.188135030549017e-16,4.1881350305490188e-16,1.9721522630525295e-31,0.0,True,Optimization terminated successfully,2
+multi_d3_s17,multi,3,17,3,stacked_nullspace,2,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s29,single,3,29,0,svd,0,5.403118635816924,5.4031186358169245,8.881784197001252e-16,3.905555678715502e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,0,random_0,0,5.403118635816924,5.4031186358169245,8.881784197001252e-16,1.942890293094024e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,0,random_1,0,5.403118635816924,5.403118635844502,2.757793993168889e-11,3.5652682413747997e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,0,random_2,0,5.403118635816924,5.403118635837649,2.0725643423702422e-11,1.7554167342883506e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,0,random_3,0,5.403118635816924,5.4031186358169245,8.881784197001252e-16,2.3055512673781017e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,0,random_4,0,5.403118635816924,5.403118635832803,1.587974196581854e-11,3.805652793121308e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,0,random_5,0,5.403118635816924,5.403118635844502,2.757793993168889e-11,1.0103182026100663e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,0,random_6,0,5.403118635816924,5.4031186358570125,4.008882115158485e-11,2.9893669801409083e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,0,random_7,0,5.403118635816922,5.403118635843078,2.6155966281748988e-11,4.1284960951691644e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,1,svd,0,3.3333375455841665,3.333337545584167,4.440892098500626e-16,3.212940164695817e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,1,random_0,0,4.75639634682769,4.756396352850198,6.022507825775847e-09,2.498001805406602e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,1,random_1,0,4.001569584836196,4.001569584864869,2.8673063923179143e-11,1.6883057536160649e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,1,random_2,0,4.493424729676309,4.493424768753002,3.9076692992523476e-08,3.1401849173675503e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,1,random_3,0,3.7575836026383294,3.757583609839573,7.2012436014290415e-09,1.3877787807814457e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,1,random_4,0,3.623183899770371,3.623183899771968,1.5969447986208252e-12,2.4196749845665633e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,1,random_5,0,4.5596544397003935,4.5596544475274365,7.827043013719504e-09,3.7238012298709097e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,1,random_6,0,4.095414415101376,4.095414417533386,2.432010148822883e-09,2.7755575615628914e-16,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,1,random_7,0,4.568333249918625,4.5683332831438905,3.322526520577185e-08,3.387999773988765e-16,False,Positive directional derivative for linesearch,2
+single_d3_s29,single,3,29,2,svd,0,4.428370917418369e-16,4.428370917418371e-16,1.9721522630525295e-31,0.0,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,2,random_0,0,2.989771773335561,2.9897717733355624,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,2,random_1,0,2.7053960812439577,2.7053960812439595,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,2,random_2,0,2.170572262633743,2.170572262633744,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,2,random_3,0,2.331197293246899,2.3311972932469,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,2,random_4,0,2.1291433849165475,2.1291433849165484,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,2,random_5,0,1.6715549657009547,1.6715549657009556,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,2,random_6,0,2.759067029713283,2.759067029713284,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,2,random_7,0,2.871712774531791,2.8717127745317925,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s29,single,3,29,3,svd,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s29,single,3,29,3,random_0,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s29,single,3,29,3,random_1,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s29,single,3,29,3,random_2,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s29,single,3,29,3,random_3,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s29,single,3,29,3,random_4,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s29,single,3,29,3,random_5,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s29,single,3,29,3,random_6,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s29,single,3,29,3,random_7,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d3_s29,multi,3,29,0,stacked_nullspace,0,6.584535439396468,6.584535439715887,3.1941826961201514e-10,3.6506759942727966e-16,True,Optimization terminated successfully,2
+multi_d3_s29,multi,3,29,1,stacked_nullspace,0,2.5297264629340783,2.5297264629340788,4.440892098500626e-16,2.897767167584095e-16,True,Optimization terminated successfully,2
+multi_d3_s29,multi,3,29,2,stacked_nullspace,0,1.206454552265263e-15,1.2064545522652637e-15,5.9164567891575885e-31,0.0,True,Optimization terminated successfully,2
+multi_d3_s29,multi,3,29,3,stacked_nullspace,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d3_s29,multi,3,29,0,stacked_nullspace,1,4.968274082678478,4.968274085105503,2.427024803353106e-09,1.1527756336890508e-16,True,Optimization terminated successfully,2
+multi_d3_s29,multi,3,29,1,stacked_nullspace,1,2.1280031282699867,2.128003128269987,4.440892098500626e-16,1.1527756336890508e-16,True,Optimization terminated successfully,2
+multi_d3_s29,multi,3,29,2,stacked_nullspace,1,9.614654015681806e-16,9.61465401568181e-16,3.944304526105059e-31,0.0,True,Optimization terminated successfully,2
+multi_d3_s29,multi,3,29,3,stacked_nullspace,1,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d3_s29,multi,3,29,0,stacked_nullspace,2,5.852379182676884,5.852379182676888,3.552713678800501e-15,2.2982303784612184e-16,True,Optimization terminated successfully,2
+multi_d3_s29,multi,3,29,1,stacked_nullspace,2,4.060696751893935,4.060696751893936,8.881784197001252e-16,2.0122792321330962e-16,True,Optimization terminated successfully,2
+multi_d3_s29,multi,3,29,2,stacked_nullspace,2,9.435219030346488e-16,9.435219030346491e-16,3.944304526105059e-31,0.0,True,Optimization terminated successfully,2
+multi_d3_s29,multi,3,29,3,stacked_nullspace,2,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s43,single,3,43,0,svd,0,9.29444150420901,9.294441504828319,6.193090484885033e-10,5.935087083004136e-16,False,Positive directional derivative for linesearch,2
+single_d3_s43,single,3,43,0,random_0,0,9.294441504209006,9.294441504828313,6.193072721316639e-10,6.004449063730082e-16,False,Positive directional derivative for linesearch,2
+single_d3_s43,single,3,43,0,random_1,0,9.29444150420901,9.29444150482123,6.122196083424569e-10,5.578801654593729e-16,False,Positive directional derivative for linesearch,2
+single_d3_s43,single,3,43,0,random_2,0,9.294441504209008,9.294441504786175,5.771667588305718e-10,7.259024953699689e-16,False,Positive directional derivative for linesearch,2
+single_d3_s43,single,3,43,0,random_3,0,9.294441504209008,9.294441504786175,5.771667588305718e-10,3.2009291313835888e-16,False,Positive directional derivative for linesearch,2
+single_d3_s43,single,3,43,0,random_4,0,9.29444150420901,9.294441504561036,3.5202596393446584e-10,6.473657049138938e-16,False,Positive directional derivative for linesearch,2
+single_d3_s43,single,3,43,0,random_5,0,9.29444150420901,9.294441504828319,6.193090484885033e-10,3.885780586188048e-16,False,Positive directional derivative for linesearch,2
+single_d3_s43,single,3,43,0,random_6,0,9.294441504209008,9.294441504786175,5.771667588305718e-10,5.438959822042073e-16,False,Positive directional derivative for linesearch,2
+single_d3_s43,single,3,43,0,random_7,0,9.294441504209008,9.294441504478977,2.6996893609521067e-10,5.978733960281817e-16,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,1,svd,0,3.4597999122847227,3.459799912284724,1.3322676295501878e-15,3.775166431889533e-16,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,1,random_0,0,7.5852631308821525,7.585263131423478,5.413252068819929e-10,3.510833468576701e-16,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,1,random_1,0,8.207239378732153,8.207239379255862,5.237090761056606e-10,2.603703785810335e-16,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,1,random_2,0,4.619287488628828,4.619287507474255,1.8845427440794538e-08,2.5172027167143304e-16,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,1,random_3,0,7.992371460342868,7.992371464703581,4.360712679840617e-09,7.043575467574348e-16,False,Positive directional derivative for linesearch,2
+single_d3_s43,single,3,43,1,random_4,0,7.041905383283168,7.041905385657661,2.374493490719942e-09,1.1102230246251565e-16,False,Positive directional derivative for linesearch,2
+single_d3_s43,single,3,43,1,random_5,0,8.45745541575822,8.457455422723237,6.9650170075874485e-09,4.710277376051325e-16,False,Positive directional derivative for linesearch,2
+single_d3_s43,single,3,43,1,random_6,0,8.005255619407183,8.00525561975392,3.467359732667319e-10,2.220446049250313e-16,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,1,random_7,0,7.864781317819809,7.864781322702102,4.8822927922742565e-09,4.839349969133127e-16,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,2,svd,0,3.2086595668089074e-15,3.208659566808909e-15,1.5777218104420236e-30,0.0,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,2,random_0,0,4.553738396986715,4.553738396986717,2.6645352591003757e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,2,random_1,0,5.085632445366851,5.085632445366854,2.6645352591003757e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,2,random_2,0,2.8327959000621177,2.832795900062119,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,2,random_3,0,4.143405345478251,4.143405345478253,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,2,random_4,0,6.580158182949086,6.58015818294909,3.552713678800501e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,2,random_5,0,5.904335940424581,5.904335940424585,3.552713678800501e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,2,random_6,0,4.6603574941597214,4.660357494159724,2.6645352591003757e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,2,random_7,0,4.4995606859418045,4.499560685941807,2.6645352591003757e-15,0.0,True,Optimization terminated successfully,2
+single_d3_s43,single,3,43,3,svd,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s43,single,3,43,3,random_0,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s43,single,3,43,3,random_1,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s43,single,3,43,3,random_2,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s43,single,3,43,3,random_3,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s43,single,3,43,3,random_4,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s43,single,3,43,3,random_5,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s43,single,3,43,3,random_6,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d3_s43,single,3,43,3,random_7,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d3_s43,multi,3,43,0,stacked_nullspace,0,4.701996363930512,4.7019963656006,1.6700880678399699e-09,3.2385015444498e-16,True,Optimization terminated successfully,2
+multi_d3_s43,multi,3,43,1,stacked_nullspace,0,2.476015656154508,2.4760156561545084,4.440892098500626e-16,7.919159918457851e-17,True,Optimization terminated successfully,2
+multi_d3_s43,multi,3,43,2,stacked_nullspace,0,5.716108919926774e-16,5.716108919926777e-16,2.9582283945787943e-31,0.0,True,Optimization terminated successfully,2
+multi_d3_s43,multi,3,43,3,stacked_nullspace,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d3_s43,multi,3,43,0,stacked_nullspace,1,5.315542980497721,5.31554298546757,4.969849420888295e-09,3.336446474703022e-16,False,Positive directional derivative for linesearch,2
+multi_d3_s43,multi,3,43,1,stacked_nullspace,1,3.8995561446019305,3.8995561446019305,0.0,2.2291027918243403e-16,True,Optimization terminated successfully,2
+multi_d3_s43,multi,3,43,2,stacked_nullspace,1,3.995089837606e-16,3.995089837606002e-16,1.9721522630525295e-31,0.0,True,Optimization terminated successfully,2
+multi_d3_s43,multi,3,43,3,stacked_nullspace,1,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d3_s43,multi,3,43,0,stacked_nullspace,2,5.86530282834617,5.8653028295055,1.1593295212719568e-09,2.603703785810335e-16,True,Optimization terminated successfully,2
+multi_d3_s43,multi,3,43,1,stacked_nullspace,2,2.8627641772125356,2.8627641772125365,8.881784197001252e-16,7.850462293418876e-17,True,Optimization terminated successfully,2
+multi_d3_s43,multi,3,43,2,stacked_nullspace,2,5.483555942339159e-16,5.483555942339161e-16,1.9721522630525295e-31,0.0,True,Optimization terminated successfully,2
+multi_d3_s43,multi,3,43,3,stacked_nullspace,2,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s17,single,4,17,0,svd,0,5.924114500038552,5.924114522473538,2.243498542497946e-08,3.639158791073363e-16,False,Positive directional derivative for linesearch,2
+single_d4_s17,single,4,17,0,random_0,0,5.924114500038554,5.924114502618668,2.580113900307879e-09,5.28085841456928e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,0,random_1,0,5.924114500038554,5.92411450003953,9.761080832504376e-13,3.608224830031759e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,0,random_2,0,5.924114500038554,5.924114502618668,2.580113900307879e-09,2.8066088919804617e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,0,random_3,0,5.924114500038554,5.924114522473538,2.243498364862262e-08,5.578801654593729e-16,False,Positive directional derivative for linesearch,2
+single_d4_s17,single,4,17,0,random_4,0,5.924114500038554,5.924114502618666,2.5801121239510394e-09,3.213689363765041e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,0,random_5,0,5.924114500038552,5.924114503825047,3.78649467336345e-09,3.466670283279959e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,0,random_6,0,5.924114500038554,5.924114502618668,2.580113900307879e-09,5.419449386414209e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,0,random_7,0,5.924114500038554,5.92411451437948,1.4340925780231828e-08,4.39073555834512e-16,False,Positive directional derivative for linesearch,2
+single_d4_s17,single,4,17,1,svd,0,2.214217886700431,2.2142178867004314,4.440892098500626e-16,1.8384795490838615e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,1,random_0,0,4.473170976452182,4.473170976891558,4.3937653515513375e-10,3.7238012298709097e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,1,random_1,0,4.870053242114486,4.8700532442457085,2.1312223097424976e-09,2.3561606619023687e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,1,random_2,0,4.764013935563103,4.764013936858969,1.295866525197198e-09,4.652682298944613e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,1,random_3,0,5.1846924196932545,5.184692424325078,4.631823813383562e-09,4.0125770192081414e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,1,random_4,0,5.577281066473948,5.577281076967996,1.0494047408826646e-08,2.3714374201337736e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,1,random_5,0,4.416349899156055,4.416349899592238,4.361835337363118e-10,1.9478403400799703e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,1,random_6,0,5.730028114530348,5.730028127024651,1.2494303369692261e-08,1.5202354861220294e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,1,random_7,0,5.155996656862623,5.15599665808429,1.2216672118370298e-09,4.2001807449902774e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,2,svd,0,1.2890593823980072e-15,1.3286526546724152e-15,3.959327227440799e-17,1.4654050252376534e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,2,random_0,0,4.319024720921673,4.319024723762068,2.8403945862010005e-09,3.7238012298709097e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,2,random_1,0,3.9358689545602403,3.9358689551850543,6.248139783338047e-10,1.389512421408389e-16,False,Positive directional derivative for linesearch,2
+single_d4_s17,single,4,17,2,random_2,0,4.72702702390543,4.727027047220341,2.331491089080373e-08,2.486410087150353e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,2,random_3,0,3.4820347141886208,3.4820347141892194,5.986322548778844e-13,1.7554167342883506e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,2,random_4,0,4.902746220281639,4.902746236996474,1.6714834849551607e-08,3.764949453935611e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,2,random_5,0,3.7344986036370416,3.734498603638443,1.4015455462867976e-12,2.5324586304240974e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,2,random_6,0,4.294318774513458,4.294318775457553,9.440945802907663e-10,2.9893669801409083e-16,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,2,random_7,0,5.085165053564746,5.0851650740474,2.0482653795284023e-08,5.551115123125783e-17,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,3,svd,0,7.351036440601593e-16,7.351036440601596e-16,2.9582283945787943e-31,0.0,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,3,random_0,0,2.1769678532336627,2.1769678532336636,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,3,random_1,0,1.2520331469915835,1.2520331469915842,6.661338147750939e-16,0.0,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,3,random_2,0,2.0613834897183088,2.06138348971831,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,3,random_3,0,1.4674253959984107,1.4674253959984114,6.661338147750939e-16,0.0,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,3,random_4,0,1.722349676202308,1.722349676202309,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,3,random_5,0,2.095221238590744,2.095221238590745,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,3,random_6,0,2.9228627642553016,2.922862764255303,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,3,random_7,0,2.3857359256528174,2.385735925652819,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s17,single,4,17,4,svd,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s17,single,4,17,4,random_0,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s17,single,4,17,4,random_1,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s17,single,4,17,4,random_2,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s17,single,4,17,4,random_3,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s17,single,4,17,4,random_4,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s17,single,4,17,4,random_5,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s17,single,4,17,4,random_6,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s17,single,4,17,4,random_7,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d4_s17,multi,4,17,0,stacked_nullspace,0,4.595236293297554,4.595236294972708,1.6751542375459394e-09,2.664029250039677e-16,True,Optimization terminated successfully,2
+multi_d4_s17,multi,4,17,1,stacked_nullspace,0,3.3100570864024723,3.3100570864024736,1.3322676295501878e-15,1.4455566366144742e-16,True,Optimization terminated successfully,2
+multi_d4_s17,multi,4,17,2,stacked_nullspace,0,9.272731022911887e-16,9.945853372945663e-16,6.73122350033776e-17,9.231597913640692e-17,True,Optimization terminated successfully,2
+multi_d4_s17,multi,4,17,3,stacked_nullspace,0,2.7714196755530817e-16,2.7714196755530826e-16,9.860761315262648e-32,0.0,True,Optimization terminated successfully,2
+multi_d4_s17,multi,4,17,4,stacked_nullspace,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d4_s17,multi,4,17,0,stacked_nullspace,1,5.589190787001164,5.589190799877558,1.2876394173133576e-08,2.6660758490040365e-16,False,Positive directional derivative for linesearch,2
+multi_d4_s17,multi,4,17,1,stacked_nullspace,1,2.5889170942822064,2.5889170942822073,8.881784197001252e-16,1.3672713644003933e-16,True,Optimization terminated successfully,2
+multi_d4_s17,multi,4,17,2,stacked_nullspace,1,7.065932563876343e-16,7.7046361037331e-16,6.387035398567577e-17,1.3531121110320344e-16,True,Optimization terminated successfully,2
+multi_d4_s17,multi,4,17,3,stacked_nullspace,1,2.8733505921370043e-16,2.873350592137006e-16,1.4791141972893971e-31,0.0,True,Optimization terminated successfully,2
+multi_d4_s17,multi,4,17,4,stacked_nullspace,1,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d4_s17,multi,4,17,0,stacked_nullspace,2,2.7848212362158917,2.7848212362159073,1.554312234475219e-14,1.73507038598447e-16,True,Optimization terminated successfully,2
+multi_d4_s17,multi,4,17,1,stacked_nullspace,2,1.3569291362962093,1.3569291362962097,4.440892098500626e-16,7.252720979472214e-17,True,Optimization terminated successfully,2
+multi_d4_s17,multi,4,17,2,stacked_nullspace,2,3.578112024818481e-16,3.8889016935070236e-16,3.1078966868854273e-17,4.615798956820346e-17,True,Optimization terminated successfully,2
+multi_d4_s17,multi,4,17,3,stacked_nullspace,2,1.0038726072501277e-16,1.0038726072501282e-16,4.930380657631324e-32,0.0,True,Optimization terminated successfully,2
+multi_d4_s17,multi,4,17,4,stacked_nullspace,2,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s29,single,4,29,0,svd,0,6.1811132913724816,6.181113312571245,2.1198763633378803e-08,4.795875140247561e-16,False,Positive directional derivative for linesearch,2
+single_d4_s29,single,4,29,0,random_0,0,6.181113291372477,6.1811133048533,1.3480822680378424e-08,4.980559976921029e-16,False,Positive directional derivative for linesearch,2
+single_d4_s29,single,4,29,0,random_1,0,6.181113291372478,6.181113301690087,1.0317608989396376e-08,4.2457866502527573e-16,False,Positive directional derivative for linesearch,2
+single_d4_s29,single,4,29,0,random_2,0,6.181113291372478,6.181113301690087,1.0317608989396376e-08,3.964289135040461e-16,False,Positive directional derivative for linesearch,2
+single_d4_s29,single,4,29,0,random_3,0,6.181113291372479,6.181113314619238,2.32467591843033e-08,1.722188176232883e-16,False,Positive directional derivative for linesearch,2
+single_d4_s29,single,4,29,0,random_4,0,6.181113291372478,6.1811133013423465,9.969868486336964e-09,5.229551148071769e-16,False,Positive directional derivative for linesearch,2
+single_d4_s29,single,4,29,0,random_5,0,6.181113291372479,6.181113295390187,4.017707944115045e-09,4.775249788392736e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,0,random_6,0,6.181113291372478,6.181113301690087,1.0317608989396376e-08,3.966717490021657e-16,False,Positive directional derivative for linesearch,2
+single_d4_s29,single,4,29,0,random_7,0,6.181113291372479,6.181113295390187,4.017707944115045e-09,3.825842074281555e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,1,svd,0,2.2411011216917895,2.24110112169179,4.440892098500626e-16,1.7772239894833365e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,1,random_0,0,4.73582499063055,4.735824992104535,1.4739844900191201e-09,5.723641179706052e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,1,random_1,0,5.014791361872875,5.014791361886723,1.3847589741544652e-11,1.631746962036502e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,1,random_2,0,5.829121189692992,5.829121189761977,6.898481785810873e-11,3.293599916772088e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,1,random_3,0,5.587254241800312,5.587254252566633,1.0766321167920978e-08,1.5914137981270663e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,1,random_4,0,5.157412511635968,5.1574125155218,3.8858321005363905e-09,1.1775693440128312e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,1,random_5,0,4.958623724864362,4.958623725300777,4.3641534830385353e-10,2.3055512673781017e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,1,random_6,0,5.391893694293682,5.391893701752864,7.459182604918624e-09,3.998753976337507e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,1,random_7,0,5.852546556920353,5.852546571568973,1.4648620094703801e-08,2.7894008272968645e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,2,svd,0,1.222171299692196e-15,1.3144691224860886e-15,9.229782279389263e-17,1.5391211231076976e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,2,random_0,0,3.4391393713274905,3.439139371329551,2.0605739337042905e-12,2.5589376332604516e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,2,random_1,0,4.543107801825165,4.543107812054155,1.0228989211213957e-08,1.1775693440128312e-16,False,Positive directional derivative for linesearch,2
+single_d4_s29,single,4,29,2,random_2,0,5.349487272142252,5.349487292283645,2.0141393441974742e-08,2.7476618026966064e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,2,random_3,0,5.133040112833206,5.133040112833207,8.881784197001252e-16,5.011399652273759e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,2,random_4,0,1.980356715339382,1.9803567153393946,1.2656542480726785e-14,2.3714374201337736e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,2,random_5,0,4.845719716957143,4.845719745980385,2.9023241587822213e-08,1.8410966031475738e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,2,random_6,0,2.457997917844873,2.45799791785037,5.496936239524075e-12,2.5739461938222585e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,2,random_7,0,2.5636529450903502,2.5636529450930463,2.69606559299973e-12,1.3947004136484323e-16,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,3,svd,0,3.8774595918438086e-16,3.8774595918438106e-16,1.9721522630525295e-31,0.0,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,3,random_0,0,2.183973923543054,2.1839739235430553,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,3,random_1,0,2.1386582242864387,2.1386582242864396,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,3,random_2,0,1.379648059903305,1.3796480599033056,6.661338147750939e-16,0.0,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,3,random_3,0,2.0770702579981424,2.0770702579981433,8.881784197001252e-16,0.0,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,3,random_4,0,2.9268952939841877,2.9268952939841895,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,3,random_5,0,2.2125921577151533,2.2125921577151546,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,3,random_6,0,2.1803912575847666,2.180391257584768,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,3,random_7,0,3.7843600614317796,3.7843600614317814,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s29,single,4,29,4,svd,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s29,single,4,29,4,random_0,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s29,single,4,29,4,random_1,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s29,single,4,29,4,random_2,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s29,single,4,29,4,random_3,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s29,single,4,29,4,random_4,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s29,single,4,29,4,random_5,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s29,single,4,29,4,random_6,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s29,single,4,29,4,random_7,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d4_s29,multi,4,29,0,stacked_nullspace,0,5.343132093895646,5.343132104747254,1.0851608500672683e-08,1.9666746035189523e-16,False,Positive directional derivative for linesearch,2
+multi_d4_s29,multi,4,29,1,stacked_nullspace,0,1.6621906067644174,1.6621906067644179,4.440892098500626e-16,1.9666746035189523e-16,True,Optimization terminated successfully,2
+multi_d4_s29,multi,4,29,2,stacked_nullspace,0,1.2123713237005443e-15,1.3309938495990723e-15,1.1862252589852803e-16,1.0086786794779195e-16,True,Optimization terminated successfully,2
+multi_d4_s29,multi,4,29,3,stacked_nullspace,0,5.482624552788095e-16,5.482624552788097e-16,1.9721522630525295e-31,0.0,True,Optimization terminated successfully,2
+multi_d4_s29,multi,4,29,4,stacked_nullspace,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d4_s29,multi,4,29,0,stacked_nullspace,1,3.641149303380607,3.6411493049302015,1.549594674798982e-09,2.2771838694454674e-16,True,Optimization terminated successfully,2
+multi_d4_s29,multi,4,29,1,stacked_nullspace,1,2.696452587267978,2.6964525872679785,4.440892098500626e-16,1.6493562521320161e-16,True,Optimization terminated successfully,2
+multi_d4_s29,multi,4,29,2,stacked_nullspace,1,1.2518840640862561e-15,1.3046155079063368e-15,5.2731443820080734e-17,5.0515910130503314e-17,True,Optimization terminated successfully,2
+multi_d4_s29,multi,4,29,3,stacked_nullspace,1,2.0875540702105476e-16,2.0875540702105486e-16,9.860761315262648e-32,0.0,True,Optimization terminated successfully,2
+multi_d4_s29,multi,4,29,4,stacked_nullspace,1,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d4_s29,multi,4,29,0,stacked_nullspace,2,6.1357544235108055,6.135754441786008,1.8275202684492342e-08,3.134813796900204e-16,False,Positive directional derivative for linesearch,2
+multi_d4_s29,multi,4,29,1,stacked_nullspace,2,3.53744464234072,3.5374446423407204,4.440892098500626e-16,2.2128436193288824e-16,True,Optimization terminated successfully,2
+multi_d4_s29,multi,4,29,2,stacked_nullspace,2,1.3635795449388854e-15,1.4980402918439998e-15,1.3446074690511435e-16,1.559322466582485e-16,True,Optimization terminated successfully,2
+multi_d4_s29,multi,4,29,3,stacked_nullspace,2,9.225034653277197e-16,9.225034653277201e-16,3.944304526105059e-31,0.0,True,Optimization terminated successfully,2
+multi_d4_s29,multi,4,29,4,stacked_nullspace,2,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s43,single,4,43,0,svd,0,8.43738903756836,8.437389038797445,1.2290843898199455e-09,3.3422138886441676e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,0,random_0,0,8.437389037568359,8.437389038797445,1.229086166176785e-09,6.193910274793601e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,0,random_1,0,8.43738903756836,8.437389038797447,1.229086166176785e-09,5.874748045952207e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,0,random_2,0,8.437389037568359,8.437389038797445,1.229086166176785e-09,3.2009291313835888e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,0,random_3,0,8.437389037568357,8.437389038797441,1.2290843898199455e-09,5.79553433516819e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,0,random_4,0,8.437389037568359,8.437389038797443,1.2290843898199455e-09,4.1168171577819285e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,0,random_5,0,8.437389037568357,8.437389038797443,1.229086166176785e-09,4.3709524189038457e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,0,random_6,0,8.437389037568359,8.437389038797445,1.229086166176785e-09,3.4219371797089426e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,0,random_7,0,8.43738903756836,8.437389038797447,1.229086166176785e-09,3.764949453935611e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,1,svd,0,4.946367264431679,4.946367264431681,2.6645352591003757e-15,3.152427400121712e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,1,random_0,0,7.612523327665942,7.612523327690645,2.4702906387119583e-11,3.040470972244059e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,1,random_1,0,6.900228993196288,6.900228993899913,7.036247140490559e-10,4.002966042486721e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,1,random_2,0,6.534660255208187,6.534660255520073,3.118865166129581e-10,3.597533769998862e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,1,random_3,0,7.603816992758199,7.603816992841991,8.379164029292951e-11,5.578801654593729e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,1,random_4,0,7.074526454490496,7.07452646186821,7.37771355119321e-09,4.236704743275018e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,1,random_5,0,7.658601185309637,7.658601197288949,1.1979311764775957e-08,6.131407058289218e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,1,random_6,0,8.013538696652693,8.01353870375538,7.102686438997807e-09,3.554447978966673e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,1,random_7,0,7.659922328390694,7.6599223285304445,1.397504334477162e-10,2.603703785810335e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,2,svd,0,1.3172903599205395e-15,1.4185982865838774e-15,1.0130792666333791e-16,2.237726045655905e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,2,random_0,0,5.995320425153566,5.995320425156829,3.26316751397826e-12,2.482534153247273e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,2,random_1,0,6.999510330221759,6.999510330748635,5.268754321718916e-10,1.6653345369377348e-16,False,Positive directional derivative for linesearch,2
+single_d4_s43,single,4,43,2,random_2,0,5.246416125555314,5.246416145314465,1.9759151648202078e-08,3.2957919968262575e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,2,random_3,0,4.701047915863299,4.701047916596013,7.327143336510744e-10,2.220446049250313e-16,False,Positive directional derivative for linesearch,2
+single_d4_s43,single,4,43,2,random_4,0,4.831793018429298,4.831793048021567,2.9592269079614653e-08,1.5700924586837752e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,2,random_5,0,5.318228688056894,5.31822872236953,3.431263628783654e-08,2.237726045655905e-16,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,2,random_6,0,6.599430288939703,6.599430291239491,2.299787915660545e-09,2.482534153247273e-16,False,Positive directional derivative for linesearch,2
+single_d4_s43,single,4,43,2,random_7,0,2.878390461187917,2.8783904810363845,1.9848467314176332e-08,3.4219371797089426e-16,False,Positive directional derivative for linesearch,2
+single_d4_s43,single,4,43,3,svd,0,9.978857830924463e-16,9.978857830924467e-16,3.944304526105059e-31,0.0,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,3,random_0,0,4.108858879665164,4.108858879665166,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,3,random_1,0,3.974445310874646,3.9744453108746476,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,3,random_2,0,3.9778067062155085,3.977806706215511,2.6645352591003757e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,3,random_3,0,4.084834070112409,4.084834070112411,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,3,random_4,0,2.3216868814728864,2.3216868814728877,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,3,random_5,0,3.7022207834659437,3.7022207834659455,1.7763568394002505e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,3,random_6,0,2.540103581359747,2.540103581359748,1.3322676295501878e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,3,random_7,0,4.388917589994011,4.388917589994014,2.6645352591003757e-15,0.0,True,Optimization terminated successfully,2
+single_d4_s43,single,4,43,4,svd,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s43,single,4,43,4,random_0,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s43,single,4,43,4,random_1,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s43,single,4,43,4,random_2,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s43,single,4,43,4,random_3,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s43,single,4,43,4,random_4,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s43,single,4,43,4,random_5,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s43,single,4,43,4,random_6,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+single_d4_s43,single,4,43,4,random_7,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d4_s43,multi,4,43,0,stacked_nullspace,0,4.774581179877459,4.7745811798775195,6.039613253960852e-14,3.438780286458794e-16,True,Optimization terminated successfully,2
+multi_d4_s43,multi,4,43,1,stacked_nullspace,0,1.2910466510333967,1.2910466510333969,2.220446049250313e-16,1.4015878649856313e-16,True,Optimization terminated successfully,2
+multi_d4_s43,multi,4,43,2,stacked_nullspace,0,8.469399263439817e-16,8.798619791327238e-16,3.29220527887421e-17,1.3092278833360675e-16,True,Optimization terminated successfully,2
+multi_d4_s43,multi,4,43,3,stacked_nullspace,0,2.961458680626138e-16,2.9614586806261397e-16,1.4791141972893971e-31,0.0,True,Optimization terminated successfully,2
+multi_d4_s43,multi,4,43,4,stacked_nullspace,0,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d4_s43,multi,4,43,0,stacked_nullspace,1,4.1850959999260775,4.1850959999260935,1.5987211554602254e-14,2.3387263717801085e-16,True,Optimization terminated successfully,2
+multi_d4_s43,multi,4,43,1,stacked_nullspace,1,2.638296704046036,2.638296704046037,8.881784197001252e-16,2.0396099332657776e-16,True,Optimization terminated successfully,2
+multi_d4_s43,multi,4,43,2,stacked_nullspace,1,6.684107068330268e-16,7.338218908315039e-16,6.541118399847708e-17,1.6595420514327883e-16,True,Optimization terminated successfully,2
+multi_d4_s43,multi,4,43,3,stacked_nullspace,1,4.233413481903985e-16,4.233413481903987e-16,1.9721522630525295e-31,0.0,True,Optimization terminated successfully,2
+multi_d4_s43,multi,4,43,4,stacked_nullspace,1,0.0,0.0,0.0,0.0,True,fully resolved,2
+multi_d4_s43,multi,4,43,0,stacked_nullspace,2,4.165775523082367,4.165775523082373,6.217248937900877e-15,5.131615814814056e-16,True,Optimization terminated successfully,2
+multi_d4_s43,multi,4,43,1,stacked_nullspace,2,2.7799810994641567,2.779981099464157,4.440892098500626e-16,4.626348475117109e-16,True,Optimization terminated successfully,2
+multi_d4_s43,multi,4,43,2,stacked_nullspace,2,7.222213093227971e-16,7.869331376585228e-16,6.471182833572564e-17,1.1385919347227337e-16,True,Optimization terminated successfully,2
+multi_d4_s43,multi,4,43,3,stacked_nullspace,2,2.9250210277129103e-16,2.9250210277129117e-16,1.4791141972893971e-31,0.0,True,Optimization terminated successfully,2
+multi_d4_s43,multi,4,43,4,stacked_nullspace,2,0.0,0.0,0.0,0.0,True,fully resolved,2

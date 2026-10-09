@@ -15,11 +15,9 @@ separately from source-digest and environment metadata.
 
 ## RF numerical consistency check
 
-`rf-interface` runs `check_rf_interface.py` on the companion selected
-with `--companion`. RF data availability is recorded in the
-[README](../README.md#replay-saved-rf-inputs). Pass the data archive's `reproducibility/`
-directory (or the containing directory); the earlier companion layout remains
-accepted. Paths below are relative to `reproducibility/`. Its inputs are:
+`rf-interface` runs `check_rf_interface.py` using this repository's saved inputs
+by default. An external companion can still be selected with `--companion`.
+Paths below are relative to `paper/`. Its inputs are:
 
 - `rf_baseline/data/raw_rebuild_run02/FLAGS.npz`;
 - S1 and S4 `SOURCE_INPUTS.npz`;
@@ -38,7 +36,7 @@ separate interval-arithmetic procedure described above.
 
 ## RF summary replay
 
-`rf-summaries` uses saved inputs from the companion, including:
+`rf-summaries` uses the included saved inputs, including:
 
 - baseline anchors, fold class labels, designs, and competitor records;
 - later fair-design records and 160 saved anchor/witness payloads;
@@ -49,8 +47,9 @@ bases, numerical ordering, and bound formulas before aggregation. It covers
 2,400 design cells and 21,600 competitor records.
 The generated CSVs include `ABSOLUTE_RADII.csv`, `COMPARISON_SUMMARIES.csv`,
 `NUMERICAL_SUMMARIES.csv`, and `PAIRED_COMPARISONS.csv`. The first three are
-included here as small aggregate references; per-anchor paired records remain in
-the companion. Output path fields can differ across installations.
+included as aggregate references; per-anchor paired records are included in
+`paper/quadratic_stability/results/fair_design_run01/`.
+Output path fields can differ across installations.
 
 The reference CSVs also include historical applicability and transfer summaries
 by source, fold, and device. The `rf-summaries` command rebuilds the four comparison
@@ -62,16 +61,16 @@ unresolved where the available bounds do not determine them.
 
 ## Reconstructible E1 intermediates
 
-The RF replay data provides inputs for regenerating the 96 per-sample NPZ files below
+The repository provides inputs for regenerating the 96 per-sample NPZ files below
 `rf_baseline/results/e1_run01/S1/` and `S4/`. It includes the source inputs,
 classifiers, flag records, natural-row table, stratified applicability table,
 and all finite-bracket and aggregate summaries. `rf-applicability` reruns the
 frozen E1 numerical routine from those inputs into a new directory and checks
 every array payload against `checks/rf_applicability/REFERENCE_ARRAYS.json`.
 The accompanying CSVs and scientific summary fields are compared separately.
-The published entry point uses the RF source in the companion's `src/` directory.
-Integration of the prepared data-only archive with the repository's copy of that
-source remains part of the pending RF data release.
+The default entry point uses the unchanged RF implementation in
+`paper/rf_baseline/src/`. External companions retain their existing layout;
+a data-only companion can use the same repository implementation.
 
 ## Historical processing and optimization code
 

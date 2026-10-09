@@ -1,0 +1,88 @@
+{
+  "created_utc": "2026-09-05T07:09:41.155575+00:00",
+  "endpoint_rows": 63,
+  "margin_rows": 35,
+  "endpoint_certificate_pass": 63,
+  "root_control_certificate_pass": 35,
+  "certified_first_roots": 25,
+  "globally_flat_controls": 10,
+  "max_binary64_endpoint_error": 2.7755575615628914e-17,
+  "max_binary64_probe_budget_error": 8.673617379884035e-19,
+  "max_binary64_norm_error": 2.220446049250313e-16,
+  "max_oriented_endpoint_interval_width": 8.319509530651208e-32,
+  "max_root_interval_width": 5.345529420184391e-51,
+  "design_totals": {
+    "rows": 432,
+    "finite_ordered_bounds": 432,
+    "saved_success": 391,
+    "non_success": 41,
+    "fully_resolved_no_solver": 108,
+    "solver_success": 283,
+    "solver_calls": 324
+  },
+  "slopes": [
+    {
+      "task": "active_half",
+      "expected_downward_exponent": 0.5,
+      "expected_threshold_exponent": 2.0,
+      "all_grid_downward_slope": 0.49973440890230864,
+      "all_grid_threshold_slope": 2.000002182410104,
+      "fit_used_as_proof": false
+    },
+    {
+      "task": "tangent_linear",
+      "expected_downward_exponent": 1.0,
+      "expected_threshold_exponent": 1.0,
+      "all_grid_downward_slope": 0.9999984361459531,
+      "all_grid_threshold_slope": 1.0000010912050519,
+      "fit_used_as_proof": false
+    },
+    {
+      "task": "mixed_three_half",
+      "expected_downward_exponent": 1.5,
+      "expected_threshold_exponent": 0.6666666666666666,
+      "all_grid_downward_slope": 1.4999999999999996,
+      "all_grid_threshold_slope": 0.6666666666666667,
+      "fit_used_as_proof": false
+    },
+    {
+      "task": "tangent_quadratic",
+      "expected_downward_exponent": null,
+      "expected_threshold_exponent": null,
+      "all_grid_downward_slope": null,
+      "all_grid_threshold_slope": null,
+      "fit_used_as_proof": false
+    },
+    {
+      "task": "constant",
+      "expected_downward_exponent": null,
+      "expected_threshold_exponent": null,
+      "all_grid_downward_slope": null,
+      "all_grid_threshold_slope": null,
+      "fit_used_as_proof": false
+    },
+    {
+      "task": "negative_quadratic",
+      "expected_downward_exponent": 2.0,
+      "expected_threshold_exponent": 0.5,
+      "all_grid_downward_slope": 1.9999999999999996,
+      "all_grid_threshold_slope": 0.5000000000000001,
+      "fit_used_as_proof": false
+    },
+    {
+      "task": "linear_up_quadratic_down",
+      "expected_downward_exponent": 2.0,
+      "expected_threshold_exponent": 0.5,
+      "all_grid_downward_slope": 1.9999999999999996,
+      "all_grid_threshold_slope": 0.5000000000000001,
+      "fit_used_as_proof": false
+    }
+  ],
+  "failures": [],
+  "retained_all_prescribed_rows": true,
+  "passed": true,
+  "inherited_experiments_rerun": false,
+  "rf_refitted": false,
+  "protocol_departures": [],
+  "evidence_scope": "full-set proved canonical model only; binary64 diagnostics and explicit outward interval certificates"
+}

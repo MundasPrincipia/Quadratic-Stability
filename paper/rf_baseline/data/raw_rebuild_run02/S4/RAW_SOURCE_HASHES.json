@@ -1,0 +1,242 @@
+[
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device10/IQ_1.dat",
+    "sha256": "d7a9b8fa424a95cce8133390bfdc51c1637cadca13dba3db28c471fc1d85ddb0",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device11/IQ_2.dat",
+    "sha256": "3abbc4c69a56d4bb1bce7eeb73a3f5155510064b9ef2fe08d1eadcc697a50847",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device13/IQ_1.dat",
+    "sha256": "562625925cd31c8f572fcface3f7d7cd15aa95183db638150047be9bbab251a8",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device13/IQ_2.dat",
+    "sha256": "857c14851fb4e169f7be1a091b0f32d4f68c3b0ccc7952481cbd573fe29845d5",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device14/IQ_1.dat",
+    "sha256": "c6e14ea73466367e2f0ea44637b678163772accd765640488b305195022d4f87",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device14/IQ_2.dat",
+    "sha256": "91d323822b5e5f51e5b2abcc7bae96386ebd78a0216f0447eb52112e042493bb",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device15/IQ_1.dat",
+    "sha256": "525440d47299bd95a91750ae2cb92f1f03e409ec176ab625379e263210ddc586",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device2/IQ_1.dat",
+    "sha256": "e0cb83523bf31681157dbfb4fc2c145e8041a3697409e967ea812851bebebf48",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device3/IQ_1.dat",
+    "sha256": "fb85657e98115958e444cedeec8b1f5ae5b96df93453e4a3efdddee7d9635aac",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device7/IQ_1.dat",
+    "sha256": "fa96af0c8615dc670aa8b3eec60777efd15813edf81aef90a141a8236a6ca9ee",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device7/IQ_2.dat",
+    "sha256": "292f7b9a58544049c19639b25c1264f0bac5d6238a4abe59d6af6648743732fa",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device8/IQ_1.dat",
+    "sha256": "e205472ec7c8032efb9a9298401a22a495c88b108eb2997bf4c42e9f32d6c315",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device9/IQ_1.dat",
+    "sha256": "deaf00ab28db6112c4f2f7c6307bd14b2e09a7cf1f622749ec2669490dd0479a",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day1/Device9/IQ_2.dat",
+    "sha256": "ceef049673321dc56175e38b39accbb9d3f6bf929d527db4b1681bcb73d0c93d",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device10/IQ_1.dat",
+    "sha256": "a1ef01bc1af51f69ce4c9c1ca9224d86026f262822cf9a13b64ebfb6cd5f225a",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device11/IQ_2.dat",
+    "sha256": "5b94613494ee699d69e81649c7a6767a3aebc69a457ef5569273ec511c65f12c",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device13/IQ_1.dat",
+    "sha256": "4879be2259775f7eea757c5811af550408b8d138516a2dba6b7d3d49a8833aa4",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device14/IQ_1.dat",
+    "sha256": "341e8362a80b5e3da524e85648601395b998057d7f7f65d535493a9e3613cf25",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device15/IQ_1.dat",
+    "sha256": "3fa137aa2aecc1288cf276fedfc236686942179c62ca7f913d6a3adc1be2efc7",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device15/IQ_2.dat",
+    "sha256": "454b3ea3a506f5e567f2c6833e796af89e282a87755676a89a72c873f342b155",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device2/IQ_1.dat",
+    "sha256": "189f53a8f46be3506af70a4ea7871d80b0c8a292eb8d19a1dc0c8afcc078c6b5",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device2/IQ_2.dat",
+    "sha256": "1e0abacabd25e637578885af68563702ef32f8a28257ec9a5c265bfe08a92275",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device3/IQ_1.dat",
+    "sha256": "3555a3ff47d0b770b9cfa1f275df0e6d797e53a63ff0b381a365350430a3f6d6",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device3/IQ_2.dat",
+    "sha256": "1fdf7f648ea66fae485b992b04c340e48c77da15cf2f3ed646eab63e8028e6d1",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device7/IQ_1.dat",
+    "sha256": "e9585a40d488b96d56bb6123e8656dd04be57644c899a35e0472f5d73c9f8107",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device8/IQ_1.dat",
+    "sha256": "280bdff6082b0da21cf903de113db3d82c81633855c0af477ffd1eb2825ba8cf",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device8/IQ_2.dat",
+    "sha256": "ef05427c5a4f74ac9f9fa39c82c1fa4687d72d4672c11511fca8806a1bb4f3d8",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day3/Device9/IQ_2.dat",
+    "sha256": "a42e7cf7837300a13be284c6780ec533498b64714e4cea156eb7cbdc8c2a310b",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day5/Device10/IQ_1.dat",
+    "sha256": "17333eef9dc7b02cf32a4bd8532bdc44f64b719af913180fd6cd14bcb09cbf1e",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day5/Device10/IQ_2.dat",
+    "sha256": "cca84ea25f2fe8a05ad36bbc4c8549fa3618f3858f5abde4de0bfb085873413d",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day5/Device11/IQ_1.dat",
+    "sha256": "77c74dde01d215118831d6b6e3c15ef8cccee9b16135c70be4ce7f723612937a",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day5/Device11/IQ_2.dat",
+    "sha256": "cac5d50483328618160ca3bafd006f3de65576f5c67b2987502591efd74854eb",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day5/Device13/IQ_2.dat",
+    "sha256": "2d0c008394833a4340b4894ee1c1a211389eeae5016dd015164007caf549e891",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day5/Device14/IQ_1.dat",
+    "sha256": "13aae95ec5228fd3d8dea98cb3ecf1f4faeb9540e741cc513af37836e43bde6e",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day5/Device15/IQ_2.dat",
+    "sha256": "0efe1fdabe6c2b76d9ca7ce9d8d65ead9ce977fde7277aa2b527bcbf3e1fb011",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day5/Device2/IQ_2.dat",
+    "sha256": "873b19b789e2fc8abb5df1c12a6bc735b6d5733fae3c69c85e0377857cc5c612",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day5/Device3/IQ_1.dat",
+    "sha256": "7daa8392002496cceb5f1339a594ee6c943d168293428bf84a0248dce4baf58a",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day5/Device7/IQ_1.dat",
+    "sha256": "8baabbf2eceff520539e88c1850b31b89d47dc8b13ee9f04730b567db455e127",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day5/Device8/IQ_1.dat",
+    "sha256": "893f09d6fd623212dacc7cf58210673fb171b11162a7cf4419ba28191dd97ffd",
+    "bytes": 160000000,
+    "rows": 12
+  },
+  {
+    "path": "ieee_dataport/Datasets/Oregon_LoRa/Diff_Days_Indoor_Setup/Day5/Device9/IQ_1.dat",
+    "sha256": "0bb73aa673f179c66d52e4359e02d0382326ea2af5b5cb8fc3ebdb6a0644bf82",
+    "bytes": 160000000,
+    "rows": 12
+  }
+]

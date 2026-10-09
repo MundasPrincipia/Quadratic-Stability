@@ -1,0 +1,11 @@
+{
+  "figure": "v11_positive_rank",
+  "sources": {
+    "results\\positive_rank\\run_20260905_124913_710642\\endpoint_brackets.csv": "22087debdc5198c094aba47991b95f41ea673a38a978032775b022968b14dae2",
+    "results\\positive_rank\\run_20260905_124913_710642\\interval_certificates.json": "f11f36191a785bf8f5965815c570186b1feef7a57d6095009ce5297c193da252",
+    "results\\positive_rank\\run_20260905_124913_710642\\summary.json": "25fb2d5f57ae97786312964257179d1d2ef835d406eed09c8697add26a567b1f"
+  },
+  "script_sha256": "a5846ea53db6f53c5e86c3ac87f10825e2b8cc27e6a4c6db3126999773b04a00",
+  "display": "vector PDF and 300-dpi PNG; colorblind palette and redundant line/marker styles",
+  "not_ci": "All envelopes are analytic brackets or explicitly descriptive ranges; none is a confidence interval."
+}

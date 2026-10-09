@@ -1,0 +1,19 @@
+{
+  "E4_cases": 54,
+  "E6_cases": 25,
+  "profile_certificates": 6,
+  "global_scalar_endpoint_certificates": 60,
+  "first_failure_threshold_certificates": 35,
+  "no_failure_window_certificates": 15,
+  "max_raw_score_error": 2.7755575615628914e-17,
+  "max_raw_observation_error": 1.3335686721571705e-16,
+  "max_raw_state_norm_error": 2.220446049250313e-16,
+  "max_global_scalar_interval_gap": 2.3541805991117127e-44,
+  "max_normalized_weak_remainder": 0.5916766004131222,
+  "max_threshold_relative_excess": 0.0012162010913829846,
+  "max_raw_margin_at_threshold": 1.734723475976807e-18,
+  "all_prescribed_configurations_retained": true,
+  "failures": [],
+  "evidence_boundary": "80-digit interval scalar certificates plus separately reported binary64 raw-matrix checks; not RF or population evidence",
+  "created_utc": "2026-09-05T05:02:02.835195+00:00"
+}

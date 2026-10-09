@@ -1,0 +1,747 @@
+{
+  "started": "2026-09-21T19:09:14.917708+00:00",
+  "completed": "2026-09-21T19:09:29.298415+00:00",
+  "inputs": {
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\protocol\\ANCHORS.csv": {
+      "bytes": 16739,
+      "sha256": "4096ce6f29aa90616a0686d4a421806dbe647641aebb412eccd3509f11fbfe13"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\DESIGN_RESULTS.csv": {
+      "bytes": 349521,
+      "sha256": "fa7c8d22fb4b6f3cca27f21e26f5588e24a20590d83196b2cec51d2aa32ac937"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\PAIR_RESULTS.csv": {
+      "bytes": 5193994,
+      "sha256": "c02c100fcdd2f2d705cdd273d62eb6f5440f10735ce0a9b0220cac12ef897f0e"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\SOURCE_INPUTS.npz": {
+      "bytes": 42362075,
+      "sha256": "6e1ecc5e71f5a7bdb61c5913e1559ac9363a9b5d72b43f6e2e4a19775adb0adf"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_A\\COMMON_HEAD.npz": {
+      "bytes": 9925310,
+      "sha256": "79d2c71399c36f90700f96cafa2c1fc9b708770cfd2f01f1e45026b0f043b5bd"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_000_WITNESSES.npz": {
+      "bytes": 418361,
+      "sha256": "9eb45f6764cb554c1f1d691036a740cff6d90b2cfbded79a554d8f0601a79656"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_001_WITNESSES.npz": {
+      "bytes": 418881,
+      "sha256": "4292b7e38355c4d70aed5a4485710ee3de89f37d94dc126c533999df08912438"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_002_WITNESSES.npz": {
+      "bytes": 418509,
+      "sha256": "9ac3c8597c5683da4559793206b6015d37c45651b4a2600ff8f5f035669a541a"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_003_WITNESSES.npz": {
+      "bytes": 418246,
+      "sha256": "b4ded7c33953e5f17ed535ec280c9322c7cf1fa3b2f1b651fe406a26aa9de635"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_004_WITNESSES.npz": {
+      "bytes": 418397,
+      "sha256": "c0338da9cafb998bfc16d326b0c810fc86b0c27b6d6b37ca7d5c0f1477b5cee3"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_005_WITNESSES.npz": {
+      "bytes": 418569,
+      "sha256": "2e1051be782cd9eea98778ceb260eae5be8d01b573aee5aa021ce66d5b3bdd78"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_006_WITNESSES.npz": {
+      "bytes": 417999,
+      "sha256": "65fdbc0f8fcf74f565069e3a5c222f940674740cb1ec2fb8ddafed7f54f2e320"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_007_WITNESSES.npz": {
+      "bytes": 418208,
+      "sha256": "616376ee1badab9704ded147fbae6886805120209ef141b91c4623199366cbc1"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_008_WITNESSES.npz": {
+      "bytes": 418363,
+      "sha256": "2cd20eedf4c00416a5fe5e0e1512f56692a97aa4eabe75caa03a833d6a6aee62"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_009_WITNESSES.npz": {
+      "bytes": 418266,
+      "sha256": "baf5f86544c1e70b1cd017d704b719b0eb4426c44bc136550dfb8e48626ab771"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_B\\COMMON_HEAD.npz": {
+      "bytes": 9925207,
+      "sha256": "744b0e97f8ba35329f20644a08d89c9941d292b3d960563475557312780efe3b"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_010_WITNESSES.npz": {
+      "bytes": 418033,
+      "sha256": "d22df76a8367a9612131356b321c224d7ceef11986db7a832693b933854e65c3"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_011_WITNESSES.npz": {
+      "bytes": 418081,
+      "sha256": "bfece4105b52f91a07341376503f81f1520e3464f0d797bc74122be6a67182e0"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_012_WITNESSES.npz": {
+      "bytes": 418194,
+      "sha256": "3bbaff2bc67699c11029283ea75b298df932ea597ca21fe162db6d9a4564078e"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_013_WITNESSES.npz": {
+      "bytes": 418035,
+      "sha256": "89fa652dd146218111a0e4c6bcea1dbccf540db428035d35e9352970d4f381f9"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_014_WITNESSES.npz": {
+      "bytes": 418002,
+      "sha256": "cda46df384947525be2d8d216beb024c4871930d77c0fe91860c8f9ed767d7ed"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_015_WITNESSES.npz": {
+      "bytes": 418099,
+      "sha256": "a5297c5952d4aa164db2021bf2c2a10e482c1439bee53203a7cc8e4f9e790458"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_016_WITNESSES.npz": {
+      "bytes": 418554,
+      "sha256": "41e18ddbf2b4ef82dfb81c951e2257d3fded79b54cc19b1c9af0c9ffde0bf936"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_017_WITNESSES.npz": {
+      "bytes": 417655,
+      "sha256": "92d1637c8a41b2f080d563bc3ec708c010271bc01afd8e6e34bd31c1de37d1e4"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_018_WITNESSES.npz": {
+      "bytes": 418159,
+      "sha256": "62d1e9495e6d78261e92c6a9177c35e0c4fca18b12198a3488fe88c0a0ab4eff"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_019_WITNESSES.npz": {
+      "bytes": 418345,
+      "sha256": "b9adb9f6fe7b4e47afe156dab980ba4d581fcc0b8159b4a202efac3ceeef4090"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_B_antenna\\COMMON_HEAD.npz": {
+      "bytes": 9925242,
+      "sha256": "bfa08da5dfb71764661bb3da6a8a44f1b7722228111695334e7e50326bd02c03"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_020_WITNESSES.npz": {
+      "bytes": 417791,
+      "sha256": "40d390af366c88f28c0f8a17713a990bece29eb0b3be7607425df409b8ee27cc"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_021_WITNESSES.npz": {
+      "bytes": 418163,
+      "sha256": "7c91fdce6e90c409f187c631431e46c2922b50cd7c9d47cdba199ea12bb913b0"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_022_WITNESSES.npz": {
+      "bytes": 417852,
+      "sha256": "fa4f74875692df692b424d5f52eedba9f9580114076f84ddb510e29e2d3c1b52"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_023_WITNESSES.npz": {
+      "bytes": 418435,
+      "sha256": "94830e3d5fe0de46d7ff419f59861af8f55e8efb041a4d18b8b75a07fe188ea0"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_024_WITNESSES.npz": {
+      "bytes": 418409,
+      "sha256": "bbad9f1d06b3d43f52cca0838bcb5f2414fb448f759b7405ad20186374be06ff"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_025_WITNESSES.npz": {
+      "bytes": 417911,
+      "sha256": "09ceedee520e24cf93397805c9332d7252077a308b88774994b8c518a29ae43a"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_026_WITNESSES.npz": {
+      "bytes": 418089,
+      "sha256": "0a1c07d89c037f6ee7b7b1d73c762957de407d192746562373c5ae01b5b71ed5"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_027_WITNESSES.npz": {
+      "bytes": 417790,
+      "sha256": "e4d341f42b9230df27d3fe0656969f58d9820da115af82f23601a0660a9b79b8"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_028_WITNESSES.npz": {
+      "bytes": 418297,
+      "sha256": "8cc3eed37ada682569061516e126d7351a467717267c51d68bee686dec516739"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_029_WITNESSES.npz": {
+      "bytes": 417763,
+      "sha256": "f5d9f8d898380462efa763be8f12c7d92c52fc84d04622a94c09b54b046728ce"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_B_walk\\COMMON_HEAD.npz": {
+      "bytes": 9925236,
+      "sha256": "82a7449ebc283047d5536c89acce4f4eb28bfc7ff2cbb0a3658ad26a28be6e50"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_030_WITNESSES.npz": {
+      "bytes": 417922,
+      "sha256": "c18d1def89963aee4e0b73326c14bf14b833fb4ab5367cf3c595a0b67e8d5021"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_031_WITNESSES.npz": {
+      "bytes": 418095,
+      "sha256": "3a7287a4f65a40b518ee4576b13bff9a314bb5e39a6ca491470d8d06c4ea9b1a"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_032_WITNESSES.npz": {
+      "bytes": 418020,
+      "sha256": "c52aec5cc2ab475dceb93396b74ca42af7154d2748347ce30d991858307b1642"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_033_WITNESSES.npz": {
+      "bytes": 418280,
+      "sha256": "95fc12cd716fe23ce290beed3e7f621a46929677aa8af75f770db47eb884990c"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_034_WITNESSES.npz": {
+      "bytes": 418492,
+      "sha256": "cb7a562560dc8ba4e5f70e708ec0430e3c602c12ead03a3bc615cc2f670054a8"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_035_WITNESSES.npz": {
+      "bytes": 417573,
+      "sha256": "ae0176aea1bbe4018a518a7724772129d81b2e48275b78ea58b4e01f42851b29"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_036_WITNESSES.npz": {
+      "bytes": 417989,
+      "sha256": "e2db55ef382dc627d75cbdf21b667da9bbd4f16ff6cfebc7e878053c25f7bf01"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_037_WITNESSES.npz": {
+      "bytes": 418560,
+      "sha256": "6654ad2d486bd583e46b6f426ec6a675f9f50bfe7030519d66f7f3911e7f21e6"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_038_WITNESSES.npz": {
+      "bytes": 418434,
+      "sha256": "d813f7d572bd0bde13d0082defa73f4e07867730d4e8d84d593032caafc0862a"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_039_WITNESSES.npz": {
+      "bytes": 418187,
+      "sha256": "2884862176b64ff0aa9b337a8cf751ebee1792c64b9218e45c730b9c23bc8966"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_C\\COMMON_HEAD.npz": {
+      "bytes": 9924806,
+      "sha256": "58926483f25b517aaab931cc163616b160abf85e03f4b63e46ad9665c9b8a0c8"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_040_WITNESSES.npz": {
+      "bytes": 418499,
+      "sha256": "cf08b2d3e495e50314db4d9c2699b104fd7161df272f3275ddb8322b5eb34a50"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_041_WITNESSES.npz": {
+      "bytes": 418437,
+      "sha256": "39b5ec2fe75cd119cd85f50ff27c4527b708f9b0a3a47d4db4fdd01534c4a70e"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_042_WITNESSES.npz": {
+      "bytes": 418505,
+      "sha256": "24e78047171ffc9786c72b4973ee79db8e02a134f4ba0367a7eb888d9f9ac760"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_043_WITNESSES.npz": {
+      "bytes": 418260,
+      "sha256": "1dea2c3f165841a712115e7e1fc6ae059af734a902abee73cbfb824daf144455"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_044_WITNESSES.npz": {
+      "bytes": 418218,
+      "sha256": "cdb0a15d13ea6c050e788292e394ec0b1ccf0c5d3d3a553bd4c4446fd784c8d2"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_045_WITNESSES.npz": {
+      "bytes": 418664,
+      "sha256": "3e03c10f90582518165d2e65c7a131d90cabc14a3b30f63d2abebd0808bbc33e"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_046_WITNESSES.npz": {
+      "bytes": 418301,
+      "sha256": "3c918a1448a0239162dcdd7e23b12557d94dd5c06577a1ce92b291e97a8594c9"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_047_WITNESSES.npz": {
+      "bytes": 418180,
+      "sha256": "6bcd91398125edd6a216b7e02aff00498d8403776375e65e43774d718cc12004"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_048_WITNESSES.npz": {
+      "bytes": 418178,
+      "sha256": "59388c7ab91a8b21aacef58de4c24ee4a8a81dc5b18feb8b741ca3381821d7b9"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_049_WITNESSES.npz": {
+      "bytes": 418042,
+      "sha256": "71f5803ebc425f990c410b76d45177317edcfc2d9055fc2ef6cb27bf2eeac141"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_D\\COMMON_HEAD.npz": {
+      "bytes": 9924450,
+      "sha256": "54e280efb1bd87e1a77d1f145eee4d4035a7503ea967c57fc4dd3684019897f4"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_050_WITNESSES.npz": {
+      "bytes": 417799,
+      "sha256": "98215296bcef84e43d8035323e87ad8c7461ab43f28ac225b399e8713f1a1554"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_051_WITNESSES.npz": {
+      "bytes": 417914,
+      "sha256": "516b8a1b0b01be0b945b7e80fbc8d6038852c5593f6e7d9aa9e0992085b6a827"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_052_WITNESSES.npz": {
+      "bytes": 417676,
+      "sha256": "9231a4f48a61a420a727b94753181defd56be9ebbd0e0419cd904c5458c862bc"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_053_WITNESSES.npz": {
+      "bytes": 418315,
+      "sha256": "b7b5e8ac6c43af50ed4c491dd3607b3575fbaec10581a38e6df19cc706e2fde0"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_054_WITNESSES.npz": {
+      "bytes": 418102,
+      "sha256": "f56638a7164feee9c0c3f2447021115ebc6ec9a416b454c80759c431137b4496"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_055_WITNESSES.npz": {
+      "bytes": 417941,
+      "sha256": "1da9cfbdcc901965f0e180a92cc920958bca4dcf22b82d5ea082a753bb388739"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_056_WITNESSES.npz": {
+      "bytes": 417905,
+      "sha256": "6be7d48e78a0bda8e981c7211ece687a419fd6d58e732950b379e8d15518c73b"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_057_WITNESSES.npz": {
+      "bytes": 418258,
+      "sha256": "794761a8638caadb0e55dca9765b744556c045e482350881d49427b070de2e3f"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_058_WITNESSES.npz": {
+      "bytes": 417992,
+      "sha256": "ffd5483d5f563fe026d97ad80cf5a6c3afcaf139abb3e4e4a4d9d4c2a5a839d1"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_059_WITNESSES.npz": {
+      "bytes": 417675,
+      "sha256": "09ee6a44ed652ef5f9359cf9ebf5e491b0c5a9206cab9094f8f1f49c4c6b5037"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_E\\COMMON_HEAD.npz": {
+      "bytes": 9925302,
+      "sha256": "322bf12773c88e23a52a2a75b5823adcc93f84756a2267e677604e57384793f8"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_060_WITNESSES.npz": {
+      "bytes": 417170,
+      "sha256": "abf5403cda0b56460648e54675efa123b388c47a206cf09b5595b515ccf437ee"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_061_WITNESSES.npz": {
+      "bytes": 418077,
+      "sha256": "f3c62856bdc672eb9bbaee60abf4e954e0c711fd31a72b9dfb57701fa43bb5c4"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_062_WITNESSES.npz": {
+      "bytes": 417767,
+      "sha256": "f511ea3b10e3de48ccd2924e80cc93c5deaf4538843021b9c3c01f7141d17137"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_063_WITNESSES.npz": {
+      "bytes": 417722,
+      "sha256": "b8a0b6696fffa11ce65b3cbac873ad609ef41fca37813b6e718c7cf529c800fd"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_064_WITNESSES.npz": {
+      "bytes": 417752,
+      "sha256": "ef187c0c50f4badeb01993efd9dc68de15a5c7b75b1ecbac7816b56e4e0a693b"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_065_WITNESSES.npz": {
+      "bytes": 417646,
+      "sha256": "cb4a9ae1b2e6d7a902f903510958b8c1042ffb957afbcb2fbbd658fd78f4cb1a"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_066_WITNESSES.npz": {
+      "bytes": 417384,
+      "sha256": "e76e9ab6c8a61a061442a9caf85baec62554328be01a09bb8dfef935994437f7"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_067_WITNESSES.npz": {
+      "bytes": 417795,
+      "sha256": "07152893983348e6410fa1f782711f5492ba7dea61f822404b995fe4db9081f0"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_068_WITNESSES.npz": {
+      "bytes": 417840,
+      "sha256": "da00a0e091842b381a3faa33a8e0525668bb6216389ef2b25eaf146346956db3"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_069_WITNESSES.npz": {
+      "bytes": 418025,
+      "sha256": "e7987ad6f067ba70a24870b0de648e1b42ead56004a96e7a7145ba87dd2da7a2"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_F\\COMMON_HEAD.npz": {
+      "bytes": 9925373,
+      "sha256": "f829a493728b02916aff3e5f75c4f6bde1d9cc3a77efa6cd97813bb46e4ea664"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_070_WITNESSES.npz": {
+      "bytes": 418164,
+      "sha256": "9957a5844921812d67888c8bba7b8d9f85b8f38b3d3dc47c35035d1a5933c782"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_071_WITNESSES.npz": {
+      "bytes": 417782,
+      "sha256": "78658152607a29b246acb90c9ad25ce5e680549769b06aade059b44446e3289f"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_072_WITNESSES.npz": {
+      "bytes": 418427,
+      "sha256": "a57dd7482d32ff2ecf6fab1e356fa7b9ea9c5e7f358e48e8eb239e80dbba3930"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_073_WITNESSES.npz": {
+      "bytes": 418084,
+      "sha256": "205d1ef663b8a14ca3717212d1bf17c2a2a0186014af819cfae212fc758f34dc"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_074_WITNESSES.npz": {
+      "bytes": 418350,
+      "sha256": "f4fc800e272b90f6ee214b3af5fe7f24298882fb4dd5a5c4398ed8d70e793c0e"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_075_WITNESSES.npz": {
+      "bytes": 418149,
+      "sha256": "cac581c7ca4b58a918218adc9446e024554a81a4346456eb04c75c776caab133"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_076_WITNESSES.npz": {
+      "bytes": 418024,
+      "sha256": "5aeeca9b58e1d695758f8834a12bd0bc4e3899d60aa6d95ad8f257ce46c480dc"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_077_WITNESSES.npz": {
+      "bytes": 418618,
+      "sha256": "b95c5f57ec2321d384978aa220b0ab80b2848b1d78b353fee16a0d2c26a45d1f"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_078_WITNESSES.npz": {
+      "bytes": 418487,
+      "sha256": "7b2d462a7c21ebca1fb10ecbb4f46169b9e419bc7a32ee9078483cc8bc399751"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_079_WITNESSES.npz": {
+      "bytes": 418147,
+      "sha256": "0cef20d386c1b4261a7d7a0c1f25c587dbe051014aa620b4ca5314c4cc588c14"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_F_antenna\\COMMON_HEAD.npz": {
+      "bytes": 9924902,
+      "sha256": "4a1690963a5ec880b50e66a32da1895b87e291bbfaa4377ee0716b40ee82edac"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_080_WITNESSES.npz": {
+      "bytes": 417947,
+      "sha256": "0955e5e95ecb7e72c1f136c8b4e2ad77b9aa3a17a3930e4479b349d4fee899be"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_081_WITNESSES.npz": {
+      "bytes": 417806,
+      "sha256": "5005d36c3538d6b91bd400cf3d519230528f6976bf1e3279288eecfc5bd9179c"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_082_WITNESSES.npz": {
+      "bytes": 417824,
+      "sha256": "83d41251ba9d723216b5d3fb75f599f2b6a91fd3c07994a026582d598a10a789"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_083_WITNESSES.npz": {
+      "bytes": 417771,
+      "sha256": "e2e51a9fa7ae176728c8aa286cdffd9e3ec85729462b375387163cf90a87e08c"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_084_WITNESSES.npz": {
+      "bytes": 418009,
+      "sha256": "25997474a697a3849460187d0bb06a5377a35485b8eda63df315041e5d5c70d8"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_085_WITNESSES.npz": {
+      "bytes": 417969,
+      "sha256": "bd4dd3cda49d6696e6ace35fb781c58423cef540e5612d7bdceabaa9952bc2fd"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_086_WITNESSES.npz": {
+      "bytes": 417777,
+      "sha256": "bb4448c1b4e16331938a128495ccf57b0ea2bfe7c3cf35bc6f3e69a3896183e1"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_087_WITNESSES.npz": {
+      "bytes": 418181,
+      "sha256": "6b651f214da490b23c2ff5068c6bee6bc6ea584e2028cfd9e418187d90d09765"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_088_WITNESSES.npz": {
+      "bytes": 417606,
+      "sha256": "2281baf519b931a3281731cd3955eb556cbbfbe07e4561fc133d547914cb8df9"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_089_WITNESSES.npz": {
+      "bytes": 417932,
+      "sha256": "b21ef2987520e3c28b10857cb6a00078f6a1ac73643e11405691aea0f9f8e62a"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_F_walk\\COMMON_HEAD.npz": {
+      "bytes": 9925587,
+      "sha256": "8c31c32e1cb0525efde06e801f70ca03a41c2cb1c31ee65ef6da6f6377c04222"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_090_WITNESSES.npz": {
+      "bytes": 418358,
+      "sha256": "408e68b7383efc0698c7cb7940b991fd6de40f1e6ebbfd6f8bf066965e417c78"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_091_WITNESSES.npz": {
+      "bytes": 417909,
+      "sha256": "0538e1a7726e4c986d34eddb07a915d3808489d466974af72069f8af263981b2"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_092_WITNESSES.npz": {
+      "bytes": 417826,
+      "sha256": "aaa639388bff7c75d71c53afeab0d013d6f8c92fbd161225261f3e0b1642b1fb"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_093_WITNESSES.npz": {
+      "bytes": 418425,
+      "sha256": "1cad9abd6e9b633639b3978f4cc5c94105f2cc017b022e3ffd8ff5e260a77362"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_094_WITNESSES.npz": {
+      "bytes": 418186,
+      "sha256": "932cea2d3d86c5c3bae968575d148e16fb4e89128fc1f116650358fd760b40f6"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_095_WITNESSES.npz": {
+      "bytes": 418234,
+      "sha256": "64cddaf9cd15fb57e5cfd1c7c6e303f24705a09da50fb822e874aab446c831d4"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_096_WITNESSES.npz": {
+      "bytes": 417804,
+      "sha256": "8f125104d1cf5f84c921bbb709f18bfdb74f3533dfe1d60c35f79c7a7f5a51bf"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_097_WITNESSES.npz": {
+      "bytes": 418183,
+      "sha256": "d87cfacd3dd6fa578c54326d4ed680fcfa54dbcbc62fbf85cf23015e3f220b19"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_098_WITNESSES.npz": {
+      "bytes": 417835,
+      "sha256": "90f738f7ae5a0978917487cdfe42d5e20282d0cb7b86178c0385be1a40f946ef"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_099_WITNESSES.npz": {
+      "bytes": 417817,
+      "sha256": "1d5365fe666645c3dfdd49cf1c7a681db2905291c114436d4bb5f7cf295c7676"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_moving_meeting_room\\COMMON_HEAD.npz": {
+      "bytes": 9925067,
+      "sha256": "94d3ca1880f2b5312734c2ad187c1f3b16fcadab840dfbab1ccc061f085caac0"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_100_WITNESSES.npz": {
+      "bytes": 417904,
+      "sha256": "d1a60f7a85b7c8fa971ba9af3d19fe3df80fc946f2c527b7451be585f719537f"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_101_WITNESSES.npz": {
+      "bytes": 417637,
+      "sha256": "ca0e3bbcdfa495b325df8899b08215d0005cf364124326ab18164cdc576b446d"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_102_WITNESSES.npz": {
+      "bytes": 418467,
+      "sha256": "0cddb928eeb2bb1396babf299c5859a1f819291fb28e2b9f579f9c930a369213"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_103_WITNESSES.npz": {
+      "bytes": 417738,
+      "sha256": "2632f9322fa6e63fea9285946c83f7941f45c1539920cceede994873e4ced294"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_104_WITNESSES.npz": {
+      "bytes": 418386,
+      "sha256": "fbaa56f5acbc46a4d0c6b8251beb28bbd0464e2819ad3debdb006b6d5f458c3f"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_105_WITNESSES.npz": {
+      "bytes": 417648,
+      "sha256": "169efee3ccb7b469f5b30996d1309e2b80ce0f4bc281b3e08d20817682efff92"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_106_WITNESSES.npz": {
+      "bytes": 418093,
+      "sha256": "79e82372668e792086d4713860c6675f68d1a8fedd1261a9d853a10d2b90e192"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_107_WITNESSES.npz": {
+      "bytes": 417749,
+      "sha256": "6ed91edab4a452eadf8bcbcef30f613ac0ac5e12624aa0e66c313641a6600398"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_108_WITNESSES.npz": {
+      "bytes": 417588,
+      "sha256": "a4e6d433771132cbac42aca951c93041821c68635678e55f957d896ba0b8c647"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_109_WITNESSES.npz": {
+      "bytes": 417751,
+      "sha256": "4a401a283841412855c7af16db9327ced4142a17aef0c4e29ba62e14adb2c78b"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_moving_office\\COMMON_HEAD.npz": {
+      "bytes": 9925327,
+      "sha256": "6efef10dc16279310a0406c58ef17899aefbf090734dcafbb45a9730270ecc25"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_110_WITNESSES.npz": {
+      "bytes": 418483,
+      "sha256": "695744c22f2bb243e0279755bc59ee78efcf03514cd21e7f68d066aa270722b2"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_111_WITNESSES.npz": {
+      "bytes": 418061,
+      "sha256": "de671d5de510c6f78010098a8dd6089ca568810d2c03c0c40eca3cc98cdaf14e"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_112_WITNESSES.npz": {
+      "bytes": 418467,
+      "sha256": "1d60185835372805925e6374f34b4ff2bf9bdadfe5d173d6fa0a6827c8036623"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_113_WITNESSES.npz": {
+      "bytes": 418652,
+      "sha256": "49546e815d77f3f0d9bc61487fa46c4e0544dcf7bde3b73324d91c4980a7b454"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_114_WITNESSES.npz": {
+      "bytes": 418116,
+      "sha256": "d709a259a6fc30f3a83cb1276f6d21ededf2f01338fad54e04e7abfd7304177d"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_115_WITNESSES.npz": {
+      "bytes": 418176,
+      "sha256": "4a659e3c3255949d8ce109fe89c36eb3834ecd205478f825aaa7b6da6b5570c9"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_116_WITNESSES.npz": {
+      "bytes": 418326,
+      "sha256": "b6f334fbb18b7205607437263822fdbc1d780321c8b64c8d52f2a2d635f77220"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_117_WITNESSES.npz": {
+      "bytes": 418581,
+      "sha256": "87ced3740217053473db2fe45a0fef4adfef839084b774aaa8cad41d0d36ec78"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_118_WITNESSES.npz": {
+      "bytes": 418171,
+      "sha256": "e4f9044a7d268dc7841abf25f72d5742e553d30b5d98c760c04ba36ba7fd48e3"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_119_WITNESSES.npz": {
+      "bytes": 418314,
+      "sha256": "fcec2d899d8ab6cf91cb99fae1246a0be45129966b10c1fbbb10d4ef3a193e2c"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S1\\leave_environment_residential\\COMMON_HEAD.npz": {
+      "bytes": 9925250,
+      "sha256": "5ee1849a7102c48beca3806696e2feabb77ac1874ce8cb40212f8d1e21cf21be"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_120_WITNESSES.npz": {
+      "bytes": 418399,
+      "sha256": "b380dc5ed65af9ad83a51425c5fbeaccc9d0677ccf0d5e597ee3e97ac96c0134"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_121_WITNESSES.npz": {
+      "bytes": 418508,
+      "sha256": "72e45cfb3a245d8ff3c4de1f7a1352d519d29209a5ebfd3823cfc7dea9f12fe8"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_122_WITNESSES.npz": {
+      "bytes": 418176,
+      "sha256": "ec51eee22582aefdce492103a626b4416d2de2dd6e9775850a01424682b760e7"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_123_WITNESSES.npz": {
+      "bytes": 418181,
+      "sha256": "d64fd83f90297a404909ef9752505b9b02362ee2c74fb40a65c4205faaf9fb04"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_124_WITNESSES.npz": {
+      "bytes": 418473,
+      "sha256": "fa54b476671453c7c7bd1fdba324d5d0b8397a2fb73a07396cba81776964115b"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_125_WITNESSES.npz": {
+      "bytes": 418499,
+      "sha256": "f4a2028bc61909a68afe6c367f5c2f34a2def3814d91ee3e794bb524f32e1bba"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_126_WITNESSES.npz": {
+      "bytes": 418127,
+      "sha256": "ac57d0d1c631ca0877a52ee641f02f561788144a311bc38af5a30ad2a398ca5d"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_127_WITNESSES.npz": {
+      "bytes": 418289,
+      "sha256": "6fd93fb74006a7b44406e4c22d33064373009a0fe7297869e1f7332cac13cfeb"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_128_WITNESSES.npz": {
+      "bytes": 418361,
+      "sha256": "f995692dbae2fc59327fb4fe4c734f548833e8be0432a3cf1aa0b8c80323f52b"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_129_WITNESSES.npz": {
+      "bytes": 418445,
+      "sha256": "00a0815bafba0467372bef6d10b4c97576f1c93e963f4969fdd9c150c8a853e8"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S4\\SOURCE_INPUTS.npz": {
+      "bytes": 2365877,
+      "sha256": "e6b32230e9632df2ac1a84ed866a82821588e5f118d1935b5e011fcde4d23686"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S4\\leave_day1_out\\COMMON_HEAD.npz": {
+      "bytes": 2342998,
+      "sha256": "1b77ef5c029f5ef976b08e7df9806b698c487bee71e2383504c5b761ee08c41d"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_130_WITNESSES.npz": {
+      "bytes": 222550,
+      "sha256": "9fdfd36423f1dfc7606c12c7e5f0513099b30af766891c2eca90d828ae99fed6"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_131_WITNESSES.npz": {
+      "bytes": 222580,
+      "sha256": "5a5c1be1ebe55d3bef4b2d2337fe69e5596b3653d1f1334a4ad769c4b6d61a50"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_132_WITNESSES.npz": {
+      "bytes": 222601,
+      "sha256": "d6f25ebfe4c00124dea0bcdfa3ad5e076a6db670c2ff01c80121c336516cbf25"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_133_WITNESSES.npz": {
+      "bytes": 222613,
+      "sha256": "c93551a6d152e3af2f6d70c9d3399d886e2087a7edb976f817e65f142170f930"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_134_WITNESSES.npz": {
+      "bytes": 222604,
+      "sha256": "bc09285518c95af506777b514dfee799ae31645d6dee4929b492facd33489b75"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_135_WITNESSES.npz": {
+      "bytes": 222720,
+      "sha256": "20f1271b9bd016fa7bcdc785e0b0b0104b8f037306cbfb4d127161608779b8e9"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_136_WITNESSES.npz": {
+      "bytes": 222660,
+      "sha256": "adb8274820e4322b59c6eb94acb4b0705efb352e1bd28fb5c50c4b26a7a646e6"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_137_WITNESSES.npz": {
+      "bytes": 222649,
+      "sha256": "cc2529803521f782fb1da24ccba5f158a9aa10b8bffce0aed591f7c527ab4072"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_138_WITNESSES.npz": {
+      "bytes": 222430,
+      "sha256": "445f56cc0bb6d5562c0ab521c19e711b2ab124a675fdd6dd344d0c29721306b0"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_139_WITNESSES.npz": {
+      "bytes": 222576,
+      "sha256": "41432d45ce65f7d962c6150bd444e27fce4180bfdbe43ae756bb9c72e2cff7ab"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S4\\leave_day3_out\\COMMON_HEAD.npz": {
+      "bytes": 2344950,
+      "sha256": "96a3f67b6741fcc97cd747bb207f55238d3085d75f58e55a2f4e3837497a90fc"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_140_WITNESSES.npz": {
+      "bytes": 222642,
+      "sha256": "7a83a4bc4de1dfc42b9b6c455672a7841664131d35e6f1051fac275faea6fc2e"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_141_WITNESSES.npz": {
+      "bytes": 222330,
+      "sha256": "1b15802030a9e83d723a12a4fac39e14a82dc986a6caec92af8ac4baf9aef5be"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_142_WITNESSES.npz": {
+      "bytes": 222555,
+      "sha256": "82843623304ba677cd1464196f7c6653fb0dbd8e070ce81d08ec8238dbec16a5"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_143_WITNESSES.npz": {
+      "bytes": 222768,
+      "sha256": "f7aee4e89072554929e3a53eccb977d6b15327e2c522f8bec160885a16fbfc42"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_144_WITNESSES.npz": {
+      "bytes": 222658,
+      "sha256": "9b4c675c4f165df8f26822c55ab801bde3a0ef1b15aa9c686ba4e71c100b1b2c"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_145_WITNESSES.npz": {
+      "bytes": 222524,
+      "sha256": "28f17bcde48d692a942229b229eb0a9f63bca8dd633d5d0a4febe6c89fd0b078"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_146_WITNESSES.npz": {
+      "bytes": 222803,
+      "sha256": "66acf3779e6abef0c4ea313092d7b0f393c063ad3d0d7d14136137eab7df2ad4"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_147_WITNESSES.npz": {
+      "bytes": 222736,
+      "sha256": "32b1ae47f55858f9aa7d96f9c97f180a922f67e09f427fe16a9959b4befbd319"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_148_WITNESSES.npz": {
+      "bytes": 222669,
+      "sha256": "024ee55d37720bc2e70b24c4c8bc7422a010e6bc0ee2b7b2efdede73bb4764bf"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_149_WITNESSES.npz": {
+      "bytes": 222550,
+      "sha256": "2ade780940777f396fab8cd1e1b7aa7efb34943ed77d0df15868afed5ec435e0"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\data\\raw_rebuild_run02\\S4\\leave_day5_out\\COMMON_HEAD.npz": {
+      "bytes": 2344404,
+      "sha256": "3749ad964a9fca195fc675be925e96b3e53bbc820344f542059f5b46a318ac59"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_150_WITNESSES.npz": {
+      "bytes": 222676,
+      "sha256": "a53139dc648fe8a2f7fd7846cbddb970af750236c17a63be4dd6ecd4f44390e5"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_151_WITNESSES.npz": {
+      "bytes": 220473,
+      "sha256": "e275d5671ccfcc44a0a99fbf19f28a36a8ee9051c63a345453a7bbebb0ed03e2"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_152_WITNESSES.npz": {
+      "bytes": 222590,
+      "sha256": "c0b004699aacc2fe6eae51729d0eefca7757d04ed49dc1fd126d3b3f048cd461"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_153_WITNESSES.npz": {
+      "bytes": 222615,
+      "sha256": "1b260ae76788700f06bf09f285b997c9c26f9b09b9d2ff4d437bc6b0ceb015c4"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_154_WITNESSES.npz": {
+      "bytes": 222472,
+      "sha256": "e1930c33b0055f4a90db2565371bc379eed0d82fc4142b25c5c0b37d56a8e1d0"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_155_WITNESSES.npz": {
+      "bytes": 222598,
+      "sha256": "f1917b22d67b124771fdedae4d51905207875ea2e376bce0da7e737066fbe83f"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_156_WITNESSES.npz": {
+      "bytes": 222629,
+      "sha256": "630d03aaea91d83fbf777d47fcf50c39b5cac9351b17af3eaa06187470725656"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_157_WITNESSES.npz": {
+      "bytes": 222627,
+      "sha256": "418d23a7433e66f3c45b04ed6662c3baa1c76d65f711fd88e59a3b2b676dec3d"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_158_WITNESSES.npz": {
+      "bytes": 222750,
+      "sha256": "be345ae2cdb297eabefef7b7c9c27f35468c859975781769825c3f2737f3633b"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_operational_strengthening_v16_20260907\\results\\e3_run01\\ANCHOR_159_WITNESSES.npz": {
+      "bytes": 222686,
+      "sha256": "bd56ebf6a988c6e275b075c0a22d8215175b3330eb21b5be7fe94af04f8ad61e"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_fair_design_v18_20260922\\PROTOCOL.md": {
+      "bytes": 5031,
+      "sha256": "c6d82831ec367c9bcf47d56b6ef46546f5bc123c27dc418f99207cdc124da35f"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_fair_design_v18_20260922\\src\\run_fair_design.py": {
+      "bytes": 12919,
+      "sha256": "832e65b9be3f8e4d6875e172269e7bcadbe7e6bf44ba3beb2f141f398b7f4508"
+    },
+    "C:\\Users\\Estellar\\Documents\\CZOperator\\paper\\revision_track_s_fair_design_v18_20260922\\src\\numerical_bounds.py": {
+      "bytes": 4100,
+      "sha256": "5e6b4e50241ea136475d17c9b306702cd50994765a0015464d81746ae6b09733"
+    }
+  },
+  "python": "3.12.6 | packaged by conda-forge | (main, Sep 30 2024, 17:48:58) [MSC v.1941 64 bit (AMD64)]",
+  "numpy": "2.4.4",
+  "design_cells": 640,
+  "competitor_cells": 5760,
+  "numerical_scope": "Inherited normwise binary64 assumptions; not formally verified arithmetic"
+}

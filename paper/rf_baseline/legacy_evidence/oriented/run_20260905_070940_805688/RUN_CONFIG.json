@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "active_half",
+    "tangent_linear",
+    "mixed_three_half",
+    "tangent_quadratic",
+    "constant",
+    "negative_quadratic",
+    "linear_up_quadratic_down"
+  ],
+  "K": 1,
+  "q": 2,
+  "d": 1,
+  "base": [
+    1,
+    0,
+    0
+  ],
+  "endpoint_grid": [
+    "10^(-2-j/2)",
+    {
+      "j_first": 0,
+      "j_last": 8
+    }
+  ],
+  "margins": [
+    "10^-r",
+    {
+      "r_first": 2,
+      "r_last": 6
+    }
+  ],
+  "intercept_rule": "m-H[0,0]; H held fixed",
+  "mp_dps": 130,
+  "iv_dps": 100,
+  "root_width": "1e-50",
+  "inward_relative_slack": "1e-30"
+}
