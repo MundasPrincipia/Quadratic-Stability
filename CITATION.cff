@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "Please cite the associated manuscript when using this research code."
 type: software
 version: "1.0.0"
-# Version prepared: 2026-10-10T00:08:06+08:00
+date-released: "2026-10-10"
+# Published: 2026-10-10T00:41:47+08:00 (2026-10-09T16:41:47Z)
 # Time zone: Asia/Shanghai (UTC+08:00)
 repository-code: "https://github.com/MundasPrincipia/Quadratic-Stability"
 title: "Code for Sharp Local Stability of Quadratic Functionals under Unitary Averaging"
