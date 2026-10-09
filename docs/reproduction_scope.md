@@ -16,7 +16,8 @@ separately from source-digest and environment metadata.
 ## RF numerical consistency check
 
 `rf-interface` runs `check_rf_interface.py` on the companion selected
-with `--companion`. For the publication supplement, pass its `reproducibility/`
+with `--companion`. RF data availability is recorded in the
+[README](../README.md#replay-saved-rf-inputs). Pass the data archive's `reproducibility/`
 directory (or the containing directory); the earlier companion layout remains
 accepted. Paths below are relative to `reproducibility/`. Its inputs are:
 
@@ -61,14 +62,16 @@ unresolved where the available bounds do not determine them.
 
 ## Reconstructible E1 intermediates
 
-The submission companion omits only the 96 per-sample NPZ files below
-`rf_baseline/results/e1_run01/S1/` and `S4/`. It retains the source inputs,
+The RF replay data provides inputs for regenerating the 96 per-sample NPZ files below
+`rf_baseline/results/e1_run01/S1/` and `S4/`. It includes the source inputs,
 classifiers, flag records, natural-row table, stratified applicability table,
 and all finite-bracket and aggregate summaries. `rf-applicability` reruns the
 frozen E1 numerical routine from those inputs into a new directory and checks
 every array payload against `checks/rf_applicability/REFERENCE_ARRAYS.json`.
 The accompanying CSVs and scientific summary fields are compared separately.
-The three earlier entry points use retained inputs and are unchanged.
+The published entry point uses the RF source in the companion's `src/` directory.
+Integration of the prepared data-only archive with the repository's copy of that
+source remains part of the pending RF data release.
 
 ## Historical processing and optimization code
 

@@ -6,15 +6,19 @@ Contact: Hongyuan Wang, 2025310659@stu.hit.edu.cn
 
 ## 1. Inputs and directory conventions
 
+The journal supplementary file is `quadratic_stability_supplement.pdf`.
+Code and data-access documentation are maintained in this GitHub repository.
 Saved per-sample inputs, fold parameters, measurement banks, row-selection
-records and witnesses are provided in the `reproducibility/` directory of
-`quadratic_stability_supplementary_materials.zip`. The accompanying README gives
-setup instructions and the analytic-example and saved-input RF commands.
+records and witnesses are prepared in the `reproducibility/` directory of
+`quadratic_stability_rf_replay_data.zip`. Publication of this RF archive is
+pending; the repository [README](../README.md#replay-saved-rf-inputs) records
+its availability and the saved-input replay commands.
 
-Unless marked as historical workspace paths, paths in Sections 2--6 are relative
-to that `reproducibility/` directory. Original IQ recordings are obtained from
-the providers below. Raw reconstruction additionally requires the selection
-artifacts and historical workspace files listed in Section 6.
+Data paths in Sections 2--6 use that `reproducibility/` layout. Historical source
+paths describe the complete reconstruction workspace; the public code is under
+[`paper/rf_baseline/`](../paper/rf_baseline/). Original IQ recordings are
+obtained from the providers below. Raw reconstruction additionally requires the
+selection artifacts and historical workspace files listed in Section 6.
 
 ## 2. Obtain the original recordings, if raw reconstruction is needed
 
@@ -219,8 +223,9 @@ results/s4_oregon_qualification/S4_OREGON_SOURCE_INVENTORY_20260827_030353.csv
 results/s4_oregon_qualification/S4_OREGON_SOURCE_QUALIFICATION_20260827_030353.json
 ```
 
-These five author-generated artifacts are outside the complete companion and
-must be obtained separately for this route. The companion's lineage CSVs record
+These five author-generated artifacts are outside the public code repository
+and the prepared RF replay archive and must be obtained separately for this
+raw-reconstruction route. The RF archive's lineage CSVs record
 the selected rows and frame starts; the historical script also reads the five
 files above. Contact the author for access details.
 
@@ -233,22 +238,22 @@ targets. The code snapshot is in `rf_baseline/raw_processing/`; the dependency m
 and reconstruction receipts are in `rf_baseline/provenance/`.
 
 With these inputs arranged in a complete historical workspace, run the following
-from the extracted complete companion:
+from this repository root:
 
 ```text
-python -B rf_baseline/src/replay_baseline.py --workspace "<complete-historical-workspace>" --destination "../raw_iq_replay"
+python -B paper/rf_baseline/src/replay_baseline.py --workspace "<complete-historical-workspace>" --destination "../raw_iq_replay"
 ```
 
 Replace the workspace placeholder with its actual path and choose a new output
 directory. This command reconstructs states from IQ and fits the training folds.
-The complete companion's `reproduce.py baseline` command instead uses the saved
-derived inputs.
+For calculations using saved inputs, use the public `reproduce.py` modes listed
+in the repository README.
 
 The historical baseline recorded Python 3.12.6, NumPy 2.4.4, SciPy 1.17.1,
 and scikit-learn 1.9.0, with one BLAS thread; the complete recorded requirements
 are in `rf_baseline/requirements-replay.txt`. The historical replay record
 is `rf_baseline/provenance/RAW_TO_RESULTS_REPLAY_RECEIPT.json` in the
-complete companion.
+historical reconstruction workspace.
 
 ## 7. Data source attribution
 
