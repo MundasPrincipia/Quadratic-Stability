@@ -8,6 +8,9 @@ Repository: [https://github.com/MundasPrincipia/Quadratic-Stability](https://git
 Contact: **2025310659@stu.hit.edu.cn**  
 ORCID: [0009-0007-5829-4266](https://orcid.org/0009-0007-5829-4266)
 
+Version **1.0.0** is prepared for release. Preparation time:
+**2026-10-10T00:08:06+08:00** (**Asia/Shanghai**, UTC+08:00).
+
 This repository provides the analytic observation-refinement example, RF
 processing and analysis code, processed S1/S4 inputs, saved classifiers, and
 frozen results accompanying the paper. The input and result files are taken
